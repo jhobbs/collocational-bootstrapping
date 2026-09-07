@@ -1,0 +1,93 @@
+{
+  "scope": "paper_saved_spacy",
+  "collection": "historical_English_participants",
+  "annotation_scheme": "Saved original spaCy pairs with verb lemma be excluded",
+  "source_baseline": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline",
+  "baseline_summary_sha256": "f66c16e12a980418473a071ec7a2b3d80d25595e855f7dfc2ba28ec8a7a3eb70",
+  "sources": [
+    {
+      "age_group": "overall",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/complete_dataset_96mos/nsubj_verb_pairs_96mos.csv",
+      "source_pairs_sha256": "9fcb6724cfca4c28afa90fbd42b917025f590d1bb2391e4b5a5c17becacf1460",
+      "original_pairs": 2802071,
+      "removed_be_pairs": 859902,
+      "remaining_pairs": 1942169,
+      "n_utterances": 4739189
+    },
+    {
+      "age_group": "0-12mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_0-12mo.csv",
+      "source_pairs_sha256": "d41e915e1b9b9688954d9acced220d921d80e358c7f5891f6b8336094cc2184c",
+      "original_pairs": 113607,
+      "removed_be_pairs": 30995,
+      "remaining_pairs": 82612,
+      "n_utterances": 182023
+    },
+    {
+      "age_group": "12-24mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_12-24mo.csv",
+      "source_pairs_sha256": "981cafb2eaf80cc79e52aefcd62c48400557579820c9a1a034527837464f83f5",
+      "original_pairs": 350859,
+      "removed_be_pairs": 117716,
+      "remaining_pairs": 233143,
+      "n_utterances": 671559
+    },
+    {
+      "age_group": "24-36mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_24-36mo.csv",
+      "source_pairs_sha256": "31cc0c50b840111de0678d277dd3cdfff807ccb63735373f14a9fb6f8f8ed1db",
+      "original_pairs": 1163974,
+      "removed_be_pairs": 376931,
+      "remaining_pairs": 787043,
+      "n_utterances": 1900684
+    },
+    {
+      "age_group": "36-48mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_36-48mo.csv",
+      "source_pairs_sha256": "865776dc167eb4a25535738a968c61cc9990bebc4805d72629f8b35b9f512a57",
+      "original_pairs": 553675,
+      "removed_be_pairs": 166833,
+      "remaining_pairs": 386842,
+      "n_utterances": 923858
+    },
+    {
+      "age_group": "48-60mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_48-60mo.csv",
+      "source_pairs_sha256": "7883e58eb4e252ab1eb3013a238cb2ee3200d2a969c54d4b2ba8aa8f4dd52a1b",
+      "original_pairs": 399355,
+      "removed_be_pairs": 109484,
+      "remaining_pairs": 289871,
+      "n_utterances": 621805
+    },
+    {
+      "age_group": "60-72mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_60-72mo.csv",
+      "source_pairs_sha256": "cb7e60590fc6136ee1894e747f1c90082882634d591a76ab2911fd600c330041",
+      "original_pairs": 121409,
+      "removed_be_pairs": 31937,
+      "remaining_pairs": 89472,
+      "n_utterances": 237449
+    },
+    {
+      "age_group": "72-84mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_72-84mo.csv",
+      "source_pairs_sha256": "6d630bba6338037add28a186c7e635b36ce0a740d625d7c0020c6ea0c717902c",
+      "original_pairs": 52385,
+      "removed_be_pairs": 13363,
+      "remaining_pairs": 39022,
+      "n_utterances": 111117
+    },
+    {
+      "age_group": "84-96mo",
+      "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/age_groups_complete_96mos/nsubj_verb_pairs_84-96mo.csv",
+      "source_pairs_sha256": "7a29ed8b31b3589ea4cb8e3d39702ef8dd6924429a79f437cc854341df1b00cc",
+      "original_pairs": 46807,
+      "removed_be_pairs": 12643,
+      "remaining_pairs": 34164,
+      "n_utterances": 90694
+    }
+  ],
+  "lemma_filter": "verb_lemma.lower() != 'be'",
+  "fitting_policy": "Unchanged fit_zipf._fit_scope, top 100 verbs reselected after filtering.",
+  "denominator_policy": "Original saved utterance count for each age bin, including zero remaining pairs."
+}

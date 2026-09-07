@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4899999999999993,2.84537747686563e-07,3792185,2370204,10083,3586,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+0-12mo,1.4499999999999995,3.3851246046098996e-06,186696,115366,1544,1034,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+12-24mo,1.5099999999999993,1.9358764037628532e-07,561660,275672,3059,1419,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+24-36mo,1.4999999999999993,3.4365481572878067e-07,1601873,1009845,5973,2363,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+36-48mo,1.4399999999999995,6.146555816756746e-07,715524,483780,4709,1889,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+48-60mo,1.4399999999999995,7.425627126114148e-07,346240,246382,3399,1558,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+60-72mo,1.4399999999999995,6.529546388937734e-07,195959,122506,2008,1004,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+72-84mo,1.4699999999999993,4.696196106739676e-08,95973,63091,1352,792,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas
+84-96mo,1.4899999999999993,1.5755795413697497e-07,88206,53550,1239,798,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: includes copulas

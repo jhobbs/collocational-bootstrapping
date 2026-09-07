@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4899999999999993,9.970963980559012e-07,87487,41560,911,682,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+0-12mo,,,0,0,0,0,no_data,pilot_eng_na,Eng-NA,Universal Dependencies
+12-24mo,1.4999999999999993,7.1058512533623566e-06,8259,3539,126,193,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+24-36mo,1.4799999999999993,5.626287715993315e-06,28306,12366,411,380,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+36-48mo,1.4099999999999995,1.445572091134288e-06,28447,13528,471,436,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+48-60mo,1.3799999999999994,1.5765880348915795e-06,20265,10921,415,422,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+60-72mo,1.3099999999999994,7.825725490022469e-05,2210,1206,92,162,ok,pilot_eng_na,Eng-NA,Universal Dependencies
+72-84mo,,,0,0,0,0,no_data,pilot_eng_na,Eng-NA,Universal Dependencies
+84-96mo,,,0,0,0,0,no_data,pilot_eng_na,Eng-NA,Universal Dependencies

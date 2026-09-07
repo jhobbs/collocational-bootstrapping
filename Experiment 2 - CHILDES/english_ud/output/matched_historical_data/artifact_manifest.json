@@ -1,0 +1,34 @@
+{
+  "cohort_ud_pairs.csv": {
+    "bytes": 265660645,
+    "sha256": "203ce9aa3508f2f2467476107cd69fad91441e2e2b11f4c940bfbe9ac8b37d5b"
+  },
+  "cohort_ud_utterances.csv": {
+    "bytes": 585683269,
+    "sha256": "c6974499501cb7f69374a4196883f2cec6967ca40386d518580aab223d8d7d13"
+  },
+  "coverage_by_age.csv": {
+    "bytes": 748,
+    "sha256": "8c4d7100c2eaac7b27a6adddd1f2ee7c5977f83529a4bd37fab04b2c1f3e5950"
+  },
+  "english_ud_subject_verb_pairs.csv": {
+    "bytes": 355075070,
+    "sha256": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f"
+  },
+  "english_ud_utterances.csv": {
+    "bytes": 722341339,
+    "sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71"
+  },
+  "metadata.json": {
+    "bytes": 11669985,
+    "sha256": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8"
+  },
+  "transcript_cohort.csv": {
+    "bytes": 1418446,
+    "sha256": "5dd95cd2942f3aec4abc019643a4033067dda31d32ea41ed9f9d12c08070757b"
+  },
+  "transcript_rejections.csv": {
+    "bytes": 492637,
+    "sha256": "5e4a50e9bb45e76214a44c92cbf56e9455ef00f2a5a5d1be4be153861be84b08"
+  }
+}

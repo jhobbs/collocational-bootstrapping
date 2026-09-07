@@ -1,0 +1,17 @@
+{
+  "original_source": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+  "load_rule": "pandas default CSV NA strings; drop missing full_utterance and age; age<=96 overall, [a,b) per age bin",
+  "age_eligible_rows_with_missing_text": 78838,
+  "recomputed_counts": {
+    "overall": 4739189,
+    "0-12mo": 182023,
+    "12-24mo": 671559,
+    "24-36mo": 1900684,
+    "36-48mo": 923858,
+    "48-60mo": 621805,
+    "60-72mo": 237449,
+    "72-84mo": 111117,
+    "84-96mo": 90694
+  },
+  "all_nine_counts_match_saved_baseline": true
+}

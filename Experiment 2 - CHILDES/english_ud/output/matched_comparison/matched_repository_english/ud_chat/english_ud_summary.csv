@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4999999999999993,4.020316487294472e-07,2728212,1303637,7272,3027,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+0-12mo,1.4799999999999993,1.0050998899789696e-06,69941,24486,618,589,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+12-24mo,1.4899999999999993,2.983464503863198e-07,356114,130622,1913,1134,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+24-36mo,1.4999999999999993,4.2005725766248926e-07,1226011,583031,4460,2048,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+36-48mo,1.4199999999999995,1.1161518445645485e-06,555676,289193,3445,1654,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+48-60mo,1.4299999999999995,1.7936969769939691e-06,358251,193492,2971,1649,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+60-72mo,1.3699999999999994,2.0546263494744087e-06,91419,47695,1113,762,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+72-84mo,1.3299999999999994,1.04239986048138e-06,31229,15968,557,473,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts
+84-96mo,1.3599999999999994,1.9352753613457222e-06,39571,19150,647,586,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,Existing Universal Dependencies annotations in selected CHAT transcripts

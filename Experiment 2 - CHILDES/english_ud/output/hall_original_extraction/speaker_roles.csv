@@ -1,0 +1,15 @@
+speaker_role,utterance_count,included_in_cds
+Adult,5573,True
+Brother,11463,True
+Child,32790,False
+Father,10635,True
+Grandfather,61,True
+Grandmother,2942,True
+Investigator,28397,True
+Media,353,False
+Mother,37029,True
+Participant,4707,True
+Sister,5627,True
+Target_Child,75656,False
+Teacher,19927,True
+Unidentified,3089,True

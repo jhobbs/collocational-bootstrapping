@@ -1,0 +1,9 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+0-12mo,1.4299999999999995,8.738270021730256e-06,186696,90384,1194,1121,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+12-24mo,1.4599999999999995,5.783620301470302e-07,561660,210792,2581,1640,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+24-36mo,1.4799999999999993,7.649851859779133e-07,1601873,745828,5081,2599,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+36-48mo,1.4099999999999995,1.9592365771628267e-06,715524,365887,3858,2114,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+48-60mo,1.4099999999999995,2.5833130356278745e-06,346240,188549,2723,1656,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+60-72mo,1.4299999999999995,2.002249792486058e-06,195959,104003,1587,1133,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+72-84mo,1.4799999999999993,1.3979807922284472e-07,95973,49605,961,841,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text
+84-96mo,1.4699999999999993,7.384743202047776e-07,88206,41354,894,844,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,spaCy: CHAT text

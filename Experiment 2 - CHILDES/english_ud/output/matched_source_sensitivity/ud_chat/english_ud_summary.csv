@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4599999999999995,6.381190152134397e-07,856590,411460,3885,1973,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+0-12mo,1.4699999999999993,1.0129505300833919e-06,68282,23890,613,589,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+12-24mo,1.4199999999999995,4.6799697784618295e-07,192143,72173,1337,920,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+24-36mo,1.4099999999999995,9.28885429796728e-07,264888,136054,2019,1138,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+36-48mo,1.4099999999999995,8.033323617171602e-07,162502,87372,1749,1016,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+48-60mo,1.3999999999999995,5.946015237511385e-07,99879,56660,1405,941,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+60-72mo,1.3899999999999995,2.0089712924104122e-06,42416,22730,713,604,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+72-84mo,1.2399999999999995,4.953399328632037e-06,7639,4209,192,280,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts
+84-96mo,1.3299999999999994,6.9553340375436264e-06,18841,8372,358,429,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,Existing Universal Dependencies annotations in selected CHAT transcripts

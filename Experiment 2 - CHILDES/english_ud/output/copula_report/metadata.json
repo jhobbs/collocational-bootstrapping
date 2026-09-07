@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "matched": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_fits/copula_summary.csv",
+      "sha256": "cf0c1260688f72a065ff08cdeafb671bdb77c6675a83a37355429de6fe4b4c6c"
+    },
+    "earlier_talkbank": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_fits/copula_summary.csv",
+      "sha256": "891e95f9ba8c148c733ff6dcc757887fb76d541dee2155ed681f056c9664fa54"
+    },
+    "paper_all": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/baseline_summary.csv",
+      "sha256": "f66c16e12a980418473a071ec7a2b3d80d25595e855f7dfc2ba28ec8a7a3eb70"
+    },
+    "paper_no_be": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_paper_without_be/summary.csv",
+      "sha256": "54a67596e5f3ab7a5750b9e17c1db41a4e7695adbad8ebee9e3bef13c68b02e8"
+    }
+  },
+  "endpoint_bins": [
+    "0-12mo",
+    "84-96mo"
+  ],
+  "scope_of_figure": "broader_english",
+  "reference": "Saved paper data use a different population from either solid-line cohort.",
+  "interpretation": "Descriptive endpoints and fitted curves; no monotonicity or uncertainty inference."
+}

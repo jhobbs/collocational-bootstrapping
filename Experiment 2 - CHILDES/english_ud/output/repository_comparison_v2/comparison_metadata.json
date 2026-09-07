@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-09-07T17:04:56.983737+00:00",
+  "inputs": {
+    "baseline": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline",
+    "ud": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_fit_v2"
+  },
+  "source_labels": {
+    "spacy": {
+      "scopes": [
+        "repository_english"
+      ],
+      "collections": [
+        "mixed_english_unknown_manifest"
+      ],
+      "annotation_schemes": [
+        "spaCy"
+      ]
+    },
+    "ud": {
+      "scopes": [
+        "repository_english"
+      ],
+      "collections": [
+        "Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK"
+      ],
+      "annotation_schemes": [
+        "Universal Dependencies"
+      ]
+    }
+  },
+  "scope_comparable": false,
+  "scope_note": "The saved baseline scope is repository_english / mixed_english_unknown_manifest, and no corpus/transcript manifest is available; exact scope equivalence cannot be asserted even when the UD input supplies a repository scope.",
+  "top_100_overlap_denominator": "min(100, number of ordered verbs available in each ranked table)",
+  "diagnostics": [],
+  "same_transcript_pair_diagnostic": {
+    "requested": true,
+    "limitation": "Historical aggregate pair files cannot be transcript-aligned; both aligned tables must be supplied explicitly.",
+    "spacy_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/same_transcript_sample/spacy_pairs.csv",
+    "ud_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/same_transcript_sample/ud_pairs.csv",
+    "total_spacy_pairs": 2735,
+    "total_ud_pairs": 1973
+  },
+  "limitations": [
+    "The saved baseline scope is repository_english / mixed_english_unknown_manifest, and no corpus/transcript manifest is available; exact scope equivalence cannot be asserted even when the UD input supplies a repository scope.",
+    "Alpha and MSE differences combine annotation and corpus-scope differences.",
+    "Missing summary bins or artifacts are represented as null and described in diagnostics."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "original": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+  "original_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+  "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_extraction_v2",
+  "minimum_unique_matches": 5,
+  "rule": "at least 6 alphabetic words, 25 alphanumeric characters; >=5 distinct signatures unique to one original transcript; winner>=5x runner-up and >=80% of votes",
+  "n_original_transcripts": 16660,
+  "n_current_transcripts": 15929,
+  "statuses": {
+    "high_confidence_text_match": 8371,
+    "insufficient_text_matches": 1635,
+    "no_unique_text_matches": 5905,
+    "ambiguous_text_matches": 18
+  },
+  "note": "These content-based links must be checked against PID/source identity before enriching metadata; no filename-only or age-based inference.",
+  "transcript_links_sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a"
+}

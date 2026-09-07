@@ -1,0 +1,802 @@
+{
+  "n_unique_matched_rows": 2728212,
+  "historical_row_reused": false,
+  "arms": {
+    "ud_chat": {
+      "pairs_checked": 1303637,
+      "pair_sha256": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f",
+      "all_pairs_have_identical_matched_age_and_identity": true,
+      "verb_be_counts": [
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 23890,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 1188,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 76406,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 5205,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 136470,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 7432,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 87372,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 4105,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 107207,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 4751,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 22730,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 988,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 4209,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 188,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 8372,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 315,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 466656,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 24172,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 24486,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 1231,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 130622,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 9469,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 583031,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 43715,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 289193,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 18806,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 193492,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 10540,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 47695,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 2509,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 15968,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 823,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 19150,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 869,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 1303637,
+          "arm": "ud_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 87962,
+          "arm": "ud_chat"
+        }
+      ]
+    },
+    "spacy_chat": {
+      "pairs_checked": 1886034,
+      "pair_sha256": "121e27164670414a42ab3ec33d2f3543118363cf5327f798c15d64102202ec58",
+      "all_pairs_have_identical_matched_age_and_identity": true,
+      "verb_be_counts": [
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 35380,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 9717,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 117712,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 37280,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 198972,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 59849,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 123119,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 34640,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 146479,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 37414,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 31000,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 8071,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 5645,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 1403,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 11483,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 2998,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 669790,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 191372,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 36376,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 10006,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 202207,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 66000,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 852322,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 276900,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 412677,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 124160,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 267098,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 72744,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 66281,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 18485,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 22252,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 6000,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 26821,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 7570,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 1886034,
+          "arm": "spacy_chat"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 581865,
+          "arm": "spacy_chat"
+        }
+      ]
+    },
+    "spacy_original": {
+      "pairs_checked": 1901720,
+      "pair_sha256": "5523b3d0521c083466a3e8fa5145638bc5dd144b60aecc3284c2ae85e88e39fe",
+      "all_pairs_have_identical_matched_age_and_identity": true,
+      "verb_be_counts": [
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 35811,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 9998,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 120309,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 39676,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 201543,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 62524,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 123900,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 35691,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 147270,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 38155,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 31104,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 8262,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 5654,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 1443,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 11525,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 3053,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 677116,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_eng_na",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 198802,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "all_pairs",
+          "count": 36809,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "0-12mo",
+          "metric": "be_pairs",
+          "count": 10303,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "all_pairs",
+          "count": 206629,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "12-24mo",
+          "metric": "be_pairs",
+          "count": 70129,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "all_pairs",
+          "count": 858976,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "24-36mo",
+          "metric": "be_pairs",
+          "count": 288177,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "all_pairs",
+          "count": 414591,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "36-48mo",
+          "metric": "be_pairs",
+          "count": 128333,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "all_pairs",
+          "count": 268552,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "48-60mo",
+          "metric": "be_pairs",
+          "count": 74673,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "all_pairs",
+          "count": 66708,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "60-72mo",
+          "metric": "be_pairs",
+          "count": 19085,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "all_pairs",
+          "count": 22410,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "72-84mo",
+          "metric": "be_pairs",
+          "count": 6263,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "all_pairs",
+          "count": 27045,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "84-96mo",
+          "metric": "be_pairs",
+          "count": 7818,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "all_pairs",
+          "count": 1901720,
+          "arm": "spacy_original"
+        },
+        {
+          "scope": "matched_repository_english",
+          "age_group": "overall",
+          "metric": "be_pairs",
+          "count": 604781,
+          "arm": "spacy_original"
+        }
+      ]
+    }
+  },
+  "manifest_files_verified": 8,
+  "all_passed": true,
+  "parser_environment_identical": true,
+  "parser": {
+    "model": "en_core_web_sm",
+    "model_version": "3.8.0",
+    "spacy_version": "3.8.13",
+    "n_process": 1,
+    "batch_size": 128,
+    "disabled_pipes": [
+      "ner"
+    ],
+    "extraction_rule": "token.dep_ == 'nsubj' and token.head.pos_ in {'VERB', 'AUX'}; lowercase spaCy lemmas",
+    "index_space": "spacy_token"
+  },
+  "historical_baseline_summary": {
+    "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline/baseline_summary.csv",
+    "sha256": "f66c16e12a980418473a071ec7a2b3d80d25595e855f7dfc2ba28ec8a7a3eb70"
+  }
+}

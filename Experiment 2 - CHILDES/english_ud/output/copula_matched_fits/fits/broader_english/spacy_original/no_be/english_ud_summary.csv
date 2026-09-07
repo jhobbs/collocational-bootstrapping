@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4799999999999993,6.994237142442067e-07,2728212,1296939,7406,3560,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+0-12mo,1.4799999999999993,2.1695519308579423e-07,69941,26506,619,651,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+12-24mo,1.4499999999999995,4.164335557824734e-07,356114,136500,1888,1259,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+24-36mo,1.4799999999999993,7.004014389187928e-07,1226011,570799,4413,2288,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+36-48mo,1.4099999999999995,1.9652791535298967e-06,555676,286258,3326,1870,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+48-60mo,1.4199999999999995,2.8222938688447937e-06,358251,193879,2914,1848,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+60-72mo,1.3899999999999995,3.605573274962122e-06,91419,47623,1039,841,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+72-84mo,1.3599999999999994,4.104348387139511e-06,31229,16147,490,509,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+84-96mo,1.3899999999999995,2.4566568185500293e-06,39571,19227,609,629,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text

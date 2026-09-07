@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4699999999999993,7.80132166059652e-07,1607773,766392,5144,2617,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+0-12mo,1.3999999999999995,1.0352596100118782e-05,135499,67751,857,863,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+12-24mo,1.4399999999999995,7.516693674720634e-07,326069,118443,1730,1115,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+24-36mo,1.4199999999999995,1.2636104422633644e-06,507763,251406,2621,1468,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+36-48mo,1.4099999999999995,8.237302266163107e-07,254344,131440,2199,1250,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+48-60mo,1.4099999999999995,6.543806897391722e-07,143539,79334,1678,1076,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+60-72mo,1.4399999999999995,1.2392610151273854e-06,117590,59548,1211,860,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+72-84mo,1.4199999999999995,3.838833709564291e-07,58898,29573,698,651,ok,thesis_eng_na,Eng-NA,Universal Dependencies
+84-96mo,1.4999999999999993,1.1644733473260408e-06,64071,28897,676,674,ok,thesis_eng_na,Eng-NA,Universal Dependencies

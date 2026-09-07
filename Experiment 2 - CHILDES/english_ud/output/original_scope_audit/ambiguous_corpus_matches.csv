@@ -1,0 +1,4 @@
+original_corpus,n_utterances_total,n_utterances_age_usable,n_utterances_age_le_96,n_utterances_age_gt_96,n_utterances_age_missing_or_invalid,exact_archive_ids,leaf_archive_ids,mapping_status,candidate_archive_count,candidate_archive_ids,represented_in_current_manifest,mapping_ambiguous
+Bliss,2027,2027,1759,268,0,Clinical-Eng/Bliss.zip;Eng-NA/Bliss.zip,Clinical-Eng/Bliss.zip;Eng-NA/Bliss.zip,ambiguous_exact_match,2,Clinical-Eng/Bliss.zip;Eng-NA/Bliss.zip,True,True
+HL,69975,69975,69436,539,0,,Clinical-Eng/Ambrose/HL.zip;Clinical-Eng/Nicholas/HL.zip,ambiguous_leaf_match,2,Clinical-Eng/Ambrose/HL.zip;Clinical-Eng/Nicholas/HL.zip,True,True
+TD,103329,103329,103329,0,0,,Clinical-Eng/Ambrose/TD.zip;Clinical-Eng/Nicholas/TD.zip;Clinical-Eng/Rondal/TD.zip,ambiguous_leaf_match,3,Clinical-Eng/Ambrose/TD.zip;Clinical-Eng/Nicholas/TD.zip;Clinical-Eng/Rondal/TD.zip,True,True

@@ -1,0 +1,51 @@
+{
+  "annotation_scheme": "spaCy dependency parsing of selected CHAT surface text",
+  "arm": "spacy_chat",
+  "collection": "Eng-NA",
+  "excluded_corpora": [
+    "Hall",
+    "McCune"
+  ],
+  "filtered_pairs": 593467,
+  "filtered_utterances": 856590,
+  "full_matched_utterances": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/english_ud_utterances.csv",
+  "full_matched_utterances_sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71",
+  "matching_provenance": {
+    "inputs": [
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_recovered_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/original_transcript_links/transcript_links.csv",
+        "links_sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a",
+        "metadata_sha256": "42826fe344ffd0ad2a165117f0adcfb81bc7e4f00f37fd078dffb73a6ea2cf4c"
+      },
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_links/transcript_links.csv",
+        "links_sha256": "3b54a6165af9e12ba08daa4e6770db88bef5df629454a673383e1f9ec4bc2311",
+        "metadata_sha256": "c67e47a9228e6b6941ed892f6e98ed226cb90fca7e31940b9d303aca0d213aee"
+      },
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_links/transcript_links.csv",
+        "links_sha256": "746c2ef3e2e475b2f77b12189fb851193fa4036058b6acef4d4d6f78f38a4daf",
+        "metadata_sha256": "85ab84b76f9b40f4bed42373661b53477cd89e0f0ae19f6a34024abbe4b50540"
+      }
+    ],
+    "original": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+    "original_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+    "parser_texts": "UD reads original annotations; spaCy must parse text for same-surface control, and original_text separately for historical-gloss control.",
+    "raw_source_members_verified": true,
+    "repeated_utterances": "Occurrence order within speaker/role/text key; no Cartesian join. This does not assert globally monotonic sequence alignment.",
+    "selection_note": "This is a verified intersection subset, not the complete original corpus. Coverage is reported by age.",
+    "source_precedence": "Later --extraction arguments replace earlier versions of the same collection/corpus. Ambiguous original IDs remaining within selected sources are excluded.",
+    "transcript_rule": "Unique strong multi-utterance text link; independent CHAT/verified legacy age within 0.1 months; compatible known target name; no raw ASR; original age <=96.",
+    "utterance_rule": "Same speaker code and role; identical casefolded lexical token sequence, allowing punctuation and known clitic-spacing differences; consume each historical occurrence at most once."
+  },
+  "scope": "matched_eng_na_excluding_hall_mccune",
+  "source_input": {
+    "source_metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_chat/metadata.json",
+    "source_metadata_sha256": "5c32407f7e2c7c12ef79912bec55511da93b2397f73a2bedda0738215614950b",
+    "source_pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_chat/english_ud_subject_verb_pairs.csv",
+    "source_pairs_sha256": "121e27164670414a42ab3ec33d2f3543118363cf5327f798c15d64102202ec58"
+  }
+}

@@ -1,0 +1,9 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+0-12mo,1.4799999999999993,5.842711011661665e-08,69941,36809,844,652,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+12-24mo,1.4499999999999995,1.624557832684931e-07,356114,206629,2518,1260,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+24-36mo,1.4799999999999993,2.855691402948846e-07,1226011,858976,5751,2289,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+36-48mo,1.4199999999999995,7.669475032158884e-07,555676,414591,4333,1871,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+48-60mo,1.4199999999999995,1.0369195213664035e-06,358251,268552,3789,1849,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+60-72mo,1.3899999999999995,1.2541031800358243e-06,91419,66708,1455,842,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+72-84mo,1.3799999999999994,1.378049417767628e-06,31229,22410,693,510,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text
+84-96mo,1.3999999999999995,8.940010692979905e-07,39571,27045,897,630,ok,matched_repository_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy dependency parsing of matched historical original-gloss text

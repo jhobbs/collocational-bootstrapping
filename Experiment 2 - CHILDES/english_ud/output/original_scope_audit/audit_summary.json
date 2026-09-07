@@ -1,0 +1,104 @@
+{
+  "created_at_utc": "2026-09-07T17:14:11.970626+00:00",
+  "corpus_scope": {
+    "n_original_utterances": 5147586,
+    "n_original_utterances_age_usable": 4880484,
+    "n_original_utterances_age_le_96": 4818027,
+    "n_original_utterances_age_gt_96": 62457,
+    "n_original_utterances_age_missing_or_invalid": 267102,
+    "n_original_corpora": 121,
+    "n_current_archives": 98,
+    "n_current_unique_source_corpus_labels": 97,
+    "mapping_status_counts": {
+      "exact_source_corpus_match": 67,
+      "not_represented": 43,
+      "unique_leaf_match": 8,
+      "ambiguous_leaf_match": 2,
+      "ambiguous_exact_match": 1
+    },
+    "n_original_corpora_not_represented": 43,
+    "n_original_utterances_in_unrepresented_corpora": 1435287,
+    "n_original_corpora_with_ambiguous_mapping": 3
+  },
+  "transcript_age_overlap": {
+    "n_original_transcripts_in_metadata": 16660,
+    "n_current_transcripts_in_extraction_metadata": 15929,
+    "current_extraction_reported_counts": {
+      "n_files": 15929,
+      "n_files_missing_age": 3179,
+      "n_utterances": 8176916,
+      "n_cds_utterances": 5195025,
+      "n_cds_utterances_missing_age": 1323537
+    },
+    "n_current_transcripts_in_link_table": 15929,
+    "link_status_counts": {
+      "high_confidence_text_match": 8371,
+      "no_unique_text_matches": 5905,
+      "insufficient_text_matches": 1635,
+      "ambiguous_text_matches": 18
+    },
+    "n_high_confidence_matched_current_transcripts": 8371,
+    "n_high_confidence_unique_original_transcript_ids": 8004,
+    "age_combinations": {
+      "original_usable_current_missing": 280,
+      "original_missing_current_usable": 248,
+      "both_usable": 7556,
+      "both_missing": 287
+    },
+    "n_high_confidence_current_age_missing": 567,
+    "n_currently_age_missing_with_usable_original_age": 280,
+    "fraction_current_age_missing_with_usable_original_age": 0.49382716049382713,
+    "n_age_conflicts_gt_0_1_month": 18,
+    "n_duplicated_original_transcript_ids": 363,
+    "n_current_transcripts_using_duplicated_original_ids": 730,
+    "n_missing_original_metadata_joins": 0,
+    "n_missing_current_metadata_joins": 0
+  },
+  "language_scope_caveat": {
+    "language_inference_from_corpus_names_performed": false,
+    "observation": "childes_get_adult_speakers.R filters participants where language == eng, but childes_get_utterances.R calls get_utterances(corpus, role) without a language filter.",
+    "implication": "Historical corpus-name coverage cannot establish that every returned utterance was English."
+  },
+  "age_definitions": {
+    "usable": "numeric and nonnegative",
+    "historical_fit_eligible": "usable and <= 96 months",
+    "conflict": "both usable and absolute difference > 0.1 month"
+  },
+  "provenance": {
+    "original_utterances": {
+      "path": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+      "size_bytes": 611614936,
+      "sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb"
+    },
+    "original_transcript_ages": {
+      "path": "/home/jason/talkbank-data/2026-09-07/original_transcript_ages.csv",
+      "size_bytes": 684002,
+      "sha256": "55d49ec0af26d0ee858338778707b527b3e52c6a517da1429bece4923b0671f6"
+    },
+    "current_repository_manifest": {
+      "path": "/home/jason/talkbank-data/2026-09-07/repository_english.json",
+      "size_bytes": 41170,
+      "sha256": "bf6c16373e170c61e7631b2c57b26d7ee42f77f8548408326239208c283c0025"
+    },
+    "transcript_links": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/original_transcript_links/transcript_links.csv",
+      "size_bytes": 1810947,
+      "sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a"
+    },
+    "current_extraction_metadata": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_extraction_v2/metadata.json",
+      "size_bytes": 12500551,
+      "sha256": "1adcc34277d4f1ae0df89a13f686b431094a0c7c13a22acd886b82e17bcd0273"
+    },
+    "original_participant_selection_r": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/childes_get_adult_speakers.R",
+      "size_bytes": 1380,
+      "sha256": "a7412a214a316c80cd5541baa1586b3b39b20085bfb80a8838ab331c5ca68f1a"
+    },
+    "original_utterance_retrieval_r": {
+      "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/childes_get_utterances.R",
+      "size_bytes": 3748,
+      "sha256": "60ff002aedc3beab721b01aaa98d6b50090d694fa2ce3ec3117287df881006a4"
+    }
+  }
+}

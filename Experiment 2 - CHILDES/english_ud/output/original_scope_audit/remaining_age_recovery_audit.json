@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "purpose": "Bounded audit of whether original childes-db text links can safely recover additional missing target-child ages",
+  "inputs": {
+    "transcript_links": {
+      "path": "../original_transcript_links/transcript_links.csv",
+      "sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a"
+    },
+    "repository_extraction_metadata": {
+      "path": "../repository_extraction_v2/metadata.json",
+      "sha256": "1adcc34277d4f1ae0df89a13f686b431094a0c7c13a22acd886b82e17bcd0273"
+    },
+    "repository_recovery_metadata": {
+      "path": "../repository_recovered_extraction/metadata.json",
+      "sha256": "42826fe344ffd0ad2a165117f0adcfb81bc7e4f00f37fd078dffb73a6ea2cf4c"
+    },
+    "eng_na_raw_header_audit": {
+      "path": "/home/jason/talkbank-data/2026-09-07/legacy_mor/legacy_current_metadata_availability.csv",
+      "sha256": "06ba21b7f5675501e848ba9a1df96a27181a0e51c4e9fb2e37f87039898a50f5",
+      "reason": "This raw-header audit detects 12 ASR-only comments omitted by extraction annotation_comments, which retains annotation-related comments only."
+    }
+  },
+  "selection": {
+    "transcript_link_status": "high_confidence_text_match",
+    "original_age_present": true,
+    "current_chat_age_missing": true,
+    "n_links": 280
+  },
+  "independent_legacy_pid_evidence": {
+    "accepted_within_280": 80,
+    "note": "The complete recovery has 82 accepted legacy-PID files; two have no corresponding original-age text link."
+  },
+  "remaining_after_accepted_legacy_pid": {
+    "n_links": 200,
+    "duplicate_original_transcript_id": 141,
+    "current_asr_from_raw_header_audit": 90,
+    "duplicate_and_asr": 34,
+    "duplicate_or_asr": 197,
+    "missing_target": 197,
+    "identified_target_but_missing_age": 3,
+    "informative_matching_target_name": 0,
+    "neither_duplicate_nor_asr": 3
+  },
+  "three_residual_links": [
+    {
+      "collection": "Clinical-Eng",
+      "transcript": "Rescorla/LT/36/mol36.cha",
+      "original_transcript_id": "32868",
+      "unique_matching_utterances": 6,
+      "original_age_months": 60.0012320581531,
+      "original_target_child": "NA",
+      "current_age_status": "missing_target",
+      "legacy_status": "not_available",
+      "reason_not_recovered": "No PID or target-identity evidence independent of the text signature."
+    },
+    {
+      "collection": "Eng-NA",
+      "transcript": "Bernstein/Children/Kay/010400.cha",
+      "original_transcript_id": "3737",
+      "unique_matching_utterances": 37,
+      "original_age_months": 16.0003285488408,
+      "original_target_child": "NA",
+      "current_age_status": "missing_target",
+      "legacy_status": "rejected_speaker_sequence",
+      "exact_full_pid": "11312/c-00015354-1",
+      "same_legacy_path": true,
+      "current_utterances": 394,
+      "legacy_utterances": 392,
+      "same_speaker_sequence": false,
+      "underscore_normalized_position_agreement": 0.18781725888324874,
+      "current_participants": "MOT Mother only",
+      "legacy_participants": "MOT Mother and CHI Target_Child",
+      "reason_not_recovered": "The exact PID and text evidence make this a plausible manual-review case, but the current header omits the target and the body/speaker evidence fails the declared automatic-recovery gate."
+    },
+    {
+      "collection": "Eng-UK",
+      "transcript": "Tommerdahl/OMS2.cha",
+      "original_transcript_id": "24119",
+      "unique_matching_utterances": 31,
+      "original_age_months": 39.0008008377995,
+      "original_target_child": "NA",
+      "current_age_status": "missing_target",
+      "legacy_status": "not_available",
+      "reason_not_recovered": "No PID or target-identity evidence independent of the text signature."
+    }
+  ],
+  "accepted_adjustment_raw_asr_audit": {
+    "method": "Grouped all accepted original-age decisions by authoritative current source ZIP; read each recorded archive member; scanned every header @Comment tier, including continuation lines, case-insensitively for ASR.",
+    "accepted_transcripts_scanned": 7042,
+    "source_archives_scanned": 71,
+    "raw_asr_hits": 0,
+    "missing_archive_members": 0,
+    "decode_replacement_characters": 0,
+    "conclusion": "No accepted original childes-db age adjustment needs to be reverted for an omitted ASR flag."
+  },
+  "decision": {
+    "additional_automatic_recovery_justified": false,
+    "recommendation": "Retain all 200 ages as missing. Text signatures cannot identify a target child on their own. Bernstein is the only plausible manual-review case, and excluding one file is safer than weakening the predeclared identity gate."
+  },
+  "coverage_context": {
+    "repository_cds_utterances_recovered": 10569,
+    "repository_cds_utterances_still_missing_age": 1312968,
+    "repository_pairs_recovered": 8931
+  }
+}

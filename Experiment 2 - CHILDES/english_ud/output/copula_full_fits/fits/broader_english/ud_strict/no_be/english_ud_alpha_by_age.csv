@@ -1,0 +1,9 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+0-12mo,1.4699999999999993,1.3268117522043989e-05,186696,85182,993,1033,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+12-24mo,1.5199999999999994,7.130504345735316e-07,561660,187739,2098,1416,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+24-36mo,1.5099999999999993,8.787273221702041e-07,1601873,696555,4343,2362,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+36-48mo,1.4399999999999995,1.804942936491832e-06,715524,340543,3415,1887,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+48-60mo,1.4399999999999995,2.5583669890883294e-06,346240,177387,2419,1556,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+60-72mo,1.4499999999999995,2.5855703864424957e-06,195959,89039,1369,1003,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+72-84mo,1.4899999999999993,2.2486913590615742e-07,95973,46316,856,790,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule
+84-96mo,1.4999999999999993,8.349396199142409e-07,88206,39286,772,796,ok,broader_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,UD: strict rule

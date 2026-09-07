@@ -1,0 +1,425 @@
+{
+  "scope": "repository_english",
+  "collection": "Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK",
+  "seed": 20260907,
+  "transcripts_per_bin": 2,
+  "selected_transcripts": [
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/NewmanRatner.zip",
+      "member": "Interviews/07/4825GG.cha",
+      "sha256": "66c901ab68cd0a7d64c12420de393ecb936d02e0ecfc07b2198f8ea34238f6f5",
+      "annotation_comments": [],
+      "corpus": "NewmanRatner",
+      "transcript": "NewmanRatner/Interviews/07/4825GG.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "0;07",
+      "target_child_age_months": 7.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "0;07"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/NewmanRatner.zip",
+      "member": "11/5563DB.cha",
+      "sha256": "65e6f8e1123fbe0481e1ffe3ed6a007e8f43e20ab963dafbba235c74a0394cd7",
+      "annotation_comments": [],
+      "corpus": "NewmanRatner",
+      "transcript": "NewmanRatner/11/5563DB.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "0;11",
+      "target_child_age_months": 11.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "0;11"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/Champaign.zip",
+      "member": "21P/51G.cha",
+      "sha256": "53a85a918c65434ed137fa29c57c578040bc788152e94cf2a6be5466ec115201",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:37:16-04:00]"
+      ],
+      "corpus": "Champaign",
+      "transcript": "Champaign/21P/51G.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/Braunwald.zip",
+      "member": "010706.cha",
+      "sha256": "f36c3f551aafbfe4d958388411ff1b891bbb3dc19c889d7925b3559078e09105",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:46:48-04:00]"
+      ],
+      "corpus": "Braunwald",
+      "transcript": "Braunwald/010706.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.06",
+      "target_child_age_months": 19.2,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.06"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-UK",
+      "archive_id": "Eng-UK/Manchester.zip",
+      "member": "John/020821.cha",
+      "sha256": "ef4d67df235a6c82f67139b4787c61dc01c98c2844646c12a251188fe8c0e737",
+      "annotation_comments": [],
+      "corpus": "Manchester",
+      "transcript": "Manchester/John/020821.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;08.21",
+      "target_child_age_months": 32.7,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;08.21"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-UK",
+      "archive_id": "Eng-UK/MPI-EVA-Manchester.zip",
+      "member": "Fraser/020504b.cha",
+      "sha256": "5be48270ea08c38c39a9408ae61f33b405bb996aa3a4cb58c2e819de07cbb2fe",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T22:59:52-04:00]"
+      ],
+      "corpus": "MPI-EVA-Manchester",
+      "transcript": "MPI-EVA-Manchester/Fraser/020504b.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;05.04",
+      "target_child_age_months": 29.133333333333333,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;05.04"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/Garvey.zip",
+      "member": "ronjan.cha",
+      "sha256": "cc3a6badee254f020afd988c0084e4173d9bf41c4258fc76127883dfedb39065",
+      "annotation_comments": [],
+      "corpus": "Garvey",
+      "transcript": "Garvey/ronjan.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "3;03",
+      "target_child_age_months": 39.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "3;03"
+        },
+        {
+          "code": "JAN",
+          "name": "",
+          "age": "3;01"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-UK",
+      "archive_id": "Eng-UK/Lara.zip",
+      "member": "Lara-Diary/030023.cha",
+      "sha256": "3842dfaf67e38b79946d09ec83bdb73972e0a216ed16e7a2a071214acdf0ca63",
+      "annotation_comments": [],
+      "corpus": "Lara",
+      "transcript": "Lara/Lara-Diary/030023.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "3;00.23",
+      "target_child_age_months": 36.766666666666666,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "3;00.23"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/Brown.zip",
+      "member": "Sarah/040209.cha",
+      "sha256": "d2cc3f02904f49872265d6dce6f8d305b03101d72f795c5b5855c968ca68d55b",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:08:50-04:00]"
+      ],
+      "corpus": "Brown",
+      "transcript": "Brown/Sarah/040209.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;02.09",
+      "target_child_age_months": 50.3,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;02.09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/MacWhinney.zip",
+      "member": "040316d.cha",
+      "sha256": "5f438f85bcfbe909d2d7c035523e3caaa4ea4f96e195c5eb4f0ad21790b363e4",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:48:02-04:00]"
+      ],
+      "corpus": "MacWhinney",
+      "transcript": "MacWhinney/040316d.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;03.16",
+      "target_child_age_months": 51.53333333333333,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;03.16"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Clinical-Eng",
+      "archive_id": "Clinical-Eng/EllisWeismer.zip",
+      "member": "TD/66conv/12077.cha",
+      "sha256": "9303c3858860cef81a297e480ebf4aa1c8a8314590229b2fb5b361e4a971cbe7",
+      "annotation_comments": [],
+      "corpus": "EllisWeismer",
+      "transcript": "EllisWeismer/TD/66conv/12077.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "5;06",
+      "target_child_age_months": 66.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "5;06"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-UK",
+      "archive_id": "Eng-UK/Fletcher.zip",
+      "member": "5/hngav.cha",
+      "sha256": "f84f6ae86fa0bbad0009375d737963fcb77c3714cee611a0398e6678af24c5aa",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T02:51:14-04:00]"
+      ],
+      "corpus": "Fletcher",
+      "transcript": "Fletcher/5/hngav.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "5;02.05",
+      "target_child_age_months": 62.166666666666664,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "5;02.05"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Clinical-Eng",
+      "archive_id": "Clinical-Eng/Gillam.zip",
+      "member": "TD/6m/57269tx.cha",
+      "sha256": "579664db2832ec270d05085d480618e6e2a2970604988dc6473362d71d4f32b0",
+      "annotation_comments": [],
+      "corpus": "Gillam",
+      "transcript": "Gillam/TD/6m/57269tx.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "6;10",
+      "target_child_age_months": 82.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "6;10"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Clinical-Eng",
+      "archive_id": "Clinical-Eng/Gillam.zip",
+      "member": "TD/6f/46180v.cha",
+      "sha256": "202e3ad8ea937145bd5c788be9c23d5f88865e9c4960a14ba9ab64ee457fa156",
+      "annotation_comments": [],
+      "corpus": "Gillam",
+      "transcript": "Gillam/TD/6f/46180v.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "6;00",
+      "target_child_age_months": 72.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "6;00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/HSLLD.zip",
+      "member": "HV5/LW/alilw5.cha",
+      "sha256": "2f4cdcc5428a4485ce9706a5c3712c72f41f13ffc039c1c739f4552dbee27db0",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:47:26-04:00]"
+      ],
+      "corpus": "HSLLD",
+      "transcript": "HSLLD/HV5/LW/alilw5.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "7;06.22",
+      "target_child_age_months": 90.73333333333333,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "7;06.22"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Eng-NA/OCSC.zip",
+      "member": "7/7045.cha",
+      "sha256": "5e52ecbb63087fec52b76927746901c9e3c5426747620db333440afb6f9b4fe7",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:18:37-04:00]"
+      ],
+      "corpus": "OCSC",
+      "transcript": "OCSC/7/7045.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "7;06.11",
+      "target_child_age_months": 90.36666666666666,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "7;06.11"
+        }
+      ],
+      "excluded_biling_corpus": false
+    }
+  ],
+  "n_utterances": 3852,
+  "excluded_utterances_by_annotation_status": {
+    "missing_tiers": 68
+  },
+  "n_ud_pairs": 1973,
+  "n_spacy_pairs": 2735,
+  "spacy_version": "3.8.13",
+  "model": "en_core_web_sm",
+  "model_version": "3.8.0",
+  "text_source": "PyLangAcq normalized surface words; same utterances as UD; no reannotation of CHAT files",
+  "index_note": "Do not align spaCy and MOR indices; CHAT splits clitics differently.",
+  "historical_note": "New same-transcript diagnostic, not the unavailable original raw CSV."
+}

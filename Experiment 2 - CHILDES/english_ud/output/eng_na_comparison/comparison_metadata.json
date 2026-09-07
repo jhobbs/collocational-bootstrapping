@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-09-07T17:23:13.221738+00:00",
+  "inputs": {
+    "baseline": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output/english_spacy_baseline",
+    "ud": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/eng_na_recovered_fit"
+  },
+  "source_labels": {
+    "spacy": {
+      "scopes": [
+        "repository_english"
+      ],
+      "collections": [
+        "mixed_english_unknown_manifest"
+      ],
+      "annotation_schemes": [
+        "spaCy"
+      ]
+    },
+    "ud": {
+      "scopes": [
+        "thesis_eng_na"
+      ],
+      "collections": [
+        "Eng-NA"
+      ],
+      "annotation_schemes": [
+        "Universal Dependencies"
+      ]
+    }
+  },
+  "scope_comparable": false,
+  "scope_note": "The saved baseline scope is repository_english / mixed_english_unknown_manifest, and no corpus/transcript manifest is available; exact scope equivalence cannot be asserted even when the UD input supplies a repository scope.",
+  "top_100_overlap_denominator": "min(100, number of ordered verbs available in each ranked table)",
+  "diagnostics": [],
+  "same_transcript_pair_diagnostic": {
+    "requested": false,
+    "limitation": "Historical aggregate pair files cannot be transcript-aligned; both aligned tables must be supplied explicitly."
+  },
+  "limitations": [
+    "The saved baseline scope is repository_english / mixed_english_unknown_manifest, and no corpus/transcript manifest is available; exact scope equivalence cannot be asserted even when the UD input supplies a repository scope.",
+    "Alpha and MSE differences combine annotation and corpus-scope differences.",
+    "Missing summary bins or artifacts are represented as null and described in diagnostics."
+  ]
+}

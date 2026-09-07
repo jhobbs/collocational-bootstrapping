@@ -1,0 +1,51 @@
+{
+  "datasets": {
+    "matched": {
+      "all_passed": true,
+      "n_utterances": 2728212,
+      "augmented_pair_counts": {
+        "strict_ud": 1303637,
+        "explicit_copula": 454436
+      },
+      "be_pair_counts": {
+        "explicit_copula": 453662,
+        "strict_ud": 87962
+      },
+      "n_spacy_pairs_verified": 1886034,
+      "strict_rows_preserved_field_for_field_and_in_order": true,
+      "augmented_pair_keys_unique": true,
+      "all_pair_ages_and_row_metadata_match_population": true,
+      "sha256": {
+        "population": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71",
+        "strict_pairs": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f",
+        "augmented_pairs": "406b0fc9cdece4247a60d01b588557ef26f6227359aba6a746ab77051eb8478f",
+        "spacy_pairs": "121e27164670414a42ab3ec33d2f3543118363cf5327f798c15d64102202ec58",
+        "augmentation_metadata": "599b5b76b3c5423714c266903ffd0a0fdd920c652d2bf609a710cd357534fe90"
+      }
+    },
+    "earlier": {
+      "all_passed": true,
+      "n_utterances": 3792185,
+      "augmented_pair_counts": {
+        "explicit_copula": 595023,
+        "strict_ud": 1775181
+      },
+      "be_pair_counts": {
+        "explicit_copula": 593972,
+        "strict_ud": 113123
+      },
+      "n_spacy_pairs_verified": 2560533,
+      "strict_rows_preserved_field_for_field_and_in_order": true,
+      "augmented_pair_keys_unique": true,
+      "all_pair_ages_and_row_metadata_match_population": true,
+      "sha256": {
+        "population": "49cfbe2dd41fcc1e53dde6ccc55de02621fd88ca7abd6487022815734cacaf40",
+        "strict_pairs": "b52dc9e91d8e48d9991a6157f28b6666113fcc1d6454fde0c48c4fdcb5c1ea67",
+        "augmented_pairs": "297173b09575008873048615415f5a78c62caa95a3705226d4585744a01b179c",
+        "spacy_pairs": "12ccf9abd37fc9672fecc263c4adc17ba75afa7296c1a5674ba9d32f9940c8d0",
+        "augmentation_metadata": "2a4d86b4e00f1d03349cbc9ffcfa8c1c70e5c72744f6f6a1551b8f89e0897ed8"
+      }
+    }
+  },
+  "all_passed": true
+}

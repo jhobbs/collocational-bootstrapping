@@ -1,0 +1,1391 @@
+{
+  "scope": "repository_english",
+  "collection": "Eng-NA",
+  "annotation_scheme": "Universal Dependencies",
+  "morphology_tier": "%mor",
+  "grammar_tier": "%gra",
+  "pylangacq_version": "0.23.0",
+  "created_at": "2026-09-07T17:48:46.651746+00:00",
+  "sources": [
+    {
+      "path": "/home/jason/talkbank-data/2026-09-07/legacy_mor/McCune-orig.zip",
+      "collection": "Eng-NA",
+      "corpus": "McCune",
+      "source_url": "https://talkbank.org/childes/access/Eng-NA/0docs/McCune-orig.zip",
+      "download_date": "2026-09-07",
+      "archive_id": "McCune-orig",
+      "sha256": "d395f238c8b487fd8737afe477c8c22c9f5f70e6164b7fe042014bcc72347beb",
+      "bytes": 749303
+    }
+  ],
+  "files": [
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010002.cha",
+      "sha256": "a3992e23cf930704cf5b56c7fec68ce8c5d562b86f173277b938513f385a56b9",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010002.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;00.02",
+      "target_child_age_months": 12.066666666666666,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;00.02"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010204.cha",
+      "sha256": "ceb9779eac1054ee4a0e6ab452330586eeda72208fee550cb4f27cdeedfb7664",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010204.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;02.04",
+      "target_child_age_months": 14.133333333333333,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;02.04"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010302.cha",
+      "sha256": "f9219f51e2b4ac7c9ff300678a6549d8dc9ba78b271598e3c41e09dac80ddd18",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010302.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;03.02",
+      "target_child_age_months": 15.066666666666666,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;03.02"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010405.cha",
+      "sha256": "522b384e23d19b4f9818aaa43aa634eff0a6274ef71b8d50034c0e06bfdf2a83",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010405.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;04.05",
+      "target_child_age_months": 16.166666666666668,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;04.05"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010428.cha",
+      "sha256": "4773472df31b3b7ef0baf9032fe1f643bb0716049e6ba529226b4912a01a746e",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010428.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;04.28",
+      "target_child_age_months": 16.933333333333334,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;04.28"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010600.cha",
+      "sha256": "c23f354773905d4ccc27ac9262d3bcc0f0276d95bf6b671df356fc3b3af0098d",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010600.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;06",
+      "target_child_age_months": 18.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;06"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010705.cha",
+      "sha256": "57ec103af14e75068b101c062d2d3659ee45df61cf9ecfc29d545977b557d50b",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010705.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.05",
+      "target_child_age_months": 19.166666666666668,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.05"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010803.cha",
+      "sha256": "035d1bcf52b25ac8b69bc96336f7974748d9ec470158fc4106b25463e562cf57",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010803.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.03",
+      "target_child_age_months": 20.1,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.03"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/010900.cha",
+      "sha256": "6d114bb92c3432fd8cfb403b7498f89e23adb112c77d4bda5868a73b381faf8c",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/011000.cha",
+      "sha256": "1b72e4a28bf2cbb93ea9fd346bf189113c8a11a70d9bb471594bba4893c19f67",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/011100.cha",
+      "sha256": "21f5cc20d59ad67d1fee998c825323b93ac33546283c26cc3d3a8e6ce1468497",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Alice/020002.cha",
+      "sha256": "af8a993bb99673336fc59e13845a11bcee8ae2062d94b0516d287271536bfa6b",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Alice/020002.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;00.02",
+      "target_child_age_months": 24.066666666666666,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;00.02"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010200.cha",
+      "sha256": "bc3e6c80d372a86f134334d5db66019a4292eeac10df531080a17f385bf4523a",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010200.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;02.00",
+      "target_child_age_months": 14.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;02.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010419.cha",
+      "sha256": "e90c610ee935600489787a8aadd75894cbf4757b38535c7bb4a39fa6ff6cb0e0",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010419.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;04.19",
+      "target_child_age_months": 16.633333333333333,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;04.19"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010600.cha",
+      "sha256": "f8cbf959f99855ff6ce5a4a4dd1bf9ba58149e13583f2d731c3d0ae3289b5454",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010600.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;06.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010700.cha",
+      "sha256": "cc8664e0392ecaf04bbbf08a54ef62b0e009a0fea46b0049205f035c5c2fb0ef",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010700.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010800.cha",
+      "sha256": "f6bc530a067216030c244ffc4fcfd83a6fabfa606fa5612dd11491114b03fe91",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010800.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/010900.cha",
+      "sha256": "e66d715664531b0c97cf100880ea9ce1d559e58d31a7a4acb1f7dfa045773ba8",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/011000.cha",
+      "sha256": "92c1342483c1e5fce2580c0a5b871da5f3c094e79944843ce24be19a52942100",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/011100.cha",
+      "sha256": "fc9205bf46add7e9900a1f955f264432c7db1fe363652542e212ce34101372f3",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Aurie/020000.cha",
+      "sha256": "56921589a9fa7289cbab59edcf2f694be8dc460e454a1e9f56fbfce8348358b2",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Aurie/020000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;00.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/010500.cha",
+      "sha256": "793f8d4fe110e5ae9bbcdc5618cbf1126b882cc15e9e65efc64f92ec8f37fbf2",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/010500.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;05.00",
+      "target_child_age_months": 17.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;05.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/010600.cha",
+      "sha256": "1a282b0c93305c0b1dde8623fe76b74e9106f19c878a0c29b683b81ebd0d6cab",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/010600.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;06.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/010700.cha",
+      "sha256": "d596e022fd49297459c550962dac26f9a8319b9af2fd974aba7da086a456d190",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/010700.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/010800.cha",
+      "sha256": "2dfceeae0d971660776bc56ed80856aeb6e351d37c090b783f9e974fa7cf56a6",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/010800.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/010900.cha",
+      "sha256": "6dcf9efef6d6d1c3d4a9935061b3080683ac4b2f651ccb771fdeb3f1d28473f5",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/011000.cha",
+      "sha256": "f4eecbcb389c6817fc0400965a00156b23c53bb9f815b68ced60bfb62c93e79c",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/011100.cha",
+      "sha256": "5d5adbff586aa6374a9d17ea233a1452700c53479683f8a75f3ff3d11f5911fd",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Jase/020000.cha",
+      "sha256": "fe5d5b337e020205c1e8f07a0b91af9dab94d01ea2a0a92e5a7f86976f09cff7",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Jase/020000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;00.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010200.cha",
+      "sha256": "7050ca41a29ebfe8ab3cd2b46dfcac564b9320f50acf672f34d56704c8d3f098",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010200.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;02.00",
+      "target_child_age_months": 14.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;02.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010500.cha",
+      "sha256": "6495c4f02d9cea0830ac0ec9b70aa4b3b4139e31a2e1764504c62741a20544fa",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010500.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;05.00",
+      "target_child_age_months": 17.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;05.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010600.cha",
+      "sha256": "57e0c181fceddc67e22cc65d01b94dce9f87df5a500b30b59632c302767d3191",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010600.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;06.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010700.cha",
+      "sha256": "0c3cc10c9f5c0c90613d0e8739c317cd230327a022c88d922ed02f5fb7ded549",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010700.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010800.cha",
+      "sha256": "e996a02a528ad04cdc0b84b8efcd5384783bb11910f8605d4655a31b39481be5",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010800.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/010900.cha",
+      "sha256": "1e24d36ed3ed93b8cd659ea3e508a86e436b98dc52fba4471dc77d5177cb2650",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/011000.cha",
+      "sha256": "c71fdf59f733c0bda020d85b8bf772e673f0cd92e5f7b7d930d398ca3853ff6c",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/011100.cha",
+      "sha256": "2fb72cd6bbee70967cda9fc4da71406783dce0f60d6b153f2988608b11edb73a",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Rick/020000.cha",
+      "sha256": "4cbb1cdcaef04880a3251140f3bf219cb01b2ceb82005b4413dd59b4d0e2cfb6",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Rick/020000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;00.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/001000.cha",
+      "sha256": "384ec06e5e69fcda40c8bdcb5b9dafe5334041b78088b6ac6bc7ce3944140d31",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/001000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "0;10.00",
+      "target_child_age_months": 10.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "0;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/010600.cha",
+      "sha256": "55da43f77cd29dca653dce94070814cd501838aa24c7c5dc660b1293c0d10a3a",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/010600.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;06.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/010700.cha",
+      "sha256": "16e4951804391a8b5547b6a20e22b1525d35f1387ad71844f465c5eb0c13699a",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/010700.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;07.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/010800.cha",
+      "sha256": "44ec0c0e8e146eee82b14b80313bc4a77b182e8ac1a8357bc26bf0f0181e8786",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/010800.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/010900.cha",
+      "sha256": "16ee122f0b6b43778370df81fa45661421476a2f281c644ec73726d6dd71125f",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/011000.cha",
+      "sha256": "592042634651b28c0defc94f154b8eb61fc955d81a6f0a6e3bfbee8db87c7f1d",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/011100.cha",
+      "sha256": "23b2ca3126b462f62db8ebada9c8f524ad95f0bf5335811a470e77fcd32766f6",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Ronny/020000.cha",
+      "sha256": "60bb9f42deb90daf018bed1331346788c2b1ec2c093c15e6a3927402d42f1a00",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Ronny/020000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "2;00.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/010011.cha",
+      "sha256": "669c4b8ba80496300813484ef337519295022b6dc9f70fb10b8c1b3a5f737737",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/010011.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;00.11",
+      "target_child_age_months": 12.366666666666667,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;00.11"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/010500.cha",
+      "sha256": "9db389c228d10a4904a81be6e3c6703a43942fb60e5f0e730efe13c51d1232c1",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/010500.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;05.00",
+      "target_child_age_months": 17.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;05.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/010800.cha",
+      "sha256": "2de8fc5280f1cd3030a22424c112d725d11564e9f325f4f7cd18127f100a8f44",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/010800.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;08.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/010900.cha",
+      "sha256": "e2c8fa1ace5004a67014eee6b128404b7df09267ce2411d039a4ed3e6072c266",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/010900.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;09.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/011000.cha",
+      "sha256": "41128d745921b533510fb68bdfb0e0de7362ab426693059635557de76a10fded",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/011000.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;10.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "McCune-orig",
+      "member": "McCune-orig/Vito/011100.cha",
+      "sha256": "c8dd7961178b9bb83c339eb759dd29e2e7f861ab9402ee9b768fbd5570b4af29",
+      "annotation_comments": [],
+      "corpus": "McCune",
+      "transcript": "McCune/McCune-orig/Vito/011100.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "1;11.00"
+        }
+      ],
+      "excluded_biling_corpus": false
+    }
+  ],
+  "counts": {
+    "n_files": 52,
+    "n_utterances": 33317,
+    "n_pairs": 4724,
+    "n_cds_utterances": 15668,
+    "n_annotated_utterances": 19331,
+    "n_cds_utterances_missing_tiers": 2178,
+    "n_changeable_headers": 1010
+  },
+  "diagnostics": {
+    "nsubj_nonverbal_head": 2409
+  },
+  "dependency_counts": {
+    "DISCOURSE": 1122,
+    "ROOT": 19227,
+    "ADVMOD": 3757,
+    "PUNCT": 23793,
+    "FLAT": 225,
+    "NSUBJ": 7515,
+    "DET": 3988,
+    "OBJ": 4810,
+    "VOCATIVE": 396,
+    "AUX": 3098,
+    "XCOMP": 852,
+    "CASE": 2553,
+    "OBL": 1651,
+    "DET-PREDET": 53,
+    "COMPOUND-PRT": 672,
+    "IOBJ": 179,
+    "MARK": 695,
+    "COP": 2723,
+    "ADVCL": 106,
+    "CCOMP": 278,
+    "COMPOUND": 533,
+    "EXPL": 289,
+    "OBL-UNMARKED": 113,
+    "PARATAXIS": 1242,
+    "CC": 397,
+    "CONJ": 708,
+    "NSUBJ-PASS": 36,
+    "AUX-PASS": 37,
+    "NMOD-POSS": 763,
+    "AMOD": 633,
+    "FIXED": 11,
+    "ACL": 92,
+    "ACL-RELCL": 199,
+    "NMOD": 263,
+    "ADVCL-RELCL": 64,
+    "APPOS": 412,
+    "NMOD-UNMARKED": 5,
+    "NUMMOD": 77,
+    "NSUBJ-OUTER": 15,
+    "LIST": 28,
+    "REPARANDUM": 82,
+    "DISLOCATED": 1,
+    "CSUBJ": 7,
+    "CC-PRECONJ": 2,
+    "DEP": 2,
+    "GOESWITH": 2
+  },
+  "pos_counts": {
+    "intj": 3297,
+    "verb": 8756,
+    "adv": 4071,
+    "": 19331,
+    "o": 99,
+    "pron": 12239,
+    "det": 4352,
+    "noun": 10606,
+    "propn": 1790,
+    "aux": 6234,
+    "part": 1822,
+    "adp": 3264,
+    "sconj": 257,
+    "adj": 2264,
+    "cconj": 404,
+    "cm": 4439,
+    "x": 65,
+    "num": 364,
+    "b": 16,
+    "q": 29,
+    "L2": 1,
+    "f": 6
+  },
+  "speaker_roles": [
+    "Adult",
+    "Brother",
+    "Caretaker",
+    "Doctor",
+    "Environment",
+    "Father",
+    "Friend",
+    "Girl",
+    "Grandfather",
+    "Grandmother",
+    "Investigator",
+    "Male",
+    "Mother",
+    "Narrator",
+    "Participant",
+    "Playmate",
+    "Relative",
+    "Sibling",
+    "Sister",
+    "Student",
+    "Target_Adult",
+    "Teacher",
+    "Teenager",
+    "Unidentified",
+    "Visitor"
+  ],
+  "speaker_language_filter": "eng (exact participant language)",
+  "corpus_exclusion": "case-insensitive Biling substring",
+  "dependency_selection": "exact NSUBJ, case-insensitive; VERB or AUX head",
+  "lemma_rule": "lowercase MOR stem before uppercase feature suffix; raw morphology retained",
+  "surface_note": "PyLangAcq assigns empty surfaces to expanded MOR clitics; kept with dependency indices and raw morphology. Utterances retain CHAT main tiers.",
+  "parse_errors": [],
+  "complete_parse": true,
+  "download_failures": [],
+  "age_note": "CHI participant preferred, else unique Target_Child role; PyLangAcq in_months; missing or unresolved ages retained in extraction, excluded from fits"
+}

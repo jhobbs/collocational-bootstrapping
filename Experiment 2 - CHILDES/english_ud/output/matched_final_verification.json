@@ -1,0 +1,1878 @@
+{
+  "all_passed": true,
+  "primary_summary_rows": 54,
+  "sensitivity_summary_rows": 27,
+  "fits_checked": 9,
+  "mse_curves_recomputed": 81,
+  "grid_points_per_curve": 291,
+  "published_input_paths_verified": 27,
+  "documentation_links_verified": 29,
+  "matched_arm_denominators_identical": true,
+  "spacy_text_alpha_difference_maximum": 0.01,
+  "sensitivity_alpha_difference_maximum": 0.02,
+  "artifacts": {
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_comparison_summary.csv": {
+      "bytes": 10298,
+      "sha256": "198b38cfd93ebd9447cf2605b08a2f4fb34ecb555d6a9d7f5d340c4e7c2e4495"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english_ud_chat_metadata.json": {
+      "bytes": 12275035,
+      "sha256": "affb85a6be2d92002e10d6d40c111c8950ff79c40eea4c59aa90c51382acc414"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/metadata.json": {
+      "bytes": 3205,
+      "sha256": "a628637b99e11247383137db523bca6084e3323bf88258ed0447b0ad7c48526c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english_spacy_original_metadata.json": {
+      "bytes": 10343,
+      "sha256": "02c194db8a81cd502905d041aa91a6557f4666235a4f275ec3b00577e3979603"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na_ud_chat_metadata.json": {
+      "bytes": 12275003,
+      "sha256": "a1f427b38e732e1565565e1cdc40671c723379615adf36b585cff11a4fe8f843"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/coverage_by_collection_age.csv": {
+      "bytes": 1197,
+      "sha256": "79c65d3d994dd50d574d71207b8c27bbc2ce880dd60083008ea6363558949837"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na_spacy_chat_metadata.json": {
+      "bytes": 10286,
+      "sha256": "18ecb61b50f59a1d66af0ff0e37b7945c6e8bc10ea32ce0327978cf898e092ce"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english_spacy_chat_metadata.json": {
+      "bytes": 10318,
+      "sha256": "1035e675fd0121a82a3974db3b3855af2060c3aacc75e6f1d291c90acbaacc22"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na_spacy_original_metadata.json": {
+      "bytes": 10311,
+      "sha256": "dc26dab0ca8a7e154e58415fe8c4dd56256117f53763cb92a5e4389e1925cc55"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_alpha_comparison.png": {
+      "bytes": 315395,
+      "sha256": "219ee60868c518875519a743f53fa9e0c0b1dd5cdb4ce2c30c0071c732df520c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/inputs_eng_na/spacy_original_subject_verb_pairs.csv": {
+      "bytes": 231406860,
+      "sha256": "1c5456956e84ad7e4932bd5c181e46793a40601ab302325ce796cd4378860d2c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/inputs_eng_na/ud_chat_subject_verb_pairs.csv": {
+      "bytes": 123906949,
+      "sha256": "44ab5eae0651253e6ece86481fb0d44c1ac66a6222e754a59f3385aa3c7bd55b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/inputs_eng_na/english_ud_utterances.csv": {
+      "bytes": 249604989,
+      "sha256": "ba3895aa8a065d3dac56b913f55104a9e2ffa100c46f71cd13e793ced0ce9eba"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/inputs_eng_na/spacy_chat_subject_verb_pairs.csv": {
+      "bytes": 229309372,
+      "sha256": "5d52e0b5d17762ccf805a0f165072c358a28fb91135bcf9a10aded73c9be7113"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 173919,
+      "sha256": "a5ac47e69b17ff107a19b81fa9c787c058b8251789570d88bf0c159c0a9aa878"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11898,
+      "sha256": "b5117a17e91df3a7131f5280fcb371cc6d9fa7f65e87d6ad354546c78ca1e9a7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 145346,
+      "sha256": "9fc8de5ed62bd4b6fabf1a58284593fb2c3eb2da5e5091f7bbdf44169468c3f8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_overall.csv": {
+      "bytes": 11964,
+      "sha256": "22e5914c05643962e8b6ad5c993e120abda5b1269c617392c8642917c387407f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1160,
+      "sha256": "8670f4c7889265b766d3ffc0d713fa3e3d423f35a555def7d1db8940faa6588b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 103556,
+      "sha256": "3811bc8b5df92522ccc0e3414b1411e022fdcc432e6eebfa8ec9f202139f5441"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 37729,
+      "sha256": "9a20523f813c34f598c23ea567b3971857cee413facf14dc0d4f560e783b9719"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 118292,
+      "sha256": "a7183ba15dc35eb004455d0563f235397f51623ea3b1723b53d7ef50982aa0b9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1275,
+      "sha256": "b4313c7098eb0bfee986d3cb00955115bff66a5941010f69ebe2a129124eb15b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 31255,
+      "sha256": "15013965cff082c4aec6b3f1929690af18cfb6967a39f09fe7ded370bf7c79c8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1178,
+      "sha256": "9c507cb0b520ac185aabfd9dd8eace10c1f43eaab089d7fe136ab2daa3c03f4f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/fit_metadata.json": {
+      "bytes": 11722,
+      "sha256": "62f533832127dbbc869634cdc840781248572519137bd0170895442a653307ec"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 1032296,
+      "sha256": "cf2ac70bdf896b869f57b3baaa92be1c7a74ed61af74f2a80bfc3b51e1e68c8b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17986,
+      "sha256": "24bf15b3ccca640f2f345e01f50658de2ef5166cde57d858f46409c715bcfe28"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 81376,
+      "sha256": "abf5a3fed12b09473728b84aee7b6c1f3d0a22426d90df809b0bb2deb979311d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 167699,
+      "sha256": "7fac5acf90e9a464abca11c4e5715e32b7722d3e451663f9f44295b1ea8bb9de"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_alpha_by_age.csv": {
+      "bytes": 1679,
+      "sha256": "847dfd2359a1832b7def1edee23895261b6b3e603ec78edfa40ce13eaff6a02e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1201,
+      "sha256": "11009450d66da66d2c3b4f4a406ff1aff847df3683955eeab48dffca20049b0a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 104587,
+      "sha256": "29a492b270b6be89d6a8426e049bb99e1e71f28aab3a7c3292a15b3613125da7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 449388,
+      "sha256": "58ebeb05551199c8a6817e108a1063d6e7e0b62e7d6a8a65107757f4f6119e13"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11913,
+      "sha256": "af58777edfd3c32bc8b9706bbe610774352baed892a146235af248eb1c32cdea"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1320,
+      "sha256": "8a9f4c4ee7d1b7257e0213507bc3f096b4d6629867dfb97bb42c2aa16800042f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 682986,
+      "sha256": "5cccab306e8289ac00af9b85d150346fb04cddbd21eaad46883ddec5be7f3b05"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11975,
+      "sha256": "d4e8ba0dd057b837125bcb6277f8ccada1aaa4678d51d352b96a8fc85f247518"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 14019,
+      "sha256": "34a6274bda273bb0c890c0c5398fc8ab71b5af77b3c09c71aa0140f86b01134e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_alpha_trajectory.png": {
+      "bytes": 100889,
+      "sha256": "6392fa11670880f03cf66a53638bcafce8a3a45f165435b9a60a6688808b2339"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 35657,
+      "sha256": "3f1b8a97502f3b536fb6b0f81341bd91305d6b2b401d1db18fdd84b69957d06f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1168,
+      "sha256": "2b1d086e572a7aa46326773732aacc60f79d5156f288b81e2461a6bb70883f4b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11953,
+      "sha256": "924a92dee51c2cd1305e68c875cff5c84956765b68b2bfe7591672957d196024"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 86173,
+      "sha256": "06aa7e7edeaa8f34717416464fdb57e7d2196f170db5fd339b6bf296ea2a27fd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_overall.csv": {
+      "bytes": 239670,
+      "sha256": "f75c86342d05dfea162ee1694e5f4162532dd869aa624c729253dc6d9f55b600"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 201883,
+      "sha256": "fc9aa33a21148e1233059bd4d21dd229212c499fcc6d7d43dae59fc73e7ac2e6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1245,
+      "sha256": "33c9dd8d2d1425ae01ffeae8f6c01eac0faf81a09b0f9aa735da5db335f159b4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11927,
+      "sha256": "abf9ecc063521ee30fe825a4ac04261c11f84bc756beb3f755f22f5c134b5ca1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11991,
+      "sha256": "7e67844d82dd4ac4692aed6fcec71778f97d115e702d56ae070235f524a739d5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 549057,
+      "sha256": "576386b68a0a08153bd8331e2adc5ad9b3a513ed25bd9ba64991c546b8b1ce94"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 1866547,
+      "sha256": "52ec037b6ed66591a8fa0e90bc639a22e6a422f3703222d5c57ba0beaa2f824c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 29279,
+      "sha256": "27fbfbcc07e0391cc1b6bf3c002e4bc560367c1b658420bdb420fbd9966b3a65"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 371420,
+      "sha256": "ac0709512da9c3f370427216851e3f228a5b7b032514eca16e30bb9bd1c7096c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11908,
+      "sha256": "2deb65fc6dd26b84a1649435d3261d38efc4b0ffb1090177d7d567c45362906e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 273749,
+      "sha256": "4997cd3ec956b357e2c502a867a7f5a4a4686172cf19f464e433fd5d631a94b9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 95016,
+      "sha256": "6eb171a9bdb52a2a95562270df83754af223676c62963463f55d851ff633a5ef"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_summary.csv": {
+      "bytes": 1879,
+      "sha256": "1c2581e06d5b3e1d997af747e9d14a34f68a2c901d33e56f72fee0c4e2b376eb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11941,
+      "sha256": "76456e15caa480e683f3808edeaa9c61ee1f346721a88921058351b7bd43219c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 18442,
+      "sha256": "0401872e6de86264423555c162230ee8d9960a9466a40b9ab66bdfbfadb9ac91"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 63776,
+      "sha256": "61c259e02cf9635a2181c2ac1585d9cc913ca906fab23361cf039248b5caee6f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_overall.csv": {
+      "bytes": 1352,
+      "sha256": "921c901f66beae8d1800eea6e7aa769f02bda2a4054c37a9da7384b4cc381f2e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 61617,
+      "sha256": "6540c1e647ab12666f5416f2283aa6c5cfc79996c477a340a6490e8a3e7944e8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_original/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1266,
+      "sha256": "aa525fedffdd63fb95d4f9d9590c7dadbbd91beb3e41967fc3bb62c2c6506bda"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 73838,
+      "sha256": "6071d7ed975fe6bf638ecd7290f46a86a295b6b4613ca82c4af6a952c6e33363"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1730,
+      "sha256": "ddac8a036a81aca9f2cd9630329142c13abb4886064b06d128728a7d7c89c122"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11930,
+      "sha256": "c32267017206ebd1fd211575998b5c0b37d6ee72f926416e8578a64fa9c9613d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 141046,
+      "sha256": "3cbb974b3f8e0994bac2272c31e10ae08aa29be460f2d003fbdca84637a7ff96"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11962,
+      "sha256": "b17a5e2c1d200666fe8ea00b7a06e046c8db745e5991ce0c77f558d97cc18855"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 72978,
+      "sha256": "d3aeb8427212e60a54a9d3898fc1b7947a7013d16885ad26f747013e0db7bc33"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 14698,
+      "sha256": "dbb516e433ae49f846762df7702eba024dac46f279bf4ab7369cae367c773b5d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1153,
+      "sha256": "37f8ad7bb3c1b0a81747ace1e84f2ac9f5af0bcf277be1cccd67fa101ce09270"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1309,
+      "sha256": "e1fe012ee18104c459fa77626933b2a4aafce5e3aaab432c3c4d7050e96dc806"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1195,
+      "sha256": "03486bcd29ed3c13c82150cf896e04ec2362af552278e5c70f63649642b1cf2d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 8805,
+      "sha256": "e069d4b768aefb3171f3c1e1957aa0906157aefce4ae6a9d0b6fe55a91cecc1b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 11031,
+      "sha256": "e4ae33430ebcdc2ebad782cc40170fcf30f0f9188f6cb914e1824d3ddc4a126a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 41213,
+      "sha256": "d28249d42db636e65bd5891aefa1a0f9704b616a60c45dfe4434734bad619528"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 846523,
+      "sha256": "fa549b57526c06551dde0a0aa800c4ab26f0ea657faaa1185c5810758a1d3ea7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1262,
+      "sha256": "b75f09581c86e3b7ae93d18f9c770309374626ac4de65cdadc16a9e7cd30e905"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 68299,
+      "sha256": "1631d2b0221c0b7da16e676e67a47b6b5cba29586ff6bdd67e0b34059dbbb9bc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 49829,
+      "sha256": "db7f7a31c6017adf515e09a4ecbd86720e6dec382b84e87f6fa6c9e6bf8b8552"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 152141,
+      "sha256": "65232b0ce57b9172f03a839c152d8d4b31b0c21ad3a40e302b927b1564a79585"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 256001,
+      "sha256": "668eb67a8a23adbaf0657dbf728d4fdfe3d8b9cce09a826c6371d40a9542caf5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 85252,
+      "sha256": "8309ec29be44a2a2a59827dbbfb74fdd9bd671f2a08c57050df04b99bdc3af1d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1153,
+      "sha256": "c0652074335bf1ccd22901cd24f873a74ef6cb5a9f773e66b7468cbcb93ca358"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 564389,
+      "sha256": "2766bf4132e3402fe8d3ca411e5af620e3aabe76353c9cdb6cffe8aacd836313"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11978,
+      "sha256": "e91a043cbb5d9ba812a9fa96c1b0d17c78c44f880217df6c7d9d8694db27de40"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_summary.csv": {
+      "bytes": 1935,
+      "sha256": "417969f1b5f011410814f86018c6909eab6d488da56330abac1c8e2e4dfc08a4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11872,
+      "sha256": "e01ee1e928053e7abd40c33e41b35f2418a7a72e80562f745ba4ea761ef10df7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 15851,
+      "sha256": "76f025091c3feae8a44e5bba0a00883d0b6d8119cddc31b7af815c327ca8f030"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1263,
+      "sha256": "234a74fe57cb2556e63d3eded598dee3e6dcd087218645f07bad9c2561a056d5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1343,
+      "sha256": "42f4f48ae2435fe065df963d372664ad124b3333fef9148ba9a29b4f3caf6528"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11899,
+      "sha256": "c1501a834abb4a283a216dc9df8a88adc2cc78688214975f384bc01b248f0c4e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 68380,
+      "sha256": "23f785f9788dd95c1c94a098151c5ce34e82cc4456350d122a26dae5fb1ed896"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 117870,
+      "sha256": "b6add00bf2f72d6d378e146a3872cda9b4ad9771744035bcc8c5e1ed3d6ecbe0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 450289,
+      "sha256": "0652fb6571fbedf60dd18cce429acbfe024ea835c6cf686a7f8454eeb479acf7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 106891,
+      "sha256": "fbf1c068bcc0fd9a3631b6b16df7fc0018636ca6d1d040697646814ff36b8371"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 1528603,
+      "sha256": "e1a281c3fc744d0e957c9c42b356c12ca4a79028e8896c1f923ba97f8d548cc6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11941,
+      "sha256": "1051b96a43c15e054c39f81d74e69a819ca302209f5ce974a5700f9c990d328d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 8476,
+      "sha256": "678428bd24defa12f7db18896504de1e4257589d7724057f4e94f2ac3e4a58f3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 287335,
+      "sha256": "b21163246ab67ddcb90dd880da195d34a15b5dbb46f11eb55aa5bd2cac7a66e9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11913,
+      "sha256": "f8e409f836d24cfc31282016f5f355b1acd2a6788180223f72e63bf8e4ffa03f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 31758,
+      "sha256": "14487109bd20e97e52806afa88711787470e2d4df6ff2e29419d9e9258e1e68f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 99959,
+      "sha256": "ad243fac30f1351e19d3ebf19558414d88b6e7ea6a05e91d397acf8caf7941a7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 73096,
+      "sha256": "0d027e1427467536cb58e90f5eed8085723d0f0deaef54cb7cf0451323fe8b3f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11887,
+      "sha256": "9971f584109d4028229ec6abf45f63d9ffbaf2c2c78d1b65adda816c967c3eae"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1245,
+      "sha256": "854edb65362eaa302c54085bb68ab3324842562a34be81bf13d3246f8bbbbab0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11912,
+      "sha256": "5c870a32983b4be3eaa8e241869956aff2ebd02f5a8ea4dfda5ba9c3d3e6596a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 18287,
+      "sha256": "4fe6c71a5510d910c53893d6e415250d6e646aba41b77f3bac21315f6b7febe7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 169976,
+      "sha256": "c8084c66c46bc59edab60ebaece9af30d2dfeb310a1cd24b827f082ef88bb2aa"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 19266,
+      "sha256": "fa3ef2d4b0621d699f5a59e3101e2707c3bb9f682e3f9d43b794a9d092dd76bd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/fit_metadata.json": {
+      "bytes": 12276408,
+      "sha256": "8432bafd8c16711c1d7f4de628c123e6fd52099bb9ad1bb2b8d0d65630ce8c46"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/ud_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1161,
+      "sha256": "46b9814a22fbc98cca5315e7ebcb320d4cdcd2c98653d2685ff0e593a13be742"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11890,
+      "sha256": "3ae489d271d9594f8ee0193c02fe69a812c77f86c1f8e2bcb168056e4ef45a05"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 662161,
+      "sha256": "9a2cc7f1fcc6069b17f0724e12d5b52da74bec6f30979ecc853aec58d215f71d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 30604,
+      "sha256": "a7a9350343dff6042b8fff2aec4fa2b35fbc34e45b5b4dca73b52c438df3c407"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 28693,
+      "sha256": "c47142a2dd512a2e0524012de1e9325bc454ae1c03c165006280be4747378f48"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11939,
+      "sha256": "2a019d476d69bf18ffd1664f05ce83067faa8ebe188d651c31e0e176369a284c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 80971,
+      "sha256": "0577edf4c6e57b5d514fe7c73bfdc414a217bb1fcc7d05eea8cb8ecb9266e489"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1168,
+      "sha256": "3c4ae7a1127b8a000d7273c8375b4d06b89ac7f7ec94f9f70602cbaa1ab240ff"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 137287,
+      "sha256": "193ff390bf242614ad59354f5c6d0d35723bef6cbcd10d42971a812b303033a3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11957,
+      "sha256": "166ab46edcbe0507e9c219f915d498fe35c93ab7b937185be349af45490bf68b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 191308,
+      "sha256": "43ec21c4da07dfa658dedfa6ba1e743e1094facfda2bd1dfa7b190b911df8064"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1243,
+      "sha256": "b402baf689826b4201a2996769d82d23f8d6ac23a748dd3d39ebbef3d69d46e3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1176,
+      "sha256": "de1b16290f44f67540a6c3789d2b3cab67542fda393d3edf4c113663244e830c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 991366,
+      "sha256": "37dd363d1ed9801a4be97633c19fb027e79407ec0c21adbbc8fb456494a49667"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1352,
+      "sha256": "03faa811c6937828336169c1896e9558529867f4f9c2955ab8993fbc9c9673a2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11925,
+      "sha256": "7e682595bed8061276394129df0e41a65bea8089f0c86f9998b5ea083de1e62c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 62126,
+      "sha256": "0c6fabdf183a75ef74170aef9b726cdcf5c63a03c5562f94c039c940f7ba500d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1260,
+      "sha256": "46fbe730b927f0efae3cc7ee513feb66404a1febabd0814bab8777d85c7ef749"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 14139,
+      "sha256": "5c8f89f5e0cec72e6be7deb0a5bbd9376c8e6918b8b7ae6b5861aa1d419c9670"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 255232,
+      "sha256": "36f721bcdcb837db48866d881c5ac939e0c34596855c2ed13ab3e49bb7e0f370"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11967,
+      "sha256": "8ffdf8fa52fc08e90d35578a2dbdd9167a8844dd423a5e0bbf2cc2018896cc02"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 172917,
+      "sha256": "0868d8f15a7f1af2c17e7a0d2b37f61e0d0bb61a19cc9b55c1c7d0baa7c20050"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 100116,
+      "sha256": "1a592c40294dc7eb51e575c4ec7c6550ff1d5d72024a2aa57e1d443999400a96"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 36684,
+      "sha256": "62926391ea25f07ef7407c2e75c5a91f1a768df078aec98618fa84c1823a5c29"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 35148,
+      "sha256": "318ae2eaf9ee1fbaa1ac6ef457419a7a7210f00b35f33a89d6dea9b0dd0185bb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1274,
+      "sha256": "ff0b51d1ff9f94fe1da71e77059d961bdacce0e0bcd0f795e9fc02786f5744c1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 113910,
+      "sha256": "51339332097f68ae36fd67a1a1ee3f02cccbb4c040fd6b0e9ebe10fac19b4583"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11942,
+      "sha256": "baf92f570ef9b77a469779af53380b60bcac240aca1df6e664d06e39b6cae042"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 355830,
+      "sha256": "dcde5f04df12d71d2c33eb010cf4200fbb2c89c16ee7fe0c437b2e7fa446e798"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_summary.csv": {
+      "bytes": 1770,
+      "sha256": "61b137487d9fa1a8d0bab47d88bfaa2454674d3edd434f796d22d145cd6eef59"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1160,
+      "sha256": "4f856f3581c6217b2db882dfd32620b4eeaa814e431d7210fd23943c8b3931d1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11945,
+      "sha256": "23d78d2c930d375cf302c96241cf40e6a6f32d8ed4bdb2241c6b2eccbaac5868"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 84504,
+      "sha256": "dc4c3b4a82b460c9bc446d93e4ff7498049596cdd2662633ef195c355bb0c2dc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 93042,
+      "sha256": "7156e371d98546453fbce0ecd344ab1503d7eb70de93fdfdb07598cc30ec9b4a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17805,
+      "sha256": "55a77b51209e026117dc89a31ab9762f9fc2cb8d204f341aafe8d016c66793d6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 231383,
+      "sha256": "6a7f0b046bc25aabc64dd02f5e9863f772519998e612a714277d3797ee7107a7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1318,
+      "sha256": "f267467c43901afc3bdb6e02959a808be9b052ec8a515cd10f19fd129f1b8260"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/fit_metadata.json": {
+      "bytes": 11689,
+      "sha256": "a87ec4a3e436c89151bde611a2dd601dedff456ad377fe45a94397498286901f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11956,
+      "sha256": "53044fd51d87c6f039b93eac220b4e6637c7b8e6f3c4748ef7a55ace46764533"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 1800464,
+      "sha256": "1c0619042b740234d60b071040380628260ceb5b7fcf454eaf831a8070b63e18"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1583,
+      "sha256": "2f8ddc091f12c47740b56301f091ceab29c8b61fe447ed14bd6b5959017bc833"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11914,
+      "sha256": "c6f526e4d40e559c0cdf1e2643cb98283376e6e8df7cedf471924d37d6a9a0d2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 17563,
+      "sha256": "a60b71624a6761e90a92322802854992569cb5dba32151dd2f40a14afb03092d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 534496,
+      "sha256": "70ca3f329a421c1a7a4d87cf6d459205fe1a9d738de0f1ef71daeeded4c1c6ed"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 59640,
+      "sha256": "de5ba2e9fc6cfd8e43a890cedbf3d755a6e4a0d8adf67e7df8524662abc0f025"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 99100,
+      "sha256": "efb4489410f0e6abbd272b48acd4c9a89ec3e0ae3450bca5934f6aa3980eee7a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 433939,
+      "sha256": "17818b98549ff20af52dbc7be4acc928506c2f177377087d50202cbf1e4062ce"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 164085,
+      "sha256": "fa09bd333667518fc163ea5a51c8cbe1d7fce1dc2f97cee770eed41cd230d8b6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1202,
+      "sha256": "3538c3bcec6920ff1762faea01b974ac4381fcec4395905eb3ba0aae65e814b9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_repository_english/spacy_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 103853,
+      "sha256": "ecd6af3ed43a7e7d554d39a8e65715eec78598ad51440dbedf5ce9a06a3bdb87"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1235,
+      "sha256": "f0c8d4b188546d23ee731223cf46c2f3ce37508092fb97a298c3b97bbc31fc13"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 4918,
+      "sha256": "2d841f6546c71f950b49959962fc27856e393c0893fc3adec84ab205a6e261ed"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11965,
+      "sha256": "c65397464ee3ad684ce6254d57e327be7ab50b48faa3cf7e21928f5ef6c86d3c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 102050,
+      "sha256": "146377ace69887a2095a1f376378acfa8a3dc06d523e8186a6a8caa1535f0413"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 34130,
+      "sha256": "862d76e9c37e7f9615de6eba4a25f67a457b50ee9799ae6780a1703bb41cbfb7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1144,
+      "sha256": "cc4db3100a4f34b72af4cf7bdb94539a5b5fa5043eeeb4e3dc64bf1136aba9cb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/fit_metadata.json": {
+      "bytes": 11667,
+      "sha256": "259629e883e583b502e337e0e3c876190ba6eca97ae5ac8d3e94cd2ef475974e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11922,
+      "sha256": "c3c2550546f7fd299b5bc23d219969c1267a1c49dea1941cc52bfc2efb4d6d75"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 50208,
+      "sha256": "ce998ac5e07ca47e6b87b29ae3d33a892fcefdf84c48ec5cbb13cdecb1b2dbfa"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11909,
+      "sha256": "65aaffbc5e05714b9041a9067a820d43d1cfc4f5f5c19174794b5a1619e7e8da"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 125244,
+      "sha256": "73751ea55bd33a7ef124df091a09907de880b21d7dff0bed2ffde3697c1dcfd0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 409962,
+      "sha256": "640b4498f5ed7459b5a7cc47591d41b4c5f3319847b85bf6445ba9e3296c770a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1325,
+      "sha256": "9861b40471f2ba38f3c096dad87ad9be7a6c5500474af45afd1b11477b4db69f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17801,
+      "sha256": "270edb0ec695a15a66a60e6daad2b5b7f807ac71b94692e0b18fc7af69a18cc8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 16710,
+      "sha256": "0123ee8805086b0a9f06d51f0927bf071890cca8713f616d21aa87d6a6bd8f18"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11962,
+      "sha256": "d363f87b0816d87e982ca56942275c6ac8cb2c9533965651d85b3655fc0f27a4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11889,
+      "sha256": "85a0b8eff0988a18cee75d8c9e38fb73c745d333e1ca3829f341ee04242e484a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 10068,
+      "sha256": "f9c2abc8f16ca55765f339ccb41cfaf21d87ee037fb4a9d758c5d02eb8768aa2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 34548,
+      "sha256": "601e4f543684a018a457f61f011ea73f8fbbb2a097f29dd03a6643003307f13d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 33156,
+      "sha256": "16a9dac47f58be877f3121621ab11632b8c582078fca43731a5c9544ece4fa64"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1255,
+      "sha256": "fb4a2d85a063052db357c20d7846c3280bd465b1436db2443768cc67887066d9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1310,
+      "sha256": "e0f95050604387ce6154395658319073794beb36a3a1419e1a1461e20f7db4d8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 62860,
+      "sha256": "158c5e24e308f766a41cf89ca6a92132a11662ca47f24f3fc9bbd1e053cc2709"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1172,
+      "sha256": "084296ff2ea9e4709828057703101381fed25c3b6e89f334183240aea433adc5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 299678,
+      "sha256": "67b7264ce98d1c1e9aeb56b97aa1685b92c030a9c4fff3d5473fd54343f80842"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 99757,
+      "sha256": "05fe332147070f264d8cd8fc2b7d86e33585e1fbd9349182db5c966cbbf4a750"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 43834,
+      "sha256": "8f80a5bb525d644336e02c5738788e7f31718e5f6087162440c62a66e237fb82"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1116,
+      "sha256": "721242529a8081f9845c2d72f07e294697200ff97c3b8ebbc1b8c2ea1b80c88f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11958,
+      "sha256": "62cddd305d0752df993ebf5d6c94607474a832ad93b08d2dfe78134f6594124b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 8581,
+      "sha256": "fd742fc536247e09fbf7d8bce68075c556895545cc30c000ea5c1c633c7c943b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1244,
+      "sha256": "c1fda0e322bf458b82b38aa1b9671346143cd7bf65369afca9887488a0071ee7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 114578,
+      "sha256": "4b19594fa51d85993f6bf63802cbb51b8f5accc313b410b2c0d573600c2b5df3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11896,
+      "sha256": "04528175434b45bc6e2d0acc75ff8b964a8a3dea3150040c3c4032dac179cd88"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 367937,
+      "sha256": "535215f94fd62326ab3aad766097512768c33c54236c444f13a50a327bf07d9f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 260584,
+      "sha256": "02e3746f511f277430307263c654d72f9fcce103e371d5f33143786c10a10fb5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 973179,
+      "sha256": "a5a677b1532088398435c990b3cb1cc9ce9e26f19d5d1ee1fb93e9f36cf5a5e0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1167,
+      "sha256": "f0cc01dc49e9c1ff8f76ed3fec4d45ac9b3fed3e3809153e6fcf88993e25ab88"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 106102,
+      "sha256": "984750f14e3f14798139df22c2ec03ea3ffd49d96fe9095bf8e67d73f59fe4f0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11853,
+      "sha256": "bda7a78e1b0ed6ef66f23097262987606c08d46aa827218cf603407698711116"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 97081,
+      "sha256": "ce3afd0da4afa0161dc2b37200cfd1cc3926a8a9eadf8d9bbbc594ba1d9b5776"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 49852,
+      "sha256": "22a04b7da46f0dcf75da26250d75022643ba4ea5db0bc5911cf4c6f076f23b12"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 18733,
+      "sha256": "27de73ac119f5c1ecc6f397fd89d60579499a4e331525fc556e8a7c820b7b39e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 249417,
+      "sha256": "82418b81b190ea67412d77c9ce0281cc7f59c87b219426df23ead1de661a6d97"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 85450,
+      "sha256": "2b84fb14b42f8da6defa728683b32d75a05bb2decc49aa3d8cc471155c4f7fa7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 134591,
+      "sha256": "c99c9e24f9d0fd9fd9da65eff41eedc5a66faa59620a505f711c9012c908f1f1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11934,
+      "sha256": "9a75c1c0ab1c887b52e5d59d49f07233dedd198653789d9857ffa3b541521bab"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 57168,
+      "sha256": "726571566943da69dda757b4c0b700c67173b8db43b0d376811db8e534891958"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_summary.csv": {
+      "bytes": 1478,
+      "sha256": "02395393e8e56332d1085ccc403367af40acc83939f16d66f5465109a4c3274f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1247,
+      "sha256": "3bca5ba4861b3e3d35a99fb1a965462a8d741340f0554dc645dd59ad98cc7d06"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 65134,
+      "sha256": "57a894aa6ce22a9ab51d202cff8ec1694addcecd378d6ce7235400bdf1fab339"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 999462,
+      "sha256": "35cd59772f1c65c61da87bde91e5b17e0fb3bace619962ff036049acf9af256a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1175,
+      "sha256": "4c2f0679e2b40aa39960f1961a81db5d1871fc91488c4b4e2952f6a4e1cb3203"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 10464,
+      "sha256": "77195627ad8e308a876408543ed5497bea32b9bf3bfd64cc2ad7c22da4a015f6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 375866,
+      "sha256": "8f2cde72829f2021e36394740216cd2ff43e6c0a15fb8142668f35714c3a74b0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 35105,
+      "sha256": "86fb648dfda515d98897affcdb4f3c69bba36945cb4ffc500243968ed8348466"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_overall.csv": {
+      "bytes": 1309,
+      "sha256": "90768e2b6642ffea4965715ad16d6105d43ca59b23a0e715e0248cbe65f40adc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11918,
+      "sha256": "274a7d7e7b15237d5c2791b97883c872b4611148d6af901754929df7d9bac58a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_overall.csv": {
+      "bytes": 11943,
+      "sha256": "45c90a85f62e65031d40e242c7590652e3e558d61ef38f5181068fc1645f1e28"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1255,
+      "sha256": "f63c11229dfd2d36e4bb4e9bd23981e2dddba7514c1fed23d19d3e6e446a1d1a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 101901,
+      "sha256": "6e0fb9b7abe4e13a98c830c66b446d2cfd111d0f53c7deb5297a04e149b5936a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 16836,
+      "sha256": "1c76f2b77af505293d5be6300031322286d47afc8deeb862da9d8f07f6ad3dfb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1141,
+      "sha256": "e8e1a45c57f11f030bc6f33dae3d2a84329b24beb6e9cfa22e4ec235f6c43b92"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11882,
+      "sha256": "9e08f539bd067f7a9f23f7f724c4b69351651b9a4f454b4c5a08f6954ca98191"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11946,
+      "sha256": "80ec71cc9c16c49f8a3f8e96cd455fb78df7c5fae17fffd77d3e3f175537ad98"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 34369,
+      "sha256": "7034a175cdc0dfa12db09abf4fc8203f303c959825d98cb3404e803dafde2e1d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 50269,
+      "sha256": "ec3b45564f109d7e688864afaa84017c2fd9ac2ecd3e22a5810b8d31cea7d591"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11974,
+      "sha256": "56af7733e541e32eeb73814f08d961f9ea2eb69d61c96af60226010171214eab"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1238,
+      "sha256": "2b3beda57494463b3d8e6b0bf0e078485efc006e8eef96c613314ba048d88920"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 100531,
+      "sha256": "2dbd3d2c3acce934aad19e68f85f51e19bcb2f47332cd5f377a8996896d71411"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 49473,
+      "sha256": "bd399d87a1cd30f9d0ea1707daf6c59c793b284a87908a1e6cac6fb203459f65"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 128261,
+      "sha256": "f1ab6f4b84e2648e90bbe755a7ba0a855e178e89844163dda1ea54f0135c841c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 5047,
+      "sha256": "a18885e2659658e6b72a7269fa0228eb2ca51509e42f26813dfa394a2b9fae11"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_summary.csv": {
+      "bytes": 1587,
+      "sha256": "df04da2690c0e19ea648d3f9199e7e2ce22a3feb7169b948eb85288274a2089d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 256787,
+      "sha256": "7f06c0bd8fc9680298049ad85d1595589e53182af10ee26e768384e61c65e93a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 411842,
+      "sha256": "a85e9fcbe1aed7ab30a3b81e44420b50c418f01c28b464d2c81591948be78358"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 18979,
+      "sha256": "52648bb2f8bfb48c82ca7f2b849b46d220f2a47caa0afb44bd9ac312b67c3945"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_overall.csv": {
+      "bytes": 137512,
+      "sha256": "ae7f7d3b37dea4ef997172517b4b78c689d3f0a30acad98a3e1c850ce129564f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 87855,
+      "sha256": "defe97a933f4aadb2359a411d1176441c380c1f3e8484cc1c7f260ed46cfa16a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11962,
+      "sha256": "08c00687173c31b013b2bc8974f03cde73487ba40811d4b798411fff5d6e654d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 57044,
+      "sha256": "890cc12c431d8e19668fb0cc9bd4e2ba46fec6e7b1e12fc9f4627c251566a9bd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1169,
+      "sha256": "67a24bf03d292d7b8a46f790330106c91de31f80ed0297d24b7cedd5881f616e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1248,
+      "sha256": "be90c9ab3fcde8d42531690e6f241774a43893989d8d0cb6d3dd8cdd9cf664c5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_alpha_trajectory.png": {
+      "bytes": 105586,
+      "sha256": "324ce51adeec5fda13f45ac9c65a0da026b98d730c0f111dce396206388dfc3c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11903,
+      "sha256": "0e8c98014743b1ae11c68013dff7e83aa47128d73c64e7dd2009ae941a9aac45"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 100459,
+      "sha256": "5005626fbd9ca591ee12318046c7954ef1d4b2da39e56c99fc478e89a60b8d87"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/fit_metadata.json": {
+      "bytes": 11700,
+      "sha256": "56123513f4663598f90cd3a363437db7ef5aaf9141c77dde9b5c4e4843b33cf5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1116,
+      "sha256": "773f320360bf6c7c8b60a9754be2c85d6587e14867c0cdf902aeedc433570980"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_alpha_by_age.csv": {
+      "bytes": 1421,
+      "sha256": "8946d15b5ad9cb758ba9edb6163a9949547419df4488466d0e98c9d05a8e4be7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 302015,
+      "sha256": "87156209d2f1831839d512f726fce49d595e1acb3b007c6508294c9fcf244537"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11864,
+      "sha256": "4e93eab37f9d299092d43ee4f9bd6159a68d2814333c3ce5a3d60c8220574b1e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 9182,
+      "sha256": "ec86d7b3901e03150d154b2b8ea01c4a3554946ac67d7235a7b1e50f30062ffa"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 114324,
+      "sha256": "b70de488b7c916fcd57b02205d723fe359529d7daa7444e4c6019aa8c164473e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 33558,
+      "sha256": "8c171f14a6d383942c20107e85e91951fd0d57460426c0922ab0cf0ca18d87bd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1245,
+      "sha256": "c34e13b513bd8762760885e722f1108402036388ac603bab2d9e743d1ca2fb0c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 266808,
+      "sha256": "a329432e4b8f8ad4cfd144b8695ddcee4090b63ee8009b3fe9a2ad9083e52424"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17930,
+      "sha256": "c2e4f6e5b48ebb07ef8cfebdaf691ed046787dc00f14d537dc07d95ca1611c97"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11941,
+      "sha256": "2847afeee3eb884eae47f689f39e3b10788311856c171f879b3167a36dc8c999"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/spacy_original/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 45043,
+      "sha256": "a51c9de49c6d045c7ac8fd1c0a0bd553708d41c1159c46a2c2f14a41c14cd8dc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1221,
+      "sha256": "95bcc5108ac15f818d5684916d8a31da119b5501ff1bc00b2950c1b088fd37a1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 53276,
+      "sha256": "72b39d67658b640f53c01a9a00f07a6e765f45d17eb38f1d52a243d707f14c34"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 27229,
+      "sha256": "bdfa3f194f276699db76deada519c6d07f85e8826acb44ea87219417e1c082c8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11982,
+      "sha256": "ff6a332c52b4cd31bf9f6987c7c7e50b4cad269ee1ca62ac370bdfc4e807e8c0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11902,
+      "sha256": "73f3d9660664053bf68ff20c754c1402466d706c500f0691d3e58cf8a2340a84"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 7041,
+      "sha256": "00812a2c17f3db42522dd2e0ba099c21f4bec53e82be2aef6f4ea51021468deb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11822,
+      "sha256": "23a0f526c8aaaea4f6b7780fa5a39a5f13032ab73b232ba406aefe6042b77942"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1134,
+      "sha256": "635135ef53459b6c892a430b3cf8ca8d72c4b2b147ce1d51eb1f0fe14e70f686"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/fit_metadata.json": {
+      "bytes": 12276378,
+      "sha256": "1b56af464bf04e158166c84a4c0297df2f230479bc9002bd293599456f49038a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 2733,
+      "sha256": "b1c8df2f5dd2026b27cec2868957e95c5f4f280703b6e8e8524a4480df316060"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 199126,
+      "sha256": "6154b4cb2e6115d1f9c9859669a4db38144537fb0987b0add8ad7a1ee1ae28f2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 73843,
+      "sha256": "29f61be5c47184cffdf4da4b61285dc3eb2535348167eea75081930b3e4d0e61"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1153,
+      "sha256": "d09d51ef19d0d6f2f32f2d97d9f7d49a9aedbc914950daeebe3a3f7b7e8eaf6c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 39999,
+      "sha256": "50a2c51e768c2cfccbe3b7f1892be7ea8043de7a058c830b2cc39d9e85429dab"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 806783,
+      "sha256": "51b6e3342db57bbb4dd0ed5a6c8df10ed4d7efb4e51562aac2c2bf76cf30bab9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 19186,
+      "sha256": "a23491695d0f8ed60a230ee737d81fcf18ee55d530b1a4b69b5a08981c6061bb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 299523,
+      "sha256": "d1fbd182384d20fc17fe6068507d672c044395ec3f2b1c765ebc098d4c654acd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 39207,
+      "sha256": "afb0d37f4931ff04ba2df3af4d2d0df24fc8b66b5c5bf3d104648aec3157a9df"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11885,
+      "sha256": "171c849d85f97a6f51d25aab2f24f96b9cc0ae8c6e3d2cd6585723a8da9c9f6e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 9180,
+      "sha256": "d31fc67d0819f0d45b27ec4623ed46350e57aba54a9ee7c082c02f82b2dcee85"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1247,
+      "sha256": "cf87799561584c756864357a88ec22a95fa7043001229801b78114731b2a888f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 130756,
+      "sha256": "42c055f065a01782d61130042aeb75a7cf263b40f568984f8feb5a00f92e0276"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11970,
+      "sha256": "1d0872d0d684848529d79817c3b8c1c2327ff46465ae111bc6ba7739b585c557"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1302,
+      "sha256": "495134dd0874c59df71fd9ac32a5c9d36dc37ce507a288882792abdef461491f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 51097,
+      "sha256": "7c19530b9626f7e82f86c9539c34344b99b5147c1ae599a07eefe75603852896"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 10916,
+      "sha256": "e9816c8cf3276b67bfd3cf11ba0391a18e4b2b5535de2d7a377f40f269c5c6cf"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 243590,
+      "sha256": "e96ba6966a4fdd07237b10627d5878cd101839f206836b73b26c761bc5b4faa2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11800,
+      "sha256": "70827f2d957fb1eed730db1ac4d834e2390cdc1bb1acfc801484f865c53a2b80"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 4919,
+      "sha256": "450b6c545b1ee0e797e0531b58ec49ca72a4d1ec1e68c5cb39d163fc81f71e49"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1111,
+      "sha256": "aa48c08a73d2eab4cfca5cece2d3091426afe24f542f876ea5554f3630d73380"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 94271,
+      "sha256": "865b6ab79e6c8656042d7ef9158be42a67093ee25c8f3b6769a0f64ed6486ae0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_summary.csv": {
+      "bytes": 1633,
+      "sha256": "fdd6b09fccb82b966006150fc2697d10b1dbb7c137d7fe89d9ea0b18cddd5b5b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 46696,
+      "sha256": "7acfed26ec2b07c0022b188d99f9c716a875560fd864f8e667f27269fd7fa75d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 29767,
+      "sha256": "b4e5df4966b7adcd8ca1cd0f0d5786672ba1ea01a5ae2a68c2171834013d3e9d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 27995,
+      "sha256": "f0972bc6911e94ada55c0541a428457056a5dfe165989365edcf6d70252972e4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11986,
+      "sha256": "54757f9ac3a6260ede2e12fe52ce2e4a34ed8a9549d98c7b8e6ea75978851508"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1238,
+      "sha256": "9cc9d17fd0f21dc898af6eb21b68d64632a0c160a5f7d94c80ed80c281028356"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 4143,
+      "sha256": "c120f2077e1950aa4dd2cab7ce464ba42b6b377ff8dde61db3473233ca831318"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 30598,
+      "sha256": "a9111e34665a4c09e874d760d25ee171806d7fb5edfa263d0c05fb3cb811e033"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1168,
+      "sha256": "3d163eef1af68f190ac336c5fd4338e2cd2d4b4b0921538de3dabc3775211291"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 16332,
+      "sha256": "ed1fbe38227c31091208815f07e94e1f0269ab2745248e8b76a036daa450e437"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 79236,
+      "sha256": "b66563006eb10b15ba30c6faa659e57aa422fff9efe8b29963ed75be348570e5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11886,
+      "sha256": "48641974060626355fba93f251c0ade69d69d3ee0643ef216d83ee006aa9ba7b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 339607,
+      "sha256": "bd8847041775f00d8ab462da15ac08a7dbbb730ef2c984853ff80f94a6c3a9c5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1462,
+      "sha256": "224f6a8f1d980bf0e0aa1e23fce46b172fac154bcd581fd3433f36559efe4b24"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 82622,
+      "sha256": "602cac15ecc170d6fe2773a5af59506f8e92d768f1fbbda2222af32ca2ad3609"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11980,
+      "sha256": "2feb012f0d8ec9c8203380b9f3d74974a06933c4e4b9f92b758d1be3c2702974"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 65981,
+      "sha256": "f5f6475d6737abef2b3a03a51dcee7700f4458010c879fbd6380364f704d2161"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_comparison/matched_eng_na/ud_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1243,
+      "sha256": "398cc5a81ff4d71fb9d434c1388053fb8cad882dc273bed01d4ffdafa8f6c6fc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/sensitivity_alpha_table.csv": {
+      "bytes": 626,
+      "sha256": "b3b6824e7f2abffb66c7156767e0753163299d269794c6c821dbfbf0e03a4ecb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/sensitivity_summary.csv": {
+      "bytes": 5351,
+      "sha256": "4376dccd9583d2e101aed55471f3626b6565dccc37a6782885acf61e0adcf47a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/metadata.json": {
+      "bytes": 4835,
+      "sha256": "689fff7312ea954208651391fb84c58948dd1df8ec43616842f3c4f02286960e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1168,
+      "sha256": "3d163eef1af68f190ac336c5fd4338e2cd2d4b4b0921538de3dabc3775211291"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 9180,
+      "sha256": "d31fc67d0819f0d45b27ec4623ed46350e57aba54a9ee7c082c02f82b2dcee85"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 7041,
+      "sha256": "00812a2c17f3db42522dd2e0ba099c21f4bec53e82be2aef6f4ea51021468deb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 192175,
+      "sha256": "c5852c1709f26816bb3bd5d9385ef9592ceb3c4fc8ceacdd4549ac97b89f5c0f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 52417,
+      "sha256": "78caaec6870811ef3a88ec80ff85329b316772a5b88a554520c5e3e92a1fd764"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 39999,
+      "sha256": "50a2c51e768c2cfccbe3b7f1892be7ea8043de7a058c830b2cc39d9e85429dab"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11937,
+      "sha256": "2c8b32d0799da1ee9a95af7ec0af65a5d52b0408ec84ffd131ac5571bd89d8c2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 38686,
+      "sha256": "f09aa0f16bc4b6236858c43f37fbb84e7dbb824d7533935f591f3f0558a350ce"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1243,
+      "sha256": "a18c8ade761efacd50fad461a3953fb7fa25964e202007260d4482c29c6fea20"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11905,
+      "sha256": "2ca6a59ea3c4193e08ca737ede363230f2ca63d05dfb55fa132fcd19e28b2850"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1153,
+      "sha256": "d09d51ef19d0d6f2f32f2d97d9f7d49a9aedbc914950daeebe3a3f7b7e8eaf6c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11822,
+      "sha256": "23a0f526c8aaaea4f6b7780fa5a39a5f13032ab73b232ba406aefe6042b77942"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1111,
+      "sha256": "aa48c08a73d2eab4cfca5cece2d3091426afe24f542f876ea5554f3630d73380"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 2733,
+      "sha256": "b1c8df2f5dd2026b27cec2868957e95c5f4f280703b6e8e8524a4480df316060"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11947,
+      "sha256": "0d46a6889d58388ef5dd8a3eedc22b7a6a00a9fb8db4f50657eb436398056ef1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 719679,
+      "sha256": "54c14fab93bf5901c926b889de11531b830f16c74a5f06327406126c076d4f58"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 184748,
+      "sha256": "7e4acf132c4a07ba8e5a2b06b57df4c8909deab8f02ed401113b77dedb614895"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1238,
+      "sha256": "9cc9d17fd0f21dc898af6eb21b68d64632a0c160a5f7d94c80ed80c281028356"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 27229,
+      "sha256": "bdfa3f194f276699db76deada519c6d07f85e8826acb44ea87219417e1c082c8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/fit_metadata.json": {
+      "bytes": 5250,
+      "sha256": "961df52a1642859928936ca4ae5497f82f9c4f8462705c01c8eab18c863a70fb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 33966,
+      "sha256": "87637ec6f19805b62bfb7836c1b29f74651592848048052785ec65adca963c37"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 19186,
+      "sha256": "a23491695d0f8ed60a230ee737d81fcf18ee55d530b1a4b69b5a08981c6061bb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 124084,
+      "sha256": "4c3e430e52a6275d91a837b3ce9c503cc17daf102454ac3bd0f4f9491ec21654"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 27995,
+      "sha256": "f0972bc6911e94ada55c0541a428457056a5dfe165989365edcf6d70252972e4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_summary.csv": {
+      "bytes": 1830,
+      "sha256": "7aec6508a0a7005527d6e6bf328816b9e2f4e2cd5c7b7177aae4f74cd693b3b9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11886,
+      "sha256": "48641974060626355fba93f251c0ade69d69d3ee0643ef216d83ee006aa9ba7b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 4919,
+      "sha256": "450b6c545b1ee0e797e0531b58ec49ca72a4d1ec1e68c5cb39d163fc81f71e49"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1210,
+      "sha256": "1792d190d3a474134ad8285691a43162b96b9af211df675fd777062da71715b0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 19946,
+      "sha256": "c7a77d1348dea754bfb8f74d9bd2fb75a1168d7c8a4dcc33097a990f7afebebc"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 243590,
+      "sha256": "e96ba6966a4fdd07237b10627d5878cd101839f206836b73b26c761bc5b4faa2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 73904,
+      "sha256": "2548ddf09d040b9fecccfffc9d3d19fab9b45facdf060cde343e532e3a486ac9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1288,
+      "sha256": "4374a6246f183650541f593551863cf6d02d477d3e45069e2cd21aafac5e95e4"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 73843,
+      "sha256": "29f61be5c47184cffdf4da4b61285dc3eb2535348167eea75081930b3e4d0e61"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11974,
+      "sha256": "9fa2375593f1ba4994e4dfd6590f7d3d8fa1409d85dd025500cc98124241b8e9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 10916,
+      "sha256": "e9816c8cf3276b67bfd3cf11ba0391a18e4b2b5535de2d7a377f40f269c5c6cf"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 46696,
+      "sha256": "7acfed26ec2b07c0022b188d99f9c716a875560fd864f8e667f27269fd7fa75d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1218,
+      "sha256": "139484e3bbc5a714d0fa23b6f0b9ed6111e1d971b60228ddeb1976c4736f83ef"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 28967,
+      "sha256": "44f8db5db82744a02c2894d932a041a664f5ec9b50bf86d53ed40b90b7428656"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1637,
+      "sha256": "80e92d3630127d1567063bed3b5c4093d51ad784e906f9b732cf5042ea7c44d8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11902,
+      "sha256": "73f3d9660664053bf68ff20c754c1402466d706c500f0691d3e58cf8a2340a84"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 82622,
+      "sha256": "602cac15ecc170d6fe2773a5af59506f8e92d768f1fbbda2222af32ca2ad3609"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 16332,
+      "sha256": "ed1fbe38227c31091208815f07e94e1f0269ab2745248e8b76a036daa450e437"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1134,
+      "sha256": "635135ef53459b6c892a430b3cf8ca8d72c4b2b147ce1d51eb1f0fe14e70f686"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11800,
+      "sha256": "70827f2d957fb1eed730db1ac4d834e2390cdc1bb1acfc801484f865c53a2b80"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 4143,
+      "sha256": "c120f2077e1950aa4dd2cab7ce464ba42b6b377ff8dde61db3473233ca831318"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 65695,
+      "sha256": "2711cb785827dc888cf0c14a80020ac5e90a79546d54c3ff7902d20b83b19964"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 339130,
+      "sha256": "f6fc6d0fd7fb0a72b6bc2d4cc5c8c8a2a96e0b653ab9ff74464a3b7bf8fd1bbe"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11986,
+      "sha256": "54757f9ac3a6260ede2e12fe52ce2e4a34ed8a9549d98c7b8e6ea75978851508"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/ud_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 93709,
+      "sha256": "a0fa7b0a4a6cf683b37e9d0f2a2538e26fd60ef1ecd967826f26938c2ad3f945"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/english_ud_utterances.csv": {
+      "bytes": 219598028,
+      "sha256": "b159f9517b63f1046164e08be79ee455d227cc84b5356fc85ebd43679e2b17da"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/spacy_original_subject_verb_pairs.csv": {
+      "bytes": 203604117,
+      "sha256": "5d3c0af96a5ea5c38e1c6f8d78fe60c3423490474cad4ae6790698e0b749d812"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/spacy_original_metadata.json": {
+      "bytes": 3845,
+      "sha256": "20c31e864ed243b2d43a8da4489946355268a46ff82437f290a0a719e91bd27e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/ud_chat_metadata.json": {
+      "bytes": 3846,
+      "sha256": "64f0a4e6ba8919a2fbe02cace0975604b4aa06c9a9e230029969656b983d615f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/spacy_chat_metadata.json": {
+      "bytes": 3821,
+      "sha256": "c0845c0dc3b5ae5088d5362eb9fe6bcfd813dcaa63bf9a18df10d166fe83b600"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/ud_chat_subject_verb_pairs.csv": {
+      "bytes": 108687466,
+      "sha256": "c5e35ad6b261c6bc9ca2bb7957afec2add9f83e68fff08fa91b41b85ae6450ca"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/filtered_inputs/spacy_chat_subject_verb_pairs.csv": {
+      "bytes": 201727921,
+      "sha256": "602753632b1e420c2b55692003b7b4f3562ff8c64964ca459ec58b6a9cf20a96"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11958,
+      "sha256": "62cddd305d0752df993ebf5d6c94607474a832ad93b08d2dfe78134f6594124b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 33156,
+      "sha256": "16a9dac47f58be877f3121621ab11632b8c582078fca43731a5c9544ece4fa64"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1116,
+      "sha256": "721242529a8081f9845c2d72f07e294697200ff97c3b8ebbc1b8c2ea1b80c88f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 4918,
+      "sha256": "2d841f6546c71f950b49959962fc27856e393c0893fc3adec84ab205a6e261ed"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 84078,
+      "sha256": "e004982240cb5082cb0f5436bc141f8e43a62e21e51214b1ef510258a55ea018"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 299678,
+      "sha256": "67b7264ce98d1c1e9aeb56b97aa1685b92c030a9c4fff3d5473fd54343f80842"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1244,
+      "sha256": "c1fda0e322bf458b82b38aa1b9671346143cd7bf65369afca9887488a0071ee7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 18733,
+      "sha256": "27de73ac119f5c1ecc6f397fd89d60579499a4e331525fc556e8a7c820b7b39e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11916,
+      "sha256": "f1d1ae70b99336f3add073d55d2674bb9244c909bad77c1658ce5bc9ad215cfb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 50208,
+      "sha256": "ce998ac5e07ca47e6b87b29ae3d33a892fcefdf84c48ec5cbb13cdecb1b2dbfa"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 237831,
+      "sha256": "076f64b9579c127b96d8e2328f0db0e621878bd1e402ec4c4f8c779a38e3568f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11853,
+      "sha256": "bda7a78e1b0ed6ef66f23097262987606c08d46aa827218cf603407698711116"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 102050,
+      "sha256": "146377ace69887a2095a1f376378acfa8a3dc06d523e8186a6a8caa1535f0413"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1167,
+      "sha256": "f0cc01dc49e9c1ff8f76ed3fec4d45ac9b3fed3e3809153e6fcf88993e25ab88"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_alpha_trajectory.png": {
+      "bytes": 107644,
+      "sha256": "2d3878e639c43db0e16a0d199ec6943bbb2a7aa7e89e2f01cc39e6089e308a10"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 72987,
+      "sha256": "f872633c3eb7b9b7c2d1319257c97f2261a2e8ab5c3c4d887b72ca1fbc27f839"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 34548,
+      "sha256": "601e4f543684a018a457f61f011ea73f8fbbb2a097f29dd03a6643003307f13d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 16710,
+      "sha256": "0123ee8805086b0a9f06d51f0927bf071890cca8713f616d21aa87d6a6bd8f18"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_alpha_by_age.csv": {
+      "bytes": 1496,
+      "sha256": "1a8f04408023035b7d2838f543d6dc32f5701766909816cf1c119e9233376ecf"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11934,
+      "sha256": "9a75c1c0ab1c887b52e5d59d49f07233dedd198653789d9857ffa3b541521bab"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 63608,
+      "sha256": "d33cedb3a918325287b80e9240b77c72f014c3a07c05c3aa2612cdea9a2c8a4f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1247,
+      "sha256": "1142f5fc4a50639874642799fd1f698ffe2e412b58e3702509604624fb03466f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 405519,
+      "sha256": "e0674437a343064b8665a275c0103b0884d47f0b9e9f98d829112ca793e12e84"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 99757,
+      "sha256": "05fe332147070f264d8cd8fc2b7d86e33585e1fbd9349182db5c966cbbf4a750"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 242976,
+      "sha256": "fe4daf0b102ea551568468011f0d8fae06ce3e5c929a1ea0767f30b81eb6bbe0"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1231,
+      "sha256": "a366f08571e11bf2dae63adaaae9eda1c5ea0ec24eda6c92f80f256c512600ee"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 8581,
+      "sha256": "fd742fc536247e09fbf7d8bce68075c556895545cc30c000ea5c1c633c7c943b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11965,
+      "sha256": "c65397464ee3ad684ce6254d57e327be7ab50b48faa3cf7e21928f5ef6c86d3c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 42555,
+      "sha256": "158a2b0a720683188eecc003bdadddb5706cf81f798ae6b57ea191e3c0ce8819"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 49852,
+      "sha256": "22a04b7da46f0dcf75da26250d75022643ba4ea5db0bc5911cf4c6f076f23b12"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1144,
+      "sha256": "cc4db3100a4f34b72af4cf7bdb94539a5b5fa5043eeeb4e3dc64bf1136aba9cb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 10068,
+      "sha256": "f9c2abc8f16ca55765f339ccb41cfaf21d87ee037fb4a9d758c5d02eb8768aa2"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_overall.csv": {
+      "bytes": 11916,
+      "sha256": "6f3b52e7c1a883d66ae0a14571c7bfab44e4200d213df3e3866130b385a16503"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11967,
+      "sha256": "d7aa5508468f6f4a881b15f83af7c9359deaefe2e20f490edccf0cea9f15e043"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_summary.csv": {
+      "bytes": 1671,
+      "sha256": "8cc1ed8c8240a45aa23738a391fd0a05e8f46199d031453005960968724a8a9b"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11967,
+      "sha256": "786c93b3cefaacd2ed55b713de03c829bdc4904db97c21c7ca21703b911b94ff"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11889,
+      "sha256": "85a0b8eff0988a18cee75d8c9e38fb73c745d333e1ca3829f341ee04242e484a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 124678,
+      "sha256": "2a30e0ca64518b598c16cb5edbb6b25ec8a5557540bc3816e1d901e842017345"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/fit_metadata.json": {
+      "bytes": 5231,
+      "sha256": "3fffc063523bcb418bf56e3f57e27642de5549b94e26220df57f65e870857a3d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 223988,
+      "sha256": "360af7e595308f50c21ce5c4dcb265037262f462c1962d241c355dc783774194"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1226,
+      "sha256": "87448175b0d4be6f2a59d33429dc54817f0d7a270a3342be8415b8620451745c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 97081,
+      "sha256": "ce3afd0da4afa0161dc2b37200cfd1cc3926a8a9eadf8d9bbbc594ba1d9b5776"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_overall.csv": {
+      "bytes": 1298,
+      "sha256": "0a4ce6713ce63155d1d639058d749267591b511950adac5f879dc1841d1e8fc9"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17801,
+      "sha256": "270edb0ec695a15a66a60e6daad2b5b7f807ac71b94692e0b18fc7af69a18cc8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 872800,
+      "sha256": "c51c386e0bc17043941c9e347fdcfc643a63aa8cca48a128dee462451cd22ed3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 34130,
+      "sha256": "862d76e9c37e7f9615de6eba4a25f67a457b50ee9799ae6780a1703bb41cbfb7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1172,
+      "sha256": "084296ff2ea9e4709828057703101381fed25c3b6e89f334183240aea433adc5"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 35841,
+      "sha256": "bcd6912247c398f497f9487e3fc9d47d5530619bee0678bcd0619a4f58df511d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_chat/english_ud_rank_averages_overall.csv": {
+      "bytes": 122533,
+      "sha256": "d3d0cc3c092f228a029211caf088cc66ac4b34b99627b51c63865835b978c251"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_24-36mo.csv": {
+      "bytes": 411773,
+      "sha256": "7974c71ef3513df07c0b8c60b996a5abcb4ab10c04527eb254f0844cd1c6b4fb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_12-24mo.csv": {
+      "bytes": 11978,
+      "sha256": "9486a99e37ec97816f77a88b11cd331577e02c5aa5380d59b9ea69d2b66fb86f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_alpha_by_age.csv": {
+      "bytes": 1594,
+      "sha256": "555df2068d6052191916865c20ce2c8cb11ea86a929b5b7b2c7069c0c2f9e409"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_36-48mo.csv": {
+      "bytes": 1245,
+      "sha256": "c34e13b513bd8762760885e722f1108402036388ac603bab2d9e743d1ca2fb0c"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_72-84mo.csv": {
+      "bytes": 10464,
+      "sha256": "77195627ad8e308a876408543ed5497bea32b9bf3bfd64cc2ad7c22da4a015f6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_84-96mo.csv": {
+      "bytes": 11882,
+      "sha256": "9e08f539bd067f7a9f23f7f724c4b69351651b9a4f454b4c5a08f6954ca98191"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_72-84mo.csv": {
+      "bytes": 5047,
+      "sha256": "a18885e2659658e6b72a7269fa0228eb2ca51509e42f26813dfa394a2b9fae11"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_72-84mo.csv": {
+      "bytes": 1116,
+      "sha256": "773f320360bf6c7c8b60a9754be2c85d6587e14867c0cdf902aeedc433570980"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_36-48mo.csv": {
+      "bytes": 101901,
+      "sha256": "6e0fb9b7abe4e13a98c830c66b446d2cfd111d0f53c7deb5297a04e149b5936a"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_36-48mo.csv": {
+      "bytes": 50269,
+      "sha256": "ec3b45564f109d7e688864afaa84017c2fd9ac2ecd3e22a5810b8d31cea7d591"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_60-72mo.csv": {
+      "bytes": 100459,
+      "sha256": "5005626fbd9ca591ee12318046c7954ef1d4b2da39e56c99fc478e89a60b8d87"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_60-72mo.csv": {
+      "bytes": 34369,
+      "sha256": "7034a175cdc0dfa12db09abf4fc8203f303c959825d98cb3404e803dafde2e1d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_0-12mo.csv": {
+      "bytes": 1175,
+      "sha256": "4c2f0679e2b40aa39960f1961a81db5d1871fc91488c4b4e2952f6a4e1cb3203"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_60-72mo.csv": {
+      "bytes": 16836,
+      "sha256": "1c76f2b77af505293d5be6300031322286d47afc8deeb862da9d8f07f6ad3dfb"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_36-48mo.csv": {
+      "bytes": 302015,
+      "sha256": "87156209d2f1831839d512f726fce49d595e1acb3b007c6508294c9fcf244537"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_0-12mo.csv": {
+      "bytes": 17930,
+      "sha256": "c2e4f6e5b48ebb07ef8cfebdaf691ed046787dc00f14d537dc07d95ca1611c97"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_24-36mo.csv": {
+      "bytes": 1248,
+      "sha256": "c7049e2b0542576c534f9fbc177a337492957bb4917b9ccbf802108f17ae612f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_60-72mo.csv": {
+      "bytes": 1169,
+      "sha256": "67a24bf03d292d7b8a46f790330106c91de31f80ed0297d24b7cedd5881f616e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_48-60mo.csv": {
+      "bytes": 11966,
+      "sha256": "b07bd6eedc7596444436f1288803d7b4b0daee28b4a2794a9aaa7e9aa785821f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_24-36mo.csv": {
+      "bytes": 64750,
+      "sha256": "59de6fa13052a15c1729829298e8890e39fb11ef37b1a97ae1c3109460c12256"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_overall.csv": {
+      "bytes": 11925,
+      "sha256": "7f8471e895ac427937e80a3ed5f5b9b612e8b1718e736b670b1f636064a738a1"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_72-84mo.csv": {
+      "bytes": 33558,
+      "sha256": "8c171f14a6d383942c20107e85e91951fd0d57460426c0922ab0cf0ca18d87bd"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_24-36mo.csv": {
+      "bytes": 127659,
+      "sha256": "fad22237368b4320a50b0fab4b638c4a47b70e1ae8b7d0f6267083ffe9c2434d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_12-24mo.csv": {
+      "bytes": 86460,
+      "sha256": "9a7e12f2eeabc1f2f164feff25e15c217fcb5079de1ad58d61566845ccc04fd6"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_72-84mo.csv": {
+      "bytes": 11864,
+      "sha256": "4e93eab37f9d299092d43ee4f9bd6159a68d2814333c3ce5a3d60c8220574b1e"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_84-96mo.csv": {
+      "bytes": 9182,
+      "sha256": "ec86d7b3901e03150d154b2b8ea01c4a3554946ac67d7235a7b1e50f30062ffa"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_overall.csv": {
+      "bytes": 881124,
+      "sha256": "72ef4dbc10276f20ee3041dc4be40cefdf2f474ad49ca4fc7da70f62b5263be7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_12-24mo.csv": {
+      "bytes": 43994,
+      "sha256": "38398e00e07ce5fd21f3d4794694aa1b6d921114331a62bf4cc0b93636e7e6e3"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_84-96mo.csv": {
+      "bytes": 18979,
+      "sha256": "52648bb2f8bfb48c82ca7f2b849b46d220f2a47caa0afb44bd9ac312b67c3945"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_48-60mo.csv": {
+      "bytes": 226385,
+      "sha256": "e47b3e5aa1e1249a47286e107ae227249db438f12096f88ddacc45fd03500328"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_12-24mo.csv": {
+      "bytes": 1233,
+      "sha256": "5fda8d868d388dc6e8c3e6a1d451941c4404f026a23c5fc1a5cb5a1da0efda29"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_36-48mo.csv": {
+      "bytes": 11941,
+      "sha256": "2847afeee3eb884eae47f689f39e3b10788311856c171f879b3167a36dc8c999"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_0-12mo.csv": {
+      "bytes": 11946,
+      "sha256": "80ec71cc9c16c49f8a3f8e96cd455fb78df7c5fae17fffd77d3e3f175537ad98"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_0-12mo.csv": {
+      "bytes": 35105,
+      "sha256": "86fb648dfda515d98897affcdb4f3c69bba36945cb4ffc500243968ed8348466"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/fit_metadata.json": {
+      "bytes": 5263,
+      "sha256": "645521a058653b38ccb6695531358181f218aab4e771dc61ffbc0dff32e749c8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_84-96mo.csv": {
+      "bytes": 1141,
+      "sha256": "e8e1a45c57f11f030bc6f33dae3d2a84329b24beb6e9cfa22e4ec235f6c43b92"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_48-60mo.csv": {
+      "bytes": 1225,
+      "sha256": "cf6da3e4911959947cf1c3a35dfe512800e6bff5bdca1cd0fb7e96e79040cb20"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_60-72mo.csv": {
+      "bytes": 11962,
+      "sha256": "08c00687173c31b013b2bc8974f03cde73487ba40811d4b798411fff5d6e654d"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_top_verbs_overall.csv": {
+      "bytes": 1301,
+      "sha256": "14da6e8deb82d9f1f2038e7f160375d824aca562609435e8b8e8c7c0e459251f"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_0-12mo.csv": {
+      "bytes": 100531,
+      "sha256": "2dbd3d2c3acce934aad19e68f85f51e19bcb2f47332cd5f377a8996896d71411"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_48-60mo.csv": {
+      "bytes": 73119,
+      "sha256": "4024cd8a343d19b29152bd21758ba406735826011bb4910342b68cdfd7a1a343"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_84-96mo.csv": {
+      "bytes": 49473,
+      "sha256": "bd399d87a1cd30f9d0ea1707daf6c59c793b284a87908a1e6cac6fb203459f65"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_actual_vs_predicted_overall.csv": {
+      "bytes": 244878,
+      "sha256": "33a695bceea209cdf39f12485a1562ba57ec3fb5b84642a36cbd180e40bfdd48"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_48-60mo.csv": {
+      "bytes": 36427,
+      "sha256": "385d20b196055c21b9f6972e7c741c5db7f2a446b8c7295c28199430923ed474"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_alpha_trajectory.png": {
+      "bytes": 106974,
+      "sha256": "e0340a2b613bd0fbcad6da3251c2883aa1b78fa4c34676fc3af9a86fe7902628"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_rank_averages_overall.csv": {
+      "bytes": 125163,
+      "sha256": "8d7761cc1952289ac563464ca75c616d91ec624b3c69b70fc4cdd06b20ac24f8"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_summary.csv": {
+      "bytes": 1781,
+      "sha256": "d20cb47ed1be330e65e1db7a836698b139f5a11d04a81f008c6ad8477a05e711"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_all_verbs_ranked_12-24mo.csv": {
+      "bytes": 250694,
+      "sha256": "8e1fb3b66afc531156587a7bdc0d2d67bc558d0a5172ab058f183a6f133a12c7"
+    },
+    "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_source_sensitivity/spacy_original/english_ud_mse_search_24-36mo.csv": {
+      "bytes": 11914,
+      "sha256": "aee14f8b79a8c839d7e7b71effa58ebbfbe627f20240dae66d0b399295fe77a2"
+    }
+  },
+  "pytest_tests_passed": 70,
+  "compileall_passed": true,
+  "git_diff_check_passed": true
+}

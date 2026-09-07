@@ -1,0 +1,12 @@
+speaker_role,utterance_count,included_in_cds
+Adult,283,True
+Brother,137,True
+Child,202,False
+Father,5124,True
+Grandmother,818,True
+Investigator,20016,True
+Mother,60252,True
+Playmate,733,True
+Relative,114,True
+Target_Child,96946,False
+Unidentified,10,True

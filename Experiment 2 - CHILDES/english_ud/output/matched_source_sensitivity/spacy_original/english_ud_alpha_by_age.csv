@@ -1,0 +1,9 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+0-12mo,1.4799999999999993,8.755193397613562e-08,68282,35811,838,652,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+12-24mo,1.4099999999999995,2.3608439971234222e-07,192143,113319,1824,1044,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+24-36mo,1.4099999999999995,5.574751698505429e-07,264888,200881,2666,1272,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+36-48mo,1.4099999999999995,5.834781177946148e-07,162502,123900,2274,1100,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+48-60mo,1.3999999999999995,9.235705956038874e-07,99879,77924,1816,1004,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+60-72mo,1.4399999999999995,1.3258202321390305e-06,42416,31104,906,660,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+72-84mo,1.3199999999999994,6.512624386963998e-06,7639,5654,260,291,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text
+84-96mo,1.3899999999999995,5.0824723712994065e-06,18841,11525,496,464,ok,matched_eng_na_excluding_hall_mccune,Eng-NA,spaCy dependency parsing of matched historical original-gloss text

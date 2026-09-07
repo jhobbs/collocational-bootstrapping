@@ -1,0 +1,1186 @@
+{
+  "scope": "repository_english",
+  "collection": "Eng-NA",
+  "annotation_scheme": "Universal Dependencies",
+  "morphology_tier": "%mor",
+  "grammar_tier": "%gra",
+  "pylangacq_version": "0.23.0",
+  "created_at": "2026-09-07T17:43:46.874843+00:00",
+  "sources": [
+    {
+      "path": "/home/jason/talkbank-data/2026-09-07/legacy_mor/Hall-orig.zip",
+      "collection": "Eng-NA",
+      "corpus": "Hall",
+      "source_url": "https://talkbank.org/childes/access/Eng-NA/0docs/Hall-orig.zip",
+      "download_date": "2026-09-07",
+      "archive_id": "Hall-orig",
+      "sha256": "bab75dbd45feb2e5202502bc48ba8cc1472db6a331288eed7f6c267f4c413c3b",
+      "bytes": 13603855
+    }
+  ],
+  "files": [
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/anc.cha",
+      "sha256": "c63cde7f1e2084a3d22070d90150214c58825b29166448fd7cbe94d0c3540e2c",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/anc.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/anc.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/bom.cha",
+      "sha256": "9d577aa12dbf0f73167ac2dc3692393c3cdc4809e1302393b1a3ef0d26e04099",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/bom.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/bom.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/brd.cha",
+      "sha256": "1e870c93c9e6d631f93fc37f01b1cfee279c3233002300db6212ff227b2cec96",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/brd.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/brd.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/chj.cha",
+      "sha256": "2129ba366ba2bbd8326213cf12bd58cc57af8fa68e7c96d77d9bd80d14f98ff6",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/chj.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/chj.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/ded.cha",
+      "sha256": "7267e89767834a8d1b2170a103354081bf4d68babbc899b75e270bec99f949df",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/ded.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/ded.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/jaf.cha",
+      "sha256": "bd70158b18fb7632c63b444c2597d513d4c405dda9a2c3e13784109c83805bdf",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/jaf.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/jaf.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/kif.cha",
+      "sha256": "ffa619d04147964f3f558474baaad526255ca32812ac6d4546912656a76ad35b",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/kif.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/kif.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/mim.cha",
+      "sha256": "9262ecc4c5571d072f2a0758ca89a2418c6d57945806b36c35eef5f3632b476c",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/mim.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/mim.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/ref.cha",
+      "sha256": "e80f6693cdc3535ab23d51908e88d47f55e431761dd7560ffb05b8eaf47eb3b5",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/ref.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/ref.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/trh.cha",
+      "sha256": "2a8fd5e7162a4802cfb30f29108cc771ece2f509765061faec803dd9c51e8a4e",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/trh.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/trh.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackPro/voh.cha",
+      "sha256": "60f5b8e97090a45861625f29d31ce3f2c5f32c78407db3d80c9ea4d68cd374ce",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackPro/voh.cha: invalid SES value in @ID: Black,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackPro/voh.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/anl.cha",
+      "sha256": "3172c349550945b4624eecc2d03e54fe8f838e5f6ad8c21e29b72b087d350cf9",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/anl.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/anl.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/deg.cha",
+      "sha256": "0bbc6b780a4d25d9b5b4fe2abcdaadab2c24b19cde1da2da887b11a52478e518",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/deg.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/deg.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/kig.cha",
+      "sha256": "a8be5f3f3d379917501ba765f2cffe58959110f29cc6cd4ad6f3e493e28f7c6a",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/kig.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/kig.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/kmf.cha",
+      "sha256": "fc30a1b221fe01ba58970ca42845227e34af21f1e7f6282ed891afb378220340",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/kmf.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/kmf.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/lef.cha",
+      "sha256": "fb3216c5a2fce51aa9aea2a96f97b3745f672f89e0822a3d54a0beec73f2bd81",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/lef.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/lef.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/mis.cha",
+      "sha256": "c1478b418d5ad916764e728f0dd88f4e2a369beebf9243d6bae1d515075fba17",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/mis.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/mis.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/pag.cha",
+      "sha256": "dad1c4c728370ded493e77d2bee8b24a1c4e67cd3079ac61f1fd957576d5f28f",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/pag.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/pag.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/rog.cha",
+      "sha256": "e5d1ae0dfb185e7a4a4f1dd9ee6b1b37dfe7348851e4b8db86d1a28b85879733",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/rog.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/rog.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/roj.cha",
+      "sha256": "d8b4fefdafe8ba9af560f035cf7bccf76b8caa739735d5e094e14632d599a7bc",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/roj.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/roj.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/BlackWork/trc.cha",
+      "sha256": "220896eb66997f762fa4a4a5f8fb61d73fa1f419bab60c49c94c1eec5323ffc4",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/BlackWork/trc.cha: invalid SES value in @ID: Black,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/BlackWork/trc.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/gas.cha",
+      "sha256": "c3cde1156babd0bfc19fce8fd53b9f4953da24879626f485790ffb6198b23f06",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/gas.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/gas.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/grc.cha",
+      "sha256": "38232001d674f97dd0bc218f69480413b685675ba72d7f55c222e1a14e588f23",
+      "annotation_comments": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/grc.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/job.cha",
+      "sha256": "367952b527f0f3457310d4d25e6d0c842fb3e08ed518ac6099c0bbcacdb9f3f7",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/job.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/job.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/jub.cha",
+      "sha256": "29facb1877de5ac3426d37ee4e4a27c12c4a97461104f1555fdd649e137b8cda",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/jub.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/jub.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/lea.cha",
+      "sha256": "0d4e5d37002bdf78ffd5ed29caee363c08fc0fbcf3ec41e58a0a4cd856889c9c",
+      "annotation_comments": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/lea.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/maa.cha",
+      "sha256": "0d0b42e79f368cbf482ff507937587683c506ef08da9c7c03003cfbb34328dd4",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/maa.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/maa.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/rob.cha",
+      "sha256": "a69d61fee13581e4f01e968c51ac7a4f644f78b77f46a6b09b9c2f0c6d4fc71b",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/rob.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/rob.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/toh.cha",
+      "sha256": "9155a8194cf2d77e8701d2c33282bc9b93702cae4e4a58dd02ee19b10b6e7c08",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/toh.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/toh.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/tos.cha",
+      "sha256": "2af270e07c92400b87a44aae6fe5cde0b8fc3808705de7a702b60e8801669054",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/tos.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/tos.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhitePro/zoe.cha",
+      "sha256": "940b6c1d5acac4f846bd78d35b0650bca078c249b2ecadb51fefa7b58e231b04",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhitePro/zoe.cha: invalid SES value in @ID: White,UC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhitePro/zoe.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/boo.cha",
+      "sha256": "0a6601ae8ca65b1799493ab6a3fc7cbaae2550b5e6b8fa5b85187c991af4e336",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/boo.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/boo.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/brh.cha",
+      "sha256": "ba4302cfbbe02470b6a22632da3a236284072f96b3ac02633edb55aeb1260e65",
+      "annotation_comments": [
+        "this file was done using ASR and it needs to be revised and checked."
+      ],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/brh.cha",
+      "target_child": "",
+      "target_child_code": "",
+      "target_child_age": "",
+      "target_child_age_months": null,
+      "age_status": "missing_target",
+      "target_selection": "unresolved",
+      "status": "parsed",
+      "target_participants": [],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/dal.cha",
+      "sha256": "98a49dec9ee08a335b4aadef5db97c36b2064b359b966ad3a7f5fae1e457c354",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/dal.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/dal.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/kag.cha",
+      "sha256": "20a3239a1acf22641e652bd97e4fafecee055ee340d9cee6736f5b5e0b93f12b",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/kag.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/kag.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/kao.cha",
+      "sha256": "d8643ae479425f14cbbe1e1f4b4c25c8c8b1d31ce6032f7da53f0438d6836481",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/kao.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/kao.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/mig.cha",
+      "sha256": "00c5321dac6b128a1068edcac4c14b6429228c3f8935f3c726567959049c9bc5",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/mig.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/mig.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/sat.cha",
+      "sha256": "47da2c9dacbaca4fc963a9aed53ccc504f19b5d7da10d561c589a3b656664354",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/sat.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/sat.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;06",
+      "target_child_age_months": 54.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;06"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/stl.cha",
+      "sha256": "391d78d90616ff74d2025960347ea1a1ad998650df8b25a45ad892d1ba6ac319",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/stl.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/stl.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    },
+    {
+      "collection": "Eng-NA",
+      "archive_id": "Hall-orig",
+      "member": "Hall-orig/WhiteWork/sut.cha",
+      "sha256": "5bc97797d847b9be59acec8dc0c17b2528b94d8b71891fd9bc41eef1f80b26e3",
+      "annotation_comments": [],
+      "strict_validation_error": "Hall-orig/WhiteWork/sut.cha: invalid SES value in @ID: White,WC",
+      "parser_warnings": [],
+      "corpus": "Hall",
+      "transcript": "Hall/Hall-orig/WhiteWork/sut.cha",
+      "target_child": "CHI",
+      "target_child_code": "CHI",
+      "target_child_age": "4;09",
+      "target_child_age_months": 57.0,
+      "age_status": "valid",
+      "target_selection": "CHI_code",
+      "status": "parsed",
+      "target_participants": [
+        {
+          "code": "CHI",
+          "name": "",
+          "age": "4;09"
+        }
+      ],
+      "excluded_biling_corpus": false
+    }
+  ],
+  "counts": {
+    "n_files": 40,
+    "n_files_relaxed_validation": 37,
+    "n_utterances": 238249,
+    "n_annotated_utterances": 228332,
+    "n_pairs": 67916,
+    "n_cds_utterances": 129450,
+    "n_cds_utterances_missing_tiers": 4616,
+    "n_changeable_headers": 793,
+    "n_files_missing_age": 1,
+    "n_cds_utterances_missing_age": 4707,
+    "n_pairs_missing_age": 1911
+  },
+  "diagnostics": {
+    "nsubj_nonverbal_head": 20504
+  },
+  "dependency_counts": {
+    "ROOT": 226990,
+    "ADVMOD": 84773,
+    "PUNCT": 273953,
+    "OBJ": 87584,
+    "XCOMP": 18154,
+    "DET": 61253,
+    "NMOD-POSS": 19372,
+    "CASE": 48993,
+    "NSUBJ": 152006,
+    "COP": 36179,
+    "AMOD": 18599,
+    "NUMMOD": 6099,
+    "APPOS": 2428,
+    "FLAT": 8747,
+    "CC": 22048,
+    "CONJ": 16579,
+    "FIXED": 881,
+    "NMOD": 8446,
+    "NMOD-UNMARKED": 634,
+    "COMPOUND": 13025,
+    "COMPOUND-PRT": 13957,
+    "DISCOURSE": 38108,
+    "AUX": 56133,
+    "OBL": 32981,
+    "NSUBJ-OUTER": 912,
+    "NSUBJ-PASS": 1945,
+    "AUX-PASS": 2100,
+    "CCOMP": 10659,
+    "OBL-UNMARKED": 5421,
+    "ACL": 2195,
+    "EXPL": 2547,
+    "ACL-RELCL": 7629,
+    "IOBJ": 5629,
+    "PARATAXIS": 13646,
+    "ADVCL": 9614,
+    "ORPHAN": 59,
+    "VOCATIVE": 6470,
+    "MARK": 19720,
+    "DET-PREDET": 1340,
+    "REPARANDUM": 3088,
+    "DISLOCATED": 173,
+    "ADVCL-RELCL": 1360,
+    "CSUBJ": 342,
+    "OBL-AGENT": 55,
+    "CC-PRECONJ": 74,
+    "DEP": 255,
+    "LIST": 364,
+    "GOESWITH": 52,
+    "CSUBJ-OUTER": 2,
+    "OBL-TMOD": 3,
+    "FLAT-FOREIGN": 20
+  },
+  "pos_counts": {
+    "pron": 232579,
+    "adv": 69989,
+    "": 228332,
+    "verb": 167069,
+    "det": 67697,
+    "noun": 125316,
+    "intj": 67639,
+    "part": 38245,
+    "aux": 103946,
+    "propn": 34423,
+    "adj": 42930,
+    "num": 14951,
+    "adp": 65764,
+    "cconj": 22811,
+    "cm": 44710,
+    "x": 1280,
+    "sconj": 11467,
+    "L2": 1378,
+    "q": 138,
+    "f": 18,
+    "wp": 892,
+    "c": 241,
+    "b": 677,
+    "o": 1101,
+    "wpco": 1,
+    "wpn": 2
+  },
+  "speaker_roles": [
+    "Adult",
+    "Brother",
+    "Caretaker",
+    "Doctor",
+    "Environment",
+    "Father",
+    "Friend",
+    "Girl",
+    "Grandfather",
+    "Grandmother",
+    "Investigator",
+    "Male",
+    "Mother",
+    "Narrator",
+    "Participant",
+    "Playmate",
+    "Relative",
+    "Sibling",
+    "Sister",
+    "Student",
+    "Target_Adult",
+    "Teacher",
+    "Teenager",
+    "Unidentified",
+    "Visitor"
+  ],
+  "speaker_language_filter": "eng (exact participant language)",
+  "corpus_exclusion": "case-insensitive Biling substring",
+  "dependency_selection": "exact NSUBJ, case-insensitive; VERB or AUX head",
+  "lemma_rule": "lowercase MOR stem before uppercase feature suffix; raw morphology retained",
+  "surface_note": "PyLangAcq assigns empty surfaces to expanded MOR clitics; kept with dependency indices and raw morphology. Utterances retain CHAT main tiers.",
+  "parse_errors": [],
+  "complete_parse": true,
+  "download_failures": [],
+  "age_note": "CHI participant preferred, else unique Target_Child role; PyLangAcq in_months; missing or unresolved ages retained in extraction, excluded from fits"
+}

@@ -1,0 +1,145 @@
+dataset,arm,be_filter,age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+matched,ud_strict,all,overall,1.4999999999999991,4.020316487294472e-07,2728212,1303637,7272,3027,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,0-12mo,1.479999999999999,1.0050998899789696e-06,69941,24486,618,589,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,12-24mo,1.489999999999999,2.983464503863198e-07,356114,130622,1913,1134,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,24-36mo,1.4999999999999991,4.200572576624893e-07,1226011,583031,4460,2048,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,36-48mo,1.4199999999999997,1.1161518445645483e-06,555676,289193,3445,1654,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,48-60mo,1.4299999999999995,1.7936969769939691e-06,358251,193492,2971,1649,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,60-72mo,1.3699999999999994,2.0546263494744087e-06,91419,47695,1113,762,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,72-84mo,1.3299999999999994,1.04239986048138e-06,31229,15968,557,473,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,all,84-96mo,1.3599999999999994,1.9352753613457222e-06,39571,19150,647,586,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,overall,1.5199999999999994,6.783641625827186e-07,2728212,1215675,6286,3026,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,0-12mo,1.5599999999999994,2.807536447599715e-07,69941,23255,496,588,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,12-24mo,1.5399999999999994,4.933904453132636e-07,356114,121153,1525,1133,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,24-36mo,1.5199999999999994,8.110110843362127e-07,1226011,539316,3728,2047,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,36-48mo,1.4399999999999995,2.198092041273504e-06,555676,270387,2910,1653,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,48-60mo,1.4599999999999995,3.277235122326183e-06,358251,182952,2559,1648,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,60-72mo,1.4099999999999997,4.804438847281024e-06,91419,45186,933,761,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,72-84mo,1.3799999999999994,3.79131634042521e-06,31229,15145,443,472,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_strict,no_be,84-96mo,1.3999999999999997,4.700078141428224e-06,39571,18281,548,585,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: strict rule
+matched,ud_copula,all,overall,1.5099999999999991,2.604192240409111e-07,2728212,1758073,8518,3031,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,0-12mo,1.5299999999999994,1.4287504324729554e-07,69941,32518,773,589,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,12-24mo,1.5199999999999994,1.482146795740625e-07,356114,181035,2289,1135,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,24-36mo,1.5099999999999991,2.9991512424783024e-07,1226011,795223,5198,2048,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,36-48mo,1.4399999999999995,7.326200011576987e-07,555676,387257,4051,1656,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,48-60mo,1.4499999999999995,9.889473634771306e-07,358251,253164,3581,1652,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,60-72mo,1.3999999999999997,1.2517876766945075e-06,91419,62776,1420,762,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,72-84mo,1.3899999999999997,8.014706571271428e-07,31229,20792,701,473,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,all,84-96mo,1.4099999999999997,1.1140311300035617e-06,39571,25308,864,586,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,overall,1.5199999999999994,6.770116779968836e-07,2728212,1216449,6292,3030,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,0-12mo,1.5599999999999994,2.782774637239199e-07,69941,23276,497,588,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,12-24mo,1.5399999999999994,4.949267855472161e-07,356114,121230,1532,1134,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,24-36mo,1.5199999999999994,8.097175022736469e-07,1226011,539656,3735,2047,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,36-48mo,1.4399999999999995,2.196874260116299e-06,555676,270536,2914,1655,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,48-60mo,1.4599999999999995,3.273794424846875e-06,358251,183096,2561,1651,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,60-72mo,1.4099999999999997,4.822921545322615e-06,91419,45212,934,761,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,72-84mo,1.3799999999999994,3.7791160979495686e-06,31229,15156,443,472,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,ud_copula,no_be,84-96mo,1.3999999999999997,4.700550007495282e-06,39571,18287,548,585,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,UD: includes copulas
+matched,spacy_chat,all,overall,1.479999999999999,3.394328987603313e-07,2728212,1886034,9186,3357,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,0-12mo,1.479999999999999,4.5291814096082084e-08,69941,36376,821,620,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,12-24mo,1.4599999999999995,1.762954000896443e-07,356114,202207,2404,1197,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,24-36mo,1.489999999999999,3.394345298672223e-07,1226011,852322,5455,2163,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,36-48mo,1.4099999999999997,9.387074615400514e-07,555676,412677,4195,1801,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,48-60mo,1.4199999999999997,1.1757461725345426e-06,358251,267098,3725,1751,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,60-72mo,1.3899999999999997,1.5670264285641046e-06,91419,66281,1433,816,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,72-84mo,1.3799999999999994,1.320507507094723e-06,31229,22252,677,496,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,all,84-96mo,1.3999999999999997,8.66958502266689e-07,39571,26821,882,621,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,overall,1.479999999999999,7.719212572916691e-07,2728212,1304169,7195,3356,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,0-12mo,1.489999999999999,2.0493366919065843e-07,69941,26370,596,619,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,12-24mo,1.4599999999999995,4.0570483541254316e-07,356114,136207,1797,1196,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,24-36mo,1.489999999999999,7.636250426742474e-07,1226011,575422,4254,2162,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,36-48mo,1.4099999999999997,2.2178197739526107e-06,555676,288517,3264,1800,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,48-60mo,1.4299999999999995,3.1516680224370936e-06,358251,194354,2869,1750,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,60-72mo,1.3799999999999994,4.630370442868691e-06,91419,47796,1028,815,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,72-84mo,1.3699999999999994,3.188166645679344e-06,31229,16252,483,495,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_chat,no_be,84-96mo,1.3899999999999997,2.33534480082778e-06,39571,19251,609,620,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: CHAT text
+matched,spacy_original,all,overall,1.479999999999999,2.9650493958783e-07,2728212,1901720,9564,3561,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,0-12mo,1.479999999999999,5.842711011661666e-08,69941,36809,844,652,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,12-24mo,1.4499999999999995,1.624557832684931e-07,356114,206629,2518,1260,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,24-36mo,1.479999999999999,2.855691402948846e-07,1226011,858976,5751,2289,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,36-48mo,1.4199999999999997,7.669475032158884e-07,555676,414591,4333,1871,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,48-60mo,1.4199999999999997,1.0369195213664035e-06,358251,268552,3789,1849,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,60-72mo,1.3899999999999997,1.2541031800358245e-06,91419,66708,1455,842,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,72-84mo,1.3799999999999994,1.378049417767628e-06,31229,22410,693,510,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,all,84-96mo,1.3999999999999997,8.940010692979905e-07,39571,27045,897,630,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,overall,1.479999999999999,6.994237142442067e-07,2728212,1296939,7406,3560,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,0-12mo,1.479999999999999,2.1695519308579426e-07,69941,26506,619,651,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,12-24mo,1.4499999999999995,4.164335557824734e-07,356114,136500,1888,1259,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,24-36mo,1.479999999999999,7.004014389187928e-07,1226011,570799,4413,2288,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,36-48mo,1.4099999999999997,1.9652791535298967e-06,555676,286258,3326,1870,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,48-60mo,1.4199999999999997,2.8222938688447937e-06,358251,193879,2914,1848,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,60-72mo,1.3899999999999997,3.605573274962122e-06,91419,47623,1039,841,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,72-84mo,1.3599999999999994,4.104348387139511e-06,31229,16147,490,509,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,spacy_original,no_be,84-96mo,1.3899999999999997,2.4566568185500293e-06,39571,19227,609,629,ok,broader_english,Clinical-Eng;Eng-NA;Eng-UK,spaCy: original CSV text
+matched,ud_strict,all,overall,1.4699999999999993,6.279274449286855e-07,969399,466656,4269,2159,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,0-12mo,1.4699999999999993,1.012950530083392e-06,68282,23890,613,589,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,12-24mo,1.4399999999999995,4.015605445207476e-07,204262,76406,1368,937,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,24-36mo,1.4099999999999997,9.1795143915731e-07,266001,136470,2024,1138,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,36-48mo,1.4099999999999997,8.033323617171602e-07,162502,87372,1749,1016,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,48-60mo,1.4199999999999997,3.335857743060187e-06,199456,107207,2079,1303,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,60-72mo,1.3899999999999997,2.008971292410412e-06,42416,22730,713,604,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,72-84mo,1.2399999999999995,4.953399328632037e-06,7639,4209,192,280,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,all,84-96mo,1.3299999999999994,6.955334037543626e-06,18841,8372,358,429,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,overall,1.4999999999999991,9.621895931627465e-07,969399,442484,3801,2158,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,0-12mo,1.5599999999999994,2.6652554002357225e-07,68282,22702,492,588,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,12-24mo,1.5099999999999991,6.106795492391509e-07,204262,71201,1088,936,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,24-36mo,1.4399999999999995,1.809649095054128e-06,266001,129038,1747,1137,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,36-48mo,1.4399999999999995,1.65667478635361e-06,162502,83267,1520,1015,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,48-60mo,1.4499999999999995,6.03055752869665e-06,199456,102456,1834,1302,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,60-72mo,1.4499999999999995,4.1869694143596105e-06,42416,21742,620,603,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,72-84mo,1.2799999999999996,1.23805017406726e-05,7639,4021,152,279,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_strict,no_be,84-96mo,1.3799999999999994,1.44330180469677e-05,18841,8057,304,428,ok,eng_na,Eng-NA,UD: strict rule
+matched,ud_copula,all,overall,1.479999999999999,3.533569543524654e-07,969399,622929,5193,2162,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,0-12mo,1.5299999999999994,1.3463313339627136e-07,68282,31728,769,589,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,12-24mo,1.479999999999999,1.7669972165387845e-07,204262,105169,1696,938,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,24-36mo,1.4399999999999995,5.339322975147139e-07,266001,185004,2529,1138,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,36-48mo,1.4399999999999995,4.237062826285993e-07,162502,115925,2212,1016,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,48-60mo,1.4399999999999995,1.5644459944363475e-06,199456,139267,2556,1306,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,60-72mo,1.4399999999999995,1.1059248170483006e-06,42416,29507,899,604,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,72-84mo,1.3299999999999994,4.989786664051848e-06,7639,5384,249,280,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,all,84-96mo,1.3999999999999997,3.5613581360446315e-06,18841,10945,484,429,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,overall,1.4999999999999991,9.627308096510977e-07,969399,442772,3808,2161,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,0-12mo,1.5599999999999994,2.604970270308853e-07,68282,22723,493,588,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,12-24mo,1.4999999999999991,6.110605143792141e-07,204262,71244,1092,937,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,24-36mo,1.4399999999999995,1.8077649320599057e-06,266001,129127,1752,1137,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,36-48mo,1.4399999999999995,1.6496157780681371e-06,162502,83312,1523,1015,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,48-60mo,1.4499999999999995,6.036007156845886e-06,199456,102526,1836,1305,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,60-72mo,1.4499999999999995,4.192421897388262e-06,42416,21755,621,603,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,72-84mo,1.2799999999999996,1.2347758972359978e-05,7639,4024,152,279,ok,eng_na,Eng-NA,UD: includes copulas
+matched,ud_copula,no_be,84-96mo,1.3799999999999994,1.4438801413948688e-05,18841,8061,304,428,ok,eng_na,Eng-NA,UD: includes copulas
+matched,spacy_chat,all,overall,1.4499999999999995,3.821510177832887e-07,969399,669790,5633,2334,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,0-12mo,1.489999999999999,8.051133096395301e-08,68282,35380,816,620,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,12-24mo,1.4299999999999995,2.7490858198949537e-07,204262,117712,1799,1009,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,24-36mo,1.4099999999999997,5.111559001021449e-07,266001,198972,2624,1205,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,36-48mo,1.4099999999999997,6.148057532204926e-07,162502,123119,2247,1082,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,48-60mo,1.4199999999999997,1.6649043346431923e-06,199456,146479,2673,1395,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,60-72mo,1.4399999999999995,1.4063580614804278e-06,42416,31000,913,654,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,72-84mo,1.3199999999999994,6.480446047942863e-06,7639,5645,246,289,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,all,84-96mo,1.3799999999999994,6.132855978462943e-06,18841,11483,495,461,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,overall,1.4499999999999995,1.0788854226567747e-06,969399,478418,4349,2333,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,0-12mo,1.489999999999999,1.9663461133438725e-07,68282,25663,591,619,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,12-24mo,1.4299999999999995,7.759489583331426e-07,204262,80432,1298,1008,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,24-36mo,1.4099999999999997,1.4649841951042197e-06,266001,139123,1964,1204,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,36-48mo,1.4099999999999997,1.9913072331997822e-06,162502,88479,1680,1081,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,48-60mo,1.4099999999999997,5.218716742435468e-06,199456,109065,2044,1394,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,60-72mo,1.4299999999999995,4.740049244617641e-06,42416,22929,690,653,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,72-84mo,1.2699999999999996,1.281860762347265e-05,7639,4242,173,288,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_chat,no_be,84-96mo,1.3599999999999994,1.96893861966568e-05,18841,8485,347,460,ok,eng_na,Eng-NA,spaCy: CHAT text
+matched,spacy_original,all,overall,1.4499999999999995,3.632233489432986e-07,969399,677116,5757,2470,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,0-12mo,1.479999999999999,8.755193397613563e-08,68282,35811,838,652,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,12-24mo,1.4199999999999997,2.4174258816819444e-07,204262,120309,1863,1054,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,24-36mo,1.4099999999999997,5.516754060379297e-07,266001,201543,2675,1274,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,36-48mo,1.4099999999999997,5.834781177946148e-07,162502,123900,2274,1100,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,48-60mo,1.4099999999999997,1.5534595959709912e-06,199456,147270,2711,1459,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,60-72mo,1.4399999999999995,1.3258202321390305e-06,42416,31104,906,660,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,72-84mo,1.3199999999999994,6.512624386963998e-06,7639,5654,260,291,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,all,84-96mo,1.3899999999999997,5.082472371299407e-06,18841,11525,496,464,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,overall,1.4499999999999995,9.25258055096782e-07,969399,478314,4428,2469,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,0-12mo,1.479999999999999,2.448535844996309e-07,68282,25813,613,651,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,12-24mo,1.4199999999999997,6.723960795858372e-07,204262,80633,1338,1053,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,24-36mo,1.4099999999999997,1.5773015367693412e-06,266001,139019,1993,1273,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,36-48mo,1.3999999999999997,1.932699906743067e-06,162502,88209,1681,1099,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,48-60mo,1.3999999999999997,4.712901334829991e-06,199456,109115,2088,1458,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,60-72mo,1.4299999999999995,4.226931046362937e-06,42416,22842,679,659,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,72-84mo,1.2699999999999996,1.2727755700616478e-05,7639,4211,179,290,ok,eng_na,Eng-NA,spaCy: original CSV text
+matched,spacy_original,no_be,84-96mo,1.3599999999999994,1.5364072707593e-05,18841,8472,338,463,ok,eng_na,Eng-NA,spaCy: original CSV text

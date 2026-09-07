@@ -1,0 +1,54 @@
+{
+  "annotation_scheme": "spaCy: original CSV text",
+  "arm": "spacy_original",
+  "be_filter": "no_be",
+  "collection": "Clinical-Eng;Eng-NA;Eng-UK",
+  "dataset": "matched",
+  "exclusion_counts": {
+    "pairs_age_over_96": 0,
+    "pairs_missing_lemma": 0,
+    "pairs_missing_or_nonfinite_age": 0,
+    "pairs_outside_age_bins_but_in_overall": 0,
+    "utterances_age_over_96": 0,
+    "utterances_missing_or_nonfinite_age": 0,
+    "utterances_not_cds": 0,
+    "utterances_outside_age_bins_but_in_overall": 0,
+    "utterances_total": 2728212
+  },
+  "fitting_settings": {
+    "age_bins": "[a,b) for 0 through 96 months",
+    "age_filter_overall": "finite age <= 96",
+    "ascii_verb_pattern": "^[a-zA-Z'-]+$",
+    "minimum_pairs_per_age_bin": 100,
+    "minimum_ranks_per_age_bin": 5,
+    "minimum_top_verbs_per_age_bin": 10,
+    "rank_average": "mean over verbs present at each rank",
+    "rank_curve_renormalized_before_mse": true,
+    "tie_order": "stable first-seen order",
+    "top_verbs": 100,
+    "z_max": 3.0,
+    "z_min": 0.1,
+    "z_step": 0.01
+  },
+  "inputs": {
+    "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_fits/inputs/broader_english_spacy_original_no_be.json",
+    "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_fits/inputs/spacy_original_no_be.csv",
+    "utterances": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/english_ud_utterances.csv"
+  },
+  "n_pairs": 1296939,
+  "n_utterances": 2728212,
+  "population_validation": {
+    "n_utterances": 2728212,
+    "population_metadata_sha256": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8",
+    "strict_pairs_sha256": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f",
+    "utterances_sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71"
+  },
+  "scope": "broader_english",
+  "source": {
+    "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_original/metadata.json",
+    "metadata_sha256": "67b82ae5745a4098e74a450ac4b1f2bc4df4c84ac86ced0a63537208a64ff8e3",
+    "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_original/english_ud_subject_verb_pairs.csv",
+    "pairs_sha256": "5523b3d0521c083466a3e8fa5145638bc5dd144b60aecc3284c2ae85e88e39fe"
+  },
+  "verb_selection": "Original top-100 selection after applying the be filter; no fixed-vocabulary constraint."
+}

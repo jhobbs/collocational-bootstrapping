@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4799999999999993,4.489689367495474e-07,3792185,1775181,8594,3581,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+0-12mo,1.4099999999999995,4.9289063176207924e-06,186696,89812,1257,1034,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+12-24mo,1.4799999999999993,3.072671000099035e-07,561660,201409,2577,1417,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+24-36mo,1.4799999999999993,5.012283550550907e-07,1601873,748922,5136,2363,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+36-48mo,1.4199999999999995,9.568690619478339e-07,715524,363466,4001,1888,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+48-60mo,1.4199999999999995,1.2609200288384551e-06,346240,188054,2824,1557,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+60-72mo,1.4099999999999995,1.0797701963278927e-06,195959,93772,1612,1004,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+72-84mo,1.4399999999999995,2.640198085074036e-07,95973,48626,1042,791,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies
+84-96mo,1.4599999999999995,4.696380286864542e-07,88206,41109,925,797,ok,repository_english,Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK,Universal Dependencies

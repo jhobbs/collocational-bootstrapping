@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-07",
+  "purpose": "Retrospective authoritative check that no accepted original childes-db age adjustment was applied to a current ASR transcript whose ASR comment was omitted from the provisional extraction metadata",
+  "inputs": {
+    "repository_extraction_metadata": {
+      "path": "../repository_extraction_v2/metadata.json",
+      "sha256": "1adcc34277d4f1ae0df89a13f686b431094a0c7c13a22acd886b82e17bcd0273"
+    },
+    "repository_recovery_metadata": {
+      "path": "../repository_recovered_extraction/metadata.json",
+      "sha256": "42826fe344ffd0ad2a165117f0adcfb81bc7e4f00f37fd078dffb73a6ea2cf4c"
+    },
+    "accepted_transcript_keys_sha256": "01c9fe840868a233e8716788b9d4c24bb0fcd4fe3e53d2a737438539c5adceb7",
+    "accepted_source_archive_manifest_sha256": "41796fa8a2aebd1c1a1d980443801d4c351a0eac712b67bcb8e7da5ebb2d08eb",
+    "archive_manifest_digest_definition": "SHA-256 of canonical compact JSON plus newline for the sorted accepted archive records, retaining archive_id, collection, corpus, source_url, download_date, sha256, and bytes from extraction metadata"
+  },
+  "selection": {
+    "decision_field": "original_status",
+    "decision_value": "accepted",
+    "accepted_transcripts": 7042,
+    "source_archives": 71
+  },
+  "method": {
+    "source": "Authoritative current CHAT member bytes from each source ZIP recorded in extraction metadata",
+    "steps": [
+      "Group accepted (collection, transcript) keys by recorded archive_id.",
+      "Resolve each transcript to its recorded ZIP member and require that member to exist.",
+      "Decode member bytes as UTF-8 with BOM handling and replacement auditing.",
+      "Restrict inspection to the CHAT header before the first main speaker tier.",
+      "Read every @Comment tier, including continuation lines, and search case-insensitively for ASR."
+    ]
+  },
+  "results": {
+    "accepted_transcripts_scanned": 7042,
+    "source_archives_scanned": 71,
+    "raw_asr_hits": 0,
+    "missing_archive_members": 0,
+    "decode_replacement_characters": 0
+  },
+  "conclusion": "No accepted original childes-db age adjustment needs to be reverted for an ASR flag omitted from provisional extraction annotation_comments."
+}

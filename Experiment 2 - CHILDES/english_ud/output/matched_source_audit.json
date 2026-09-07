@@ -1,0 +1,1034 @@
+{
+  "created_at": "2026-09-07T17:48:45.514288+00:00",
+  "manifest": "/home/jason/talkbank-data/2026-09-07/repository_english.json",
+  "method": "Read each official corpus HTML page and record ZIP links explicitly advertised there, excluding the current ?f=zip transcript download.",
+  "n_sources": 98,
+  "n_unique_pages": 98,
+  "downloaded_relevant_alternates": [
+    {
+      "corpus": "Hall",
+      "url": "https://talkbank.org/childes/access/Eng-NA/0docs/Hall-orig.zip",
+      "path": "/home/jason/talkbank-data/2026-09-07/legacy_mor/Hall-orig.zip",
+      "provenance": "/home/jason/talkbank-data/2026-09-07/legacy_mor/Hall-orig.provenance.json",
+      "finding": "40 CHAT files; 39 with CHI ages; UD-style %mor/%gra tiers"
+    },
+    {
+      "corpus": "McCune",
+      "url": "https://talkbank.org/childes/access/Eng-NA/0docs/McCune-orig.zip",
+      "path": "/home/jason/talkbank-data/2026-09-07/legacy_mor/McCune-orig.zip",
+      "provenance": "/home/jason/talkbank-data/2026-09-07/legacy_mor/McCune-orig.provenance.json",
+      "finding": "52 CHAT files; all 52 with CHI ages and UD-style %mor/%gra tiers"
+    }
+  ],
+  "records": [
+    {
+      "collection": "Eng-NA",
+      "corpus": "Bates",
+      "archive_id": "Eng-NA/Bates.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Bates.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Bates.html",
+      "sha256": "3ed2b9d33166b20963027ad95cf2cef86269a0273884e0c42ac42899f850b73e",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Bernstein",
+      "archive_id": "Eng-NA/Bernstein.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Bernstein.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Bernstein.html",
+      "sha256": "82a4f245ecd1a475d6ad642c0a6a877c0a12d94b5a7abd9dcd211dbc522cef0a",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Bliss",
+      "archive_id": "Eng-NA/Bliss.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Bliss.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Bliss.html",
+      "sha256": "7357d77eb17a165b1413714118daf2d9e27c21837f7add788b98a6e1a0c834cf",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Bloom",
+      "archive_id": "Eng-NA/Bloom.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Bloom.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Bloom.html",
+      "sha256": "d7abaaa48c8df126aff09a3a8ea0729c83d981ab23be2176d69f6652ed922cc0",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Bohannon",
+      "archive_id": "Eng-NA/Bohannon.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Bohannon.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Bohannon.html",
+      "sha256": "0d8b0a4918074b1e4f3ec6b47ca0a7416b90fbc2eecfc01496e0266a6cc65ff0",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Braunwald",
+      "archive_id": "Eng-NA/Braunwald.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Braunwald.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Braunwald.html",
+      "sha256": "d3f4e0acabaa880ab6e65a0ed6806bed2016188e4b6dcd43541c36ded54d4283",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Brent",
+      "archive_id": "Eng-NA/Brent.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Brent.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Brent.html",
+      "sha256": "86eac654924f311073ab62bdf2b56db308f379faa557bc8c2563e306afc3804d",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "archive_id": "Eng-NA/Brown.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Brown.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Brown.html",
+      "sha256": "a249c9fa155220d6c29f9ae25ff8620c5162c87fbe91f2f5853e2f04c6fac0b1",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "CAPIL",
+      "archive_id": "Eng-NA/CAPIL.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/CAPIL.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/CAPIL.html",
+      "sha256": "dcad68c8181fcef7c7737626ba356b6deca6c22e42a5ad531b3961b65f947f77",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Champaign",
+      "archive_id": "Eng-NA/Champaign.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Champaign.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Champaign.html",
+      "sha256": "b671ba5a2c9b389170f9ecbd43a6c48f8e79e617d95dee1bb08ffe35f0b7b47c",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Clark",
+      "archive_id": "Eng-NA/Clark.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Clark.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Clark.html",
+      "sha256": "55c979372bb9a3e2cd1df812176aabbfb1244d44b78e2002029adf7b0d9fe133",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Demetras1",
+      "archive_id": "Eng-NA/Demetras1.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Demetras1.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Demetras1.html",
+      "sha256": "802c9791cd9fcd5fff4cdf6d3a844d1a6fbc9d37ebd5aa492b52042b6cb82f8d",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Demetras2",
+      "archive_id": "Eng-NA/Demetras2.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Demetras2.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Demetras2.html",
+      "sha256": "23bf383f06f3d9629b53d2cde694b1eb2d2aa2c0e48b5e54aba39d0c8162860f",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "EHS",
+      "archive_id": "Eng-NA/EHS.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/EHS.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/EHS.html",
+      "sha256": "4812ea3f8a11e4d3e5da04743adaa0e218778bc5be4d3254363024c1298a9819",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Evans",
+      "archive_id": "Eng-NA/Evans.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Evans.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Evans.html",
+      "sha256": "e8bb4931d425a16758299da3f6e0b5af0ff6824c0b78ad5eb39de6e5d646e890",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Feldman",
+      "archive_id": "Eng-NA/Feldman.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Feldman.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Feldman.html",
+      "sha256": "e1c8e3dd0bf97bb6c4421930ae8237fe5bde751fe0a9f203ce7e9a0a18edbfec",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Garvey",
+      "archive_id": "Eng-NA/Garvey.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Garvey.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Garvey.html",
+      "sha256": "17601ddee66d10eacd8e19640fe47f25cad18cedb5e089d62219e492cca1f182",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Gathercole",
+      "archive_id": "Eng-NA/Gathercole.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Gathercole.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Gathercole.html",
+      "sha256": "5efe8bb856a887e8a793818d5a254aa41965c78fafd75247e9061204ca152cc9",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Gelman",
+      "archive_id": "Eng-NA/Gelman.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Gelman.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Gelman.html",
+      "sha256": "91f3c728bd64b3c4eab2e0931ce296d383058466bb8d619a9f365e35e470efec",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Gleason",
+      "archive_id": "Eng-NA/Gleason.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Gleason.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Gleason.html",
+      "sha256": "620bbb246977967658f179683967e83c9e366c782befa3fa537564928ae12f93",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "HSLLD",
+      "archive_id": "Eng-NA/HSLLD.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/HSLLD.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/HSLLD.html",
+      "sha256": "f20fb9c345d171ec89eb421565f692f8de72e3df88204877ab804b27e85a32e9",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Haggerty",
+      "archive_id": "Eng-NA/Haggerty.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Haggerty.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Haggerty.html",
+      "sha256": "99108384369ae477728f454b869f7b6b692ee88be809fa30c6eac9a42726605c",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Hall",
+      "archive_id": "Eng-NA/Hall.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Hall.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Hall.html",
+      "sha256": "3075676a6cb60f455d9a4b9fbd9a5fc26c1697b416981d697e2f38612290fda9",
+      "alternate_zip_links": [
+        {
+          "url": "https://talkbank.org/childes/access/Eng-NA/0docs/Hall-orig.zip",
+          "link_text": "here.",
+          "relevance": "candidate original/historical transcripts for the same corpus"
+        }
+      ]
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Higginson",
+      "archive_id": "Eng-NA/Higginson.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Higginson.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Higginson.html",
+      "sha256": "a7acb8c13e8d4daba0dac857b250ace88fd46b456c87d8a01f69e60385cb2b12",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Kuczaj",
+      "archive_id": "Eng-NA/Kuczaj.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Kuczaj.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Kuczaj.html",
+      "sha256": "38c1b67596094eafa3e1bfa936c78671cae6316d17f0bad0745f78e7b9076d5d",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "MacWhinney",
+      "archive_id": "Eng-NA/MacWhinney.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/MacWhinney.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/MacWhinney.html",
+      "sha256": "55a1afc0fa7a678c946b56548bff2c90815318d1a5825f229cc8a9b785c960f5",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "McCune",
+      "archive_id": "Eng-NA/McCune.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/McCune.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/McCune.html",
+      "sha256": "2df7d662142a3909287a6b63f5c040e4ad2d72fa068a3c7e993a27d63d82eea7",
+      "alternate_zip_links": [
+        {
+          "url": "https://talkbank.org/childes/access/Eng-NA/0docs/McCune-orig.zip",
+          "link_text": "here.",
+          "relevance": "candidate original/historical transcripts for the same corpus"
+        }
+      ]
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "McMillan",
+      "archive_id": "Eng-NA/McMillan.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/McMillan.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/McMillan.html",
+      "sha256": "fe0f48a487d01a9dd5c68df65898dc1f236d18a34c61b03e660da821a67c9a92",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Morisset",
+      "archive_id": "Eng-NA/Morisset.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Morisset.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Morisset.html",
+      "sha256": "5368f56dad0dea42d8cc98a9bfae15c4d9ad7b9da4bb358d6860eaaf2cb01570",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Nelson",
+      "archive_id": "Eng-NA/Nelson.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Nelson.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Nelson.html",
+      "sha256": "a2af95f62de55c950b574ada3d2a441cbb09ea7311dfef34c6cb914bb002cc3e",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "NewEngland",
+      "archive_id": "Eng-NA/NewEngland.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/NewEngland.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/NewEngland.html",
+      "sha256": "a901910fcb3aba5ac653c33cfc86d5294d214ba54f14107bd7a30f50608b6312",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "NewmanRatner",
+      "archive_id": "Eng-NA/NewmanRatner.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/NewmanRatner.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/NewmanRatner.html",
+      "sha256": "5db5e89748393de3f41e8041089742a9b3cbd81259d3d3997194fc546181a8af",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Nicolopoulou",
+      "archive_id": "Eng-NA/Nicolopoulou.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Nicolopoulou.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Nicolopoulou.html",
+      "sha256": "0406d4c2d12ccae54c1f5e6aaffb610647972974a162851737176020db815c1b",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Nippold",
+      "archive_id": "Eng-NA/Nippold.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Nippold.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Nippold.html",
+      "sha256": "7846d6d88e352acf451553127c50af585c2fb707039c5f0dffcbc92d81ec6ac7",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "OCSC",
+      "archive_id": "Eng-NA/OCSC.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/OCSC.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/OCSC.html",
+      "sha256": "ec15f93191376fdf679278e67076a5464bded9ab96db7f8a4b9da103c0454107",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Peters",
+      "archive_id": "Eng-NA/Peters.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Peters.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Peters.html",
+      "sha256": "b8a21820fd60282ec46138720b352f62583980f9577e3894a3018c27f93752fc",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Post",
+      "archive_id": "Eng-NA/Post.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Post.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Post.html",
+      "sha256": "f19d0c191315c5cf24ed161ecc7efba1dcf0b1607e8060da86981af8da1182c4",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Rollins",
+      "archive_id": "Eng-NA/Rollins.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Rollins.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Rollins.html",
+      "sha256": "51e4695f95637d80a674bb36353470f6aa8fbe39839f5f4790d39c926e64de7a",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Rowe",
+      "archive_id": "Eng-NA/Rowe.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Rowe.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Rowe.html",
+      "sha256": "ea52cf901e7a436f80a4a92ffe46e4cd7e326c79761baf16c8242037bf75bef8",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Sachs",
+      "archive_id": "Eng-NA/Sachs.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Sachs.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Sachs.html",
+      "sha256": "d26cbd2d49a6ac1b29876f7293ef1ed0a23ceeddce8ade4dd710a96b31a302e3",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Sawyer",
+      "archive_id": "Eng-NA/Sawyer.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Sawyer.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Sawyer.html",
+      "sha256": "e4d67b0a03047dd41d61efdb68231ae0b9efd1d9db19da2e65fd029573976114",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Snow",
+      "archive_id": "Eng-NA/Snow.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Snow.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Snow.html",
+      "sha256": "80fc1ce21923693d72a074f80bf801af8b9e34e1286f67968b09168f1d0af4cb",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Soderstrom",
+      "archive_id": "Eng-NA/Soderstrom.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Soderstrom.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Soderstrom.html",
+      "sha256": "1b7a5d72503abcaf08229ed35f386279e4ca113a173788f43aebcaf45c74fab2",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Sprott",
+      "archive_id": "Eng-NA/Sprott.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Sprott.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Sprott.html",
+      "sha256": "441870be758af5ff15504c25e3987559dcff54ad1693fa41dc92cd78beb010c2",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "StoopsMontag",
+      "archive_id": "Eng-NA/StoopsMontag.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/StoopsMontag.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/StoopsMontag.html",
+      "sha256": "b838ce8c8e05da8d6ef2375c17c64462aff9a0bac3db3644eabea13f782a3fc8",
+      "alternate_zip_links": [
+        {
+          "url": "https://talkbank.org/childes/access/Eng-NA/0docs/StoopsEAF.zip",
+          "link_text": "StoopsEAF.zip file",
+          "relevance": "supplemental ELAN annotation; not an alternate CHAT transcript source"
+        }
+      ]
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Suppes",
+      "archive_id": "Eng-NA/Suppes.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Suppes.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Suppes.html",
+      "sha256": "477657ba61f8a8669e11c62f675a787a68f1d5fb4942cdbd2c1af5aaf9cd9350",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Tardif",
+      "archive_id": "Eng-NA/Tardif.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Tardif.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Tardif.html",
+      "sha256": "b3f61df2fc379278e3ccb40baca39af4192cc253ffb689af06b57cacbbb85150",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Valian",
+      "archive_id": "Eng-NA/Valian.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Valian.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Valian.html",
+      "sha256": "572806d9f47d924bb8c456657fd2069431000775bb222ed90c842f1a3c113746",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "VanHouten",
+      "archive_id": "Eng-NA/VanHouten.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/VanHouten.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/VanHouten.html",
+      "sha256": "466883153fa8a1c55da24157e4214eaf30605a5adba93d8adf099c9a6582edf6",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "VanKleeck",
+      "archive_id": "Eng-NA/VanKleeck.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/VanKleeck.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/VanKleeck.html",
+      "sha256": "e347e6092a1504e6b319ff3eaeb5c29825520009d43044b61ea7cbf96ef5879c",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Warren",
+      "archive_id": "Eng-NA/Warren.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Warren.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Warren.html",
+      "sha256": "f9ff5102c741bee19bbac50c90d4abb992cf003f48837ac13e0d0c0a1820f260",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-NA",
+      "corpus": "Weist",
+      "archive_id": "Eng-NA/Weist.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-NA/Weist.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-NA/Weist.html",
+      "sha256": "4b33611b95749287b2f26a519f497da92c53995ea637987cad18e4127c99186f",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Belfast",
+      "archive_id": "Eng-UK/Belfast.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Belfast.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Belfast.html",
+      "sha256": "634922d6cfef72b26fdfb2634f1bc41b8243e7a1cd8b42626144ae4f36a598f9",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Edinburgh",
+      "archive_id": "Eng-UK/Edinburgh.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Edinburgh.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Edinburgh.html",
+      "sha256": "e57db16fd46d257f88eede3ceef222572824e812e74190fd940fa68a746934ba",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Fletcher",
+      "archive_id": "Eng-UK/Fletcher.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Fletcher.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Fletcher.html",
+      "sha256": "b5c67ee5c49e05e1f00183db4b575c910eb3c3de549d02e4e9b956b491a4df20",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Forrester",
+      "archive_id": "Eng-UK/Forrester.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Forrester.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Forrester.html",
+      "sha256": "f2829f657c6c4dd0463f4dc9d05507a56b1851f92bdc2241b30a9295a88f4919",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Gathburn",
+      "archive_id": "Eng-UK/Gathburn.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Gathburn.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Gathburn.html",
+      "sha256": "e327c7f7934039abc32e0a96cb723446f11e93b07a38a9318644f199e9ca196c",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Howe",
+      "archive_id": "Eng-UK/Howe.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Howe.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Howe.html",
+      "sha256": "fa4a55d83f13f2f717f2430a899ed9080b2c2b1b0cbd138b398cf912d269c5b9",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "KellyQuigley",
+      "archive_id": "Eng-UK/KellyQuigley.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/KellyQuigley.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/KellyQuigley.html",
+      "sha256": "a7bf4e11cef6afc0567103939a8edc334e08f996f7f1d8f7d59d9235928670de",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Lara",
+      "archive_id": "Eng-UK/Lara.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Lara.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Lara.html",
+      "sha256": "a7b8a4e7ae67ce53bf83c4cad972c4a770bc74ed5062eee58dccc32291bddd55",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "MPI-EVA-Manchester",
+      "archive_id": "Eng-UK/MPI-EVA-Manchester.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/MPI-EVA-Manchester.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/MPI-EVA-Manchester.html",
+      "sha256": "664f73a23d957d89d665130b1ace86568e2915f3ad3e1068a6df81a088ed7c0e",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Manchester",
+      "archive_id": "Eng-UK/Manchester.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Manchester.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Manchester.html",
+      "sha256": "889b256a8919c6bd5a1de526ac60a8201723721fd397bc5b4393f4c5efc81370",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Nuffield",
+      "archive_id": "Eng-UK/Nuffield.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Nuffield.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Nuffield.html",
+      "sha256": "f3e446c1db368dd73d9993ca15779d22ee5e349dbbe4e34a4c1098bba4920208",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Sekali",
+      "archive_id": "Eng-UK/Sekali.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Sekali.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Sekali.html",
+      "sha256": "42be834a34b8a36c56bc6361ce7b53e691d3b3f013ebdc241ec9881d4260b45f",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Thomas",
+      "archive_id": "Eng-UK/Thomas.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Thomas.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Thomas.html",
+      "sha256": "f0530eda0510018af758f6a0b60bd2183fea11ea3efacda80ad9c81e3a124682",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Tommerdahl",
+      "archive_id": "Eng-UK/Tommerdahl.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Tommerdahl.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Tommerdahl.html",
+      "sha256": "dd4bd441eb50af40a03da5b7d5a985549a629ade5776543be12265b54a943be3",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "Wells",
+      "archive_id": "Eng-UK/Wells.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/Wells.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/Wells.html",
+      "sha256": "2dfb1ee2e61fe0c3cb0e09872941c2619f56e28bc296740b62eb55a81fa49533",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-UK",
+      "corpus": "kidLUCID",
+      "archive_id": "Eng-UK/kidLUCID.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-UK/kidLUCID.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-UK/kidLUCID.html",
+      "sha256": "01597d5530b932098d94dc51d6c4b2c511ff4aabffa2b1b45dd4035dc6fb1cf3",
+      "alternate_zip_links": [
+        {
+          "url": "https://talkbank.org/childes/access/Eng-UK/0docs/kidLUCIDpics.zip",
+          "link_text": "this .zip file.",
+          "relevance": "supplemental task materials; not transcripts"
+        },
+        {
+          "url": "https://talkbank.org/childes/access/Eng-UK/0docs/kidLUCIDgrids.zip",
+          "link_text": "this .zip file.",
+          "relevance": "supplemental task materials; not transcripts"
+        }
+      ]
+    },
+    {
+      "collection": "Eng-AAE",
+      "corpus": "Barriere",
+      "archive_id": "Eng-AAE/Barriere.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-AAE/Barriere.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-AAE/Barriere.html",
+      "sha256": "1565dd271903fb5165154c31a3abd3fd1320efd05b51eff757ef76e67d583606",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-AAE",
+      "corpus": "Cameron",
+      "archive_id": "Eng-AAE/Cameron.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-AAE/Cameron.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-AAE/Cameron.html",
+      "sha256": "f0f10620d88589bc43dd92dd480cdddc3a54aa4cd4f7a41a80f33e763e15dc2b",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-AAE",
+      "corpus": "DELV",
+      "archive_id": "Eng-AAE/DELV.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-AAE/DELV.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-AAE/DELV.html",
+      "sha256": "9059205f56a2824bb1e64039e10eaa246fdadf584fd2f81cee487319ceceb4f4",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Eng-AAE",
+      "corpus": "DSLT",
+      "archive_id": "Eng-AAE/DSLT.zip",
+      "page_url": "https://talkbank.org/childes/access/Eng-AAE/DSLT.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Eng-AAE/DSLT.html",
+      "sha256": "2b48235b135d2b9f68cd1ec755954dc26ee5ebbfa9faae3265f645aeb29caf4c",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Ambrose/HL",
+      "archive_id": "Clinical-Eng/Ambrose/HL.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Ambrose/HL.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Ambrose/HL.html",
+      "sha256": "0b695213605c3cf0d3941ffa4ab9dfa494a711f6944b06e41783d74c5c414d8a",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Ambrose/TD",
+      "archive_id": "Clinical-Eng/Ambrose/TD.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Ambrose/TD.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Ambrose/TD.html",
+      "sha256": "e9174709ac53704e2fda2aa4b0b412ad31ca50b442170d2670c7f12f33821065",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Bliss",
+      "archive_id": "Clinical-Eng/Bliss.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Bliss.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Bliss.html",
+      "sha256": "2e5d4314355b475ba0bf3bc0fa1139212419d061afa256f7da241bad7b8941d8",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Chiat-Ruth",
+      "archive_id": "Clinical-Eng/Chiat-Ruth.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Chiat-Ruth.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Chiat-Ruth.html",
+      "sha256": "129b0ac25d6fe03195db3ed51902022339ae7a11eda7ff43f2a6fd944e495317",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Conti/Conti1",
+      "archive_id": "Clinical-Eng/Conti/Conti1.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti1.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti1.html",
+      "sha256": "1370cc77872f9023d47fb32ab6acbdfa66a913d1d74978cb539f957895a866df",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Conti/Conti2",
+      "archive_id": "Clinical-Eng/Conti/Conti2.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti2.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti2.html",
+      "sha256": "c775f4a2c484da9ce0b738abb4824fd158bdc55bf46f874bac747e418e6c79e6",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Conti/Conti3",
+      "archive_id": "Clinical-Eng/Conti/Conti3.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti3.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti3.html",
+      "sha256": "06496d07e3dae14007cca616e772de3bcda83d6b699842838a180da98b8b0bba",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Conti/Conti4",
+      "archive_id": "Clinical-Eng/Conti/Conti4.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti4.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Conti/Conti4.html",
+      "sha256": "9571fe34c87e5db52e2c76b68aac1a78361b5b117336c58acd63301aef81d3f0",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "ENNI",
+      "archive_id": "Clinical-Eng/ENNI.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/ENNI.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/ENNI.html",
+      "sha256": "dcfdab8681365211649c51847db4c157352f1e0ef0a81b9797052ff613a4c3b5",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "EisenbergGuo",
+      "archive_id": "Clinical-Eng/EisenbergGuo.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/EisenbergGuo.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/EisenbergGuo.html",
+      "sha256": "a8d8f4945539252a733e61162566d0e818e548b7fb0aa612a000133e9b3e5430",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "EllisWeismer",
+      "archive_id": "Clinical-Eng/EllisWeismer.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/EllisWeismer.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/EllisWeismer.html",
+      "sha256": "5bab2b6d17332559baa6ec3fd1fe1a2dc98bd81c2839d01a28be9072f87efa54",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Feldman/Narrative",
+      "archive_id": "Clinical-Eng/Feldman/Narrative.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/Narrative.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/Narrative.html",
+      "sha256": "ba14f94ba41a58a53639985fe37549c7c3d986c2acd9db281bc89aad8e7c1270",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Feldman/ParentChild",
+      "archive_id": "Clinical-Eng/Feldman/ParentChild.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/ParentChild.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/ParentChild.html",
+      "sha256": "21e014db5ca5b7dc690d533cbc9ef17882f65a4933b4aa3058c9fad6b29d01de",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Feldman/Twins",
+      "archive_id": "Clinical-Eng/Feldman/Twins.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/Twins.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Feldman/Twins.html",
+      "sha256": "12acab40496130a75895517c98241befdacef772af91566c24beba42dbe15a45",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Flusberg",
+      "archive_id": "Clinical-Eng/Flusberg.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Flusberg.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Flusberg.html",
+      "sha256": "04ac3a3ef4048cbf2c5c2e0f67dcf07f3b72050dbb574e7f08f4c8d8f7fce70f",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Gillam",
+      "archive_id": "Clinical-Eng/Gillam.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Gillam.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Gillam.html",
+      "sha256": "8936c02899eb9190af8317b1804716c876613d7dd8f3c979db995ea6db4fc7bc",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Hargrove",
+      "archive_id": "Clinical-Eng/Hargrove.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Hargrove.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Hargrove.html",
+      "sha256": "07e59df6e53d15d455568275145fe5b6d37b3eefcf725a6ee139574f6385d0b2",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Hooshyar",
+      "archive_id": "Clinical-Eng/Hooshyar.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Hooshyar.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Hooshyar.html",
+      "sha256": "ffebcb8c92af89500f9cde25fd489dd436aedf35c41157bc49f42dd6d5c26318",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Malakoff",
+      "archive_id": "Clinical-Eng/Malakoff.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Malakoff.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Malakoff.html",
+      "sha256": "097bddea6bab8952efd6e7a09d57f905a6b8d541b0fa9db42ab3c4cc78a7f24f",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Nicholas/HL",
+      "archive_id": "Clinical-Eng/Nicholas/HL.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Nicholas/HL.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Nicholas/HL.html",
+      "sha256": "dfccc4e43d27d9b019b357cf01eaa89c62e620d76661c3f024488a1889064754",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Nicholas/TD",
+      "archive_id": "Clinical-Eng/Nicholas/TD.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Nicholas/TD.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Nicholas/TD.html",
+      "sha256": "150dca095f247774bc2bb0c2e7fc689ac89ebeb9ec70dfba4bcb394378e972c3",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "POLER",
+      "archive_id": "Clinical-Eng/POLER.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/POLER.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/POLER.html",
+      "sha256": "8893d20622a6655e5b20d6327a0b533d299cf956441069c197f0482799daea99",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Rescorla",
+      "archive_id": "Clinical-Eng/Rescorla.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Rescorla.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Rescorla.html",
+      "sha256": "eb39c9f747df4b423b2952ba6f18f0e9a001be7b1567dd8ac9e752d911578e90",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Rondal/DS",
+      "archive_id": "Clinical-Eng/Rondal/DS.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Rondal/DS.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Rondal/DS.html",
+      "sha256": "3f0ef4504e346a26ccfb0992d1b45c32bd0d9348041b57075e578ade5eca57f0",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "Rondal/TD",
+      "archive_id": "Clinical-Eng/Rondal/TD.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/Rondal/TD.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/Rondal/TD.html",
+      "sha256": "ee5d685a5b1269db9d9e51ab6451c3146c7185ffce4dc64f9eb2db167582e3af",
+      "alternate_zip_links": []
+    },
+    {
+      "collection": "Clinical-Eng",
+      "corpus": "UCSD",
+      "archive_id": "Clinical-Eng/UCSD.zip",
+      "page_url": "https://talkbank.org/childes/access/Clinical-Eng/UCSD.html",
+      "status": "read",
+      "final_url": "https://talkbank.org/childes/access/Clinical-Eng/UCSD.html",
+      "sha256": "5bde99b7655b497841a5b165ba96fe0eeca57a4db63da13c05605e010d9320dd",
+      "alternate_zip_links": []
+    }
+  ]
+}

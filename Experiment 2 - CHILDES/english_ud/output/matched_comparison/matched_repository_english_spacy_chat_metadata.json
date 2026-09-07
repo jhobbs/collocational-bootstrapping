@@ -1,0 +1,173 @@
+{
+  "annotation_scheme": "spaCy dependency parsing of selected CHAT surface text",
+  "arm": "spacy_chat",
+  "arm_source_metadata": {
+    "annotation_scheme": "spaCy",
+    "collection": "Clinical-Eng;Eng-NA;Eng-UK",
+    "counts": {
+      "n_included_utterances": 2728212,
+      "n_input_rows": 2728212,
+      "n_pairs": 1886034
+    },
+    "created_at": "2026-09-07T18:10:30.672993+00:00",
+    "denominator": {
+      "included_column": "included_in_cds",
+      "note": "All supplied included utterances are counted, including utterances with zero extracted pairs.",
+      "utterance_csv": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/english_ud_utterances.csv"
+    },
+    "input": {
+      "metadata_path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/metadata.json",
+      "metadata_sha256": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8",
+      "renamed_columns": {
+        "n_pairs": "source_ud_n_pairs (pair count from the source UD annotation)"
+      },
+      "text_column": "text",
+      "utterances_path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/english_ud_utterances.csv",
+      "utterances_sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71"
+    },
+    "matching_provenance": {
+      "inputs": [
+        {
+          "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_recovered_extraction",
+          "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/original_transcript_links/transcript_links.csv",
+          "links_sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a",
+          "metadata_sha256": "42826fe344ffd0ad2a165117f0adcfb81bc7e4f00f37fd078dffb73a6ea2cf4c"
+        },
+        {
+          "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_extraction",
+          "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_links/transcript_links.csv",
+          "links_sha256": "3b54a6165af9e12ba08daa4e6770db88bef5df629454a673383e1f9ec4bc2311",
+          "metadata_sha256": "c67e47a9228e6b6941ed892f6e98ed226cb90fca7e31940b9d303aca0d213aee"
+        },
+        {
+          "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_extraction",
+          "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_links/transcript_links.csv",
+          "links_sha256": "746c2ef3e2e475b2f77b12189fb851193fa4036058b6acef4d4d6f78f38a4daf",
+          "metadata_sha256": "85ab84b76f9b40f4bed42373661b53477cd89e0f0ae19f6a34024abbe4b50540"
+        }
+      ],
+      "original": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+      "original_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+      "parser_texts": "UD reads original annotations; spaCy must parse text for same-surface control, and original_text separately for historical-gloss control.",
+      "raw_source_members_verified": true,
+      "repeated_utterances": "Occurrence order within speaker/role/text key; no Cartesian join. This does not assert globally monotonic sequence alignment.",
+      "selection_note": "This is a verified intersection subset, not the complete original corpus. Coverage is reported by age.",
+      "source_precedence": "Later --extraction arguments replace earlier versions of the same collection/corpus. Ambiguous original IDs remaining within selected sources are excluded.",
+      "transcript_rule": "Unique strong multi-utterance text link; independent CHAT/verified legacy age within 0.1 months; compatible known target name; no raw ASR; original age <=96.",
+      "utterance_rule": "Same speaker code and role; identical casefolded lexical token sequence, allowing punctuation and known clitic-spacing differences; consume each historical occurrence at most once."
+    },
+    "parser": {
+      "batch_size": 128,
+      "disabled_pipes": [
+        "ner"
+      ],
+      "extraction_rule": "token.dep_ == 'nsubj' and token.head.pos_ in {'VERB', 'AUX'}; lowercase spaCy lemmas",
+      "index_space": "spacy_token",
+      "model": "en_core_web_sm",
+      "model_version": "3.8.0",
+      "n_process": 1,
+      "spacy_version": "3.8.13"
+    },
+    "scope": "matched_repository_english",
+    "sharding": {
+      "completed_shards": 8,
+      "merge_order": "ascending contiguous shard_id",
+      "requested_shards": 8,
+      "worker_n_process": 1
+    },
+    "shards": [
+      {
+        "n_pairs": 220522,
+        "n_utterances": 341027,
+        "shard_id": 0,
+        "utterances_sha256": "3a7483d3479a177e64d25057d96e793c509aec86bc4c9125c9c9ce3fec7f2c4d",
+        "worker_metadata_sha256": "d1462dd51e3115ce165b0b4b986a13a9dbf0281d9a59b9d3f82ae8339c9a0f86"
+      },
+      {
+        "n_pairs": 231500,
+        "n_utterances": 341027,
+        "shard_id": 1,
+        "utterances_sha256": "8fdc96016456e99a3b7d37c3c979d3a4a4f0cd48ec112e43eb744e6662dd0608",
+        "worker_metadata_sha256": "8dc89a4d530c8af1657beee519251c218526ce405bf6f5d574ccd7c0454d6277"
+      },
+      {
+        "n_pairs": 266311,
+        "n_utterances": 341027,
+        "shard_id": 2,
+        "utterances_sha256": "30a4b329eb9c49b16c4de6c1c94b6741f37102dd8b352b80223c50b288bd5e20",
+        "worker_metadata_sha256": "6a4d2ebfab5e0454b8c650ea399924663091f31d8a404f564949f029a48e5248"
+      },
+      {
+        "n_pairs": 216323,
+        "n_utterances": 341027,
+        "shard_id": 3,
+        "utterances_sha256": "c1b41259f961b47c2e69a4566e5c3c6da3db051581d2670079e83bded2ceb485",
+        "worker_metadata_sha256": "ee9a60c82c3a7a8a27d8ffb9d71ed19c4331cdff4b83a5708558b8fd58e1f20f"
+      },
+      {
+        "n_pairs": 221700,
+        "n_utterances": 341027,
+        "shard_id": 4,
+        "utterances_sha256": "a597251cd78850fc8da3e899cdcc1007d5b7880685f16efe6983ee7898e172b8",
+        "worker_metadata_sha256": "fbbede337bbfcb88be4e6f2360aa3ce61640435ff1a3430148e52d690fc4d848"
+      },
+      {
+        "n_pairs": 289178,
+        "n_utterances": 341027,
+        "shard_id": 5,
+        "utterances_sha256": "ed33438c483d01342c3c27ca0f591cbf1cd9ff20902f26f70a1ba7c98b43be29",
+        "worker_metadata_sha256": "788e1e945ed7e7cf642fcffe120b26f372a1ca374a636d00b16ce520edc4605f"
+      },
+      {
+        "n_pairs": 217815,
+        "n_utterances": 341027,
+        "shard_id": 6,
+        "utterances_sha256": "356bb41b180700dc6776dc4a83c836d21a6ed9ce2860625d300414020484b957",
+        "worker_metadata_sha256": "372269dad6f88bc29fc1d34a404471416c509f62b1065846cdf128fcb45e0f31"
+      },
+      {
+        "n_pairs": 222685,
+        "n_utterances": 341023,
+        "shard_id": 7,
+        "utterances_sha256": "ba2bfae8d4c5bbb29b59ffaee740f7e0a0f289f9eeb03eb9b974c5c8d022b492",
+        "worker_metadata_sha256": "73dac21f1b99a83b76e66a6242b5d491756e5c204d65450ff4d25b2eeeb84df7"
+      }
+    ]
+  },
+  "collection": "Clinical-Eng;Eng-NA;Eng-UK",
+  "comparability_note": "All three arms use the same matched utterances. The saved historical spaCy baseline is plotted as a reference from a different dataset and is not scope-comparable.",
+  "matched_input_count": 2728212,
+  "matched_utterances_sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71",
+  "matching_provenance": {
+    "inputs": [
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/repository_recovered_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/original_transcript_links/transcript_links.csv",
+        "links_sha256": "b0588f39c7376630467a05dbb106a51ee6543c921559219eea3f707fd715632a",
+        "metadata_sha256": "42826fe344ffd0ad2a165117f0adcfb81bc7e4f00f37fd078dffb73a6ea2cf4c"
+      },
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/hall_original_links/transcript_links.csv",
+        "links_sha256": "3b54a6165af9e12ba08daa4e6770db88bef5df629454a673383e1f9ec4bc2311",
+        "metadata_sha256": "c67e47a9228e6b6941ed892f6e98ed226cb90fca7e31940b9d303aca0d213aee"
+      },
+      {
+        "extraction": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_extraction",
+        "links": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/mccune_original_links/transcript_links.csv",
+        "links_sha256": "746c2ef3e2e475b2f77b12189fb851193fa4036058b6acef4d4d6f78f38a4daf",
+        "metadata_sha256": "85ab84b76f9b40f4bed42373661b53477cd89e0f0ae19f6a34024abbe4b50540"
+      }
+    ],
+    "original": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+    "original_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+    "parser_texts": "UD reads original annotations; spaCy must parse text for same-surface control, and original_text separately for historical-gloss control.",
+    "raw_source_members_verified": true,
+    "repeated_utterances": "Occurrence order within speaker/role/text key; no Cartesian join. This does not assert globally monotonic sequence alignment.",
+    "selection_note": "This is a verified intersection subset, not the complete original corpus. Coverage is reported by age.",
+    "source_precedence": "Later --extraction arguments replace earlier versions of the same collection/corpus. Ambiguous original IDs remaining within selected sources are excluded.",
+    "transcript_rule": "Unique strong multi-utterance text link; independent CHAT/verified legacy age within 0.1 months; compatible known target name; no raw ASR; original age <=96.",
+    "utterance_rule": "Same speaker code and role; identical casefolded lexical token sequence, allowing punctuation and known clitic-spacing differences; consume each historical occurrence at most once."
+  },
+  "scope": "matched_repository_english"
+}

@@ -1,0 +1,9 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+0-12mo,1.4799999999999993,2.4485358449963086e-07,68282,25813,613,651,ok,eng_na,Eng-NA,spaCy: original CSV text
+12-24mo,1.4199999999999995,6.723960795858372e-07,204262,80633,1338,1053,ok,eng_na,Eng-NA,spaCy: original CSV text
+24-36mo,1.4099999999999995,1.5773015367693412e-06,266001,139019,1993,1273,ok,eng_na,Eng-NA,spaCy: original CSV text
+36-48mo,1.3999999999999995,1.932699906743067e-06,162502,88209,1681,1099,ok,eng_na,Eng-NA,spaCy: original CSV text
+48-60mo,1.3999999999999995,4.712901334829991e-06,199456,109115,2088,1458,ok,eng_na,Eng-NA,spaCy: original CSV text
+60-72mo,1.4299999999999995,4.226931046362937e-06,42416,22842,679,659,ok,eng_na,Eng-NA,spaCy: original CSV text
+72-84mo,1.2699999999999996,1.2727755700616478e-05,7639,4211,179,290,ok,eng_na,Eng-NA,spaCy: original CSV text
+84-96mo,1.3599999999999994,1.5364072707593e-05,18841,8472,338,463,ok,eng_na,Eng-NA,spaCy: original CSV text

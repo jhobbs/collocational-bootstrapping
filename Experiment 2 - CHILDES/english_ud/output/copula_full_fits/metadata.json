@@ -1,0 +1,42 @@
+{
+  "arms": [
+    "ud_strict",
+    "ud_copula",
+    "spacy_chat"
+  ],
+  "conditions": [
+    "all",
+    "no_be"
+  ],
+  "dataset": "earlier_talkbank",
+  "denominator_policy": "Identical population and ages within each corpus scope, including zero-pair utterances.",
+  "input_provenance": {
+    "spacy_chat": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_spacy_chat/metadata.json",
+      "metadata_sha256": "2ee26a2c9f346315ced5fb62fe5ee9f8985efaa28661e259e2ead1ce79cf50f6",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_spacy_chat/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "12ccf9abd37fc9672fecc263c4adc17ba75afa7296c1a5674ba9d32f9940c8d0"
+    },
+    "ud_copula": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_ud/metadata.json",
+      "metadata_sha256": "2a4d86b4e00f1d03349cbc9ffcfa8c1c70e5c72744f6f6a1551b8f89e0897ed8",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_ud/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "297173b09575008873048615415f5a78c62caa95a3705226d4585744a01b179c"
+    },
+    "ud_strict": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_population/metadata.json",
+      "metadata_sha256": "65f41e0132b507783b2717f5992d6b28827b51587b02f83ec09d0f7788195be2",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_population/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "b52dc9e91d8e48d9991a6157f28b6666113fcc1d6454fde0c48c4fdcb5c1ea67"
+    }
+  },
+  "n_fits": 12,
+  "population_validation": {
+    "n_utterances": 3792185,
+    "population_metadata_sha256": "65f41e0132b507783b2717f5992d6b28827b51587b02f83ec09d0f7788195be2",
+    "strict_pairs_sha256": "b52dc9e91d8e48d9991a6157f28b6666113fcc1d6454fde0c48c4fdcb5c1ea67",
+    "utterances_sha256": "49cfbe2dd41fcc1e53dde6ccc55de02621fd88ca7abd6487022815734cacaf40"
+  },
+  "top_verb_policy": "Original top 100 eligible verbs reselected separately for each arm, age and be filter.",
+  "workers": 4
+}

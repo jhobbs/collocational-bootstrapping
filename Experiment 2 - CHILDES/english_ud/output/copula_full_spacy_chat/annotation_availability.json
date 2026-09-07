@@ -1,0 +1,62 @@
+{
+  "n_pairs": 2560533,
+  "non_annotated_pairs": 22588,
+  "pair_counts": {
+    "overall": {
+      "annotated": 2537945,
+      "missing_tiers": 22588
+    },
+    "by_collection": {
+      "Eng-NA": {
+        "annotated": 1079020,
+        "missing_tiers": 2560
+      },
+      "Eng-UK": {
+        "annotated": 1004906,
+        "missing_tiers": 7247
+      },
+      "Eng-AAE": {
+        "annotated": 27474,
+        "missing_tiers": 12779
+      },
+      "Clinical-Eng": {
+        "annotated": 426545,
+        "missing_tiers": 2
+      }
+    },
+    "by_age_group": {
+      "12-24mo": {
+        "annotated": 305742,
+        "missing_tiers": 2742
+      },
+      "24-36mo": {
+        "annotated": 1080221,
+        "missing_tiers": 4486
+      },
+      "60-72mo": {
+        "annotated": 129332,
+        "missing_tiers": 12091
+      },
+      "48-60mo": {
+        "annotated": 261811,
+        "missing_tiers": 100
+      },
+      "36-48mo": {
+        "annotated": 516108,
+        "missing_tiers": 2423
+      },
+      "72-84mo": {
+        "annotated": 66699,
+        "missing_tiers": 745
+      },
+      "84-96mo": {
+        "annotated": 56313,
+        "missing_tiers": 1
+      },
+      "0-12mo": {
+        "annotated": 121706
+      }
+    }
+  },
+  "meaning": "annotation_status is inherited from the strict UD source utterance; spaCy parses every retained row independently."
+}

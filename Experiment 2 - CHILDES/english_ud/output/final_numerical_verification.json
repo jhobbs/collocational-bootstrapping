@@ -1,0 +1,204 @@
+{
+  "verified_at": "2026-09-07T17:21:39.656427+00:00",
+  "all_passed": true,
+  "datasets": [
+    {
+      "age_group": "overall",
+      "n_pairs": 2802071,
+      "n_top_verbs": 100,
+      "n_ranks": 10061,
+      "computed_alpha": 1.4299999999999995,
+      "stored_alpha": 1.4299999999999995,
+      "computed_mse": 1.6046825643184154e-07,
+      "stored_mse": 1.6046825643184154e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.974659986866641e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.966528470573e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 3.3881317890172014e-21
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "0-12mo",
+      "n_pairs": 113607,
+      "n_top_verbs": 100,
+      "n_ranks": 871,
+      "computed_alpha": 1.4599999999999995,
+      "stored_alpha": 1.4599999999999995,
+      "computed_mse": 9.780627788394913e-07,
+      "stored_mse": 9.780627788394913e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.898765834792655e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.93129189996722e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 9.952975943416931e-17
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "12-24mo",
+      "n_pairs": 350859,
+      "n_top_verbs": 100,
+      "n_ranks": 2741,
+      "computed_alpha": 1.3999999999999995,
+      "stored_alpha": 1.3999999999999997,
+      "computed_mse": 2.556603164383585e-07,
+      "stored_mse": 2.556603164383585e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.947554932554503e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.898765834792655e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 1.3552527156068805e-20
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "24-36mo",
+      "n_pairs": 1163974,
+      "n_top_verbs": 100,
+      "n_ranks": 5773,
+      "computed_alpha": 1.4399999999999995,
+      "stored_alpha": 1.4399999999999995,
+      "computed_mse": 2.149710026486358e-07,
+      "stored_mse": 2.149710026486358e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.980080997729068e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.98821251402271e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 6.776263578034403e-21
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "36-48mo",
+      "n_pairs": 553675,
+      "n_top_verbs": 100,
+      "n_ranks": 3991,
+      "computed_alpha": 1.3799999999999994,
+      "stored_alpha": 1.3799999999999994,
+      "computed_mse": 3.903650776092803e-07,
+      "stored_mse": 3.903650776092803e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.8879238130678e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.936712910829648e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 6.776263578034403e-21
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "48-60mo",
+      "n_pairs": 399355,
+      "n_top_verbs": 100,
+      "n_ranks": 3213,
+      "computed_alpha": 1.3699999999999994,
+      "stored_alpha": 1.3699999999999994,
+      "computed_mse": 5.261925514556713e-07,
+      "stored_mse": 5.261925514556713e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.8879238130678e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.90960785651751e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 6.776263578034403e-21
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "60-72mo",
+      "n_pairs": 121409,
+      "n_top_verbs": 100,
+      "n_ranks": 1578,
+      "computed_alpha": 1.2799999999999996,
+      "stored_alpha": 1.2799999999999996,
+      "computed_mse": 2.335837879907102e-07,
+      "stored_mse": 2.335837879907102e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.93129189996722e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.8879238130678e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 9.752398541507112e-17
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "72-84mo",
+      "n_pairs": 52385,
+      "n_top_verbs": 100,
+      "n_ranks": 1005,
+      "computed_alpha": 1.2299999999999995,
+      "stored_alpha": 1.2299999999999995,
+      "computed_mse": 7.795942130218523e-07,
+      "stored_mse": 7.795942130218523e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.6710833785707e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.80118763926896e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 9.990923019453923e-17
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "age_group": "84-96mo",
+      "n_pairs": 46807,
+      "n_top_verbs": 100,
+      "n_ranks": 979,
+      "computed_alpha": 1.2499999999999996,
+      "stored_alpha": 1.2499999999999996,
+      "computed_mse": 4.872866139085153e-07,
+      "stored_mse": 4.872866139085153e-07,
+      "rank_average_max_abs_difference": {
+        "rank": 0.0,
+        "average_proportion": 9.93129189996722e-17,
+        "num_verbs": 0.0,
+        "sd_proportion": 9.84455572616838e-17
+      },
+      "mse_search_max_abs_difference": {
+        "z": 4.440892098500626e-16,
+        "mse": 9.990923019453923e-17
+      },
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

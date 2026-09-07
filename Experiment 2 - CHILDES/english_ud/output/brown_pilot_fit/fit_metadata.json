@@ -1,0 +1,4026 @@
+{
+  "age_note": "PyLangAcq in_months; missing or ambiguous targets retained in extraction, excluded from fits",
+  "annotation_scheme": "Universal Dependencies",
+  "collection": "Eng-NA",
+  "complete_parse": true,
+  "corpus_exclusion": "case-insensitive Biling substring",
+  "counts": {
+    "n_annotated_utterances": 178023,
+    "n_cds_utterances": 87487,
+    "n_cds_utterances_missing_tiers": 1831,
+    "n_changeable_headers": 117,
+    "n_files": 214,
+    "n_files_relaxed_validation": 1,
+    "n_pairs": 41561,
+    "n_utterances": 184635
+  },
+  "created_at": "2026-09-07T16:43:57.579084+00:00",
+  "dependency_counts": {
+    "ACL": 1258,
+    "ACL-RELCL": 4296,
+    "ADVCL": 3356,
+    "ADVCL-RELCL": 707,
+    "ADVMOD": 46294,
+    "AMOD": 12474,
+    "APPOS": 836,
+    "AUX": 34929,
+    "AUX-PASS": 991,
+    "CASE": 31227,
+    "CC": 8873,
+    "CC-PRECONJ": 33,
+    "CCOMP": 5134,
+    "COMPOUND": 12082,
+    "COMPOUND-PRT": 8548,
+    "CONJ": 5607,
+    "COP": 26549,
+    "CSUBJ": 156,
+    "CSUBJ-OUTER": 2,
+    "DEP": 3263,
+    "DET": 47803,
+    "DET-PREDET": 863,
+    "DISCOURSE": 17089,
+    "DISLOCATED": 6,
+    "EXPL": 1477,
+    "FIXED": 368,
+    "FLAT": 2917,
+    "GOESWITH": 9,
+    "IOBJ": 3162,
+    "LIST": 67,
+    "MARK": 13199,
+    "NMOD": 5258,
+    "NMOD-POSS": 13005,
+    "NMOD-UNMARKED": 414,
+    "NSUBJ": 99088,
+    "NSUBJ-OUTER": 185,
+    "NSUBJ-PASS": 885,
+    "NUMMOD": 3954,
+    "OBJ": 60739,
+    "OBL": 19708,
+    "OBL-AGENT": 21,
+    "OBL-TMOD": 2,
+    "OBL-UNMARKED": 2688,
+    "ORPHAN": 11,
+    "PARATAXIS": 2197,
+    "PUNCT": 180907,
+    "REPARANDUM": 74,
+    "ROOT": 178023,
+    "VOCATIVE": 1707,
+    "XCOMP": 14715
+  },
+  "dependency_selection": "exact NSUBJ, case-insensitive; VERB or AUX head",
+  "diagnostics": {
+    "nsubj_nonverbal_head": 17031
+  },
+  "download_failures": [],
+  "exclusion_counts": {
+    "pairs_age_over_96": 0,
+    "pairs_missing_lemma": 1,
+    "pairs_missing_or_nonfinite_age": 0,
+    "pairs_outside_age_bins_but_in_overall": 0,
+    "utterances_age_over_96": 0,
+    "utterances_missing_or_nonfinite_age": 0,
+    "utterances_not_cds": 97148,
+    "utterances_outside_age_bins_but_in_overall": 0
+  },
+  "files": [
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:01:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020304.cha",
+      "sha256": "4b882771f6c757d58dc13056f91910eb5e37b88ca9cc6a2d6f24a8e1b6351952",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.04",
+      "target_child_age_months": 27.133333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020304.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:38:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020318.cha",
+      "sha256": "81857d014883a2f52d9a58ea6b39df2cd855a3d42422241155d7e3a2f7ad638d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.18",
+      "target_child_age_months": 27.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020318.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:57:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020403.cha",
+      "sha256": "12087e207e4d3f2f79017215a9c402df808827e58d4052b7db990090ee8965ab",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.03",
+      "target_child_age_months": 28.1,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020403.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:06:26-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020415.cha",
+      "sha256": "7d9423f2eb5208482be6bdc9563a0852fc884f52cd122b41217abaf549d4d34a",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.15",
+      "target_child_age_months": 28.5,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020415.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:01:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020430.cha",
+      "sha256": "4ae2eaca5e33cb3cabee050dc06779f1246a52b3264153ad460e9480c9654a82",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.30",
+      "target_child_age_months": 29.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020430.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:47:39-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020512.cha",
+      "sha256": "3ff40d9a83481396e188586b3df13b5132c1a2abf2e2248384a8190e07eb7bea",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;05.12",
+      "target_child_age_months": 29.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020512.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:33:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020603.cha",
+      "sha256": "c4494bacf02d8525af65f1930cb7a808815fb4cc071332c0aeacb1422d286d77",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.03",
+      "target_child_age_months": 30.1,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020603.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:27:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020617.cha",
+      "sha256": "b2f46d1b4f4695dcd889e0feca81b070933e3a58d83a5797d93a5b0c82816c69",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.17",
+      "target_child_age_months": 30.566666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020617.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:24:37-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020701.cha",
+      "sha256": "f6646b3007f396f4d02b41acdc13c41a5e8fcedbe518b062204c2f9c1ffd4dc5",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.01",
+      "target_child_age_months": 31.033333333333335,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020701.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:04:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020714.cha",
+      "sha256": "a1c48b293e62c66730e27538472188436627a77adbb6762ba6840efb12151737",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.14",
+      "target_child_age_months": 31.466666666666665,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020714.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:24:52-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020801.cha",
+      "sha256": "1e66da5df57873c6a929b9f97df33da24069c0589ef25bd310694bb7c823b8a9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;08.01",
+      "target_child_age_months": 32.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020801.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:04:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020816.cha",
+      "sha256": "ec12058d28bcb1990b0aae1bff8debcb54febe22bdabc456a190cf4675ca7506",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;08.16",
+      "target_child_age_months": 32.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020816.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:52:34-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020904.cha",
+      "sha256": "95373478e72112e18997c3bf2d1ade783bb9894580012da38d38f0238ad76736",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.04",
+      "target_child_age_months": 33.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020904.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:11:10-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/020918.cha",
+      "sha256": "da4d2f6ce4bc7f541565ae32ccb6f9a288df464f91b607829bd9abe3d586a93c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.18",
+      "target_child_age_months": 33.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/020918.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:23:07-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/021002.cha",
+      "sha256": "1f68e9c878c058a0d14c0366f5e45335cbcd02124f2a22d30c98bebbffcd1076",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.02",
+      "target_child_age_months": 34.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/021002.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:02:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/021016.cha",
+      "sha256": "f1666ea5a0674b1c2662c763a455bce1a668ca45c3b532d30e07464c0c18f3cf",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.16",
+      "target_child_age_months": 34.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/021016.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:31:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/021030.cha",
+      "sha256": "3d64c9f59aa02bcdbd95407a080a04d93612f0ea19232e0b979b09d29cd4d809",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.30",
+      "target_child_age_months": 35.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/021030.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:20:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/021113.cha",
+      "sha256": "145541965bc8fcdbdb9815bca3dc93e6a55b1997e9e3d70b432db3305e6600c8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.13",
+      "target_child_age_months": 35.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/021113.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T23:55:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/021128.cha",
+      "sha256": "9fb945bbbfc6987e3717572dba07d6f33fa44ac624d3b4c1cc800a5f55bad570",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.28",
+      "target_child_age_months": 35.93333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/021128.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:19:30-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030011.cha",
+      "sha256": "2316b112db2205754a04cd3f330ef9273d5737db12e322788d4a645972131ec1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;00.11",
+      "target_child_age_months": 36.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030011.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:43:56-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030025.cha",
+      "sha256": "f5688c6978ca8a9ba9c4877a24340f8341bbef009b36af72295d45de98c4331e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;00.25",
+      "target_child_age_months": 36.833333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030025.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:46:16-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030109.cha",
+      "sha256": "61833545fe4fa45f8a743b37e52d5b4d41d82918f03c728cfede0dd175241ba9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.09",
+      "target_child_age_months": 37.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030109.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:34:04-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030126.cha",
+      "sha256": "79314a3099addc4e7d987aed02f2c986b2e1fb176ddd1cf613c1fc57ca78b068",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.26",
+      "target_child_age_months": 37.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030126.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:48:06-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030209.cha",
+      "sha256": "8675aa14e2872aedbecdb174b3b9a17e3e9c057d9b8c5778ec17eeda47aa1dc4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.09",
+      "target_child_age_months": 38.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030209.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:29:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030221.cha",
+      "sha256": "ecc003f4614837690b99b859d18974e9892d0652c9d52e2ee1cecfd66487e3eb",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.21",
+      "target_child_age_months": 38.7,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030221.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:53:03-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030304.cha",
+      "sha256": "0e56d41cb467d15ebd9bb716023c437ddef5e7d715a835e0063efdf343a30b40",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.04",
+      "target_child_age_months": 39.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030304.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:21:44-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030318.cha",
+      "sha256": "e3f5b0810e867e04b2ca9ad47584b5bff1e5b47516ae53b0c8201b926c31fb0e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.18",
+      "target_child_age_months": 39.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030318.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:57:25-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030401.cha",
+      "sha256": "bad564ce3b5dc3eece8214354299b68743b4efb965f308ca1acaa8af802b77a8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.01",
+      "target_child_age_months": 40.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030401.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:49:18-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030418.cha",
+      "sha256": "30ba13f1f91b542f7044476ea80291dd7a644b98aa23d3789f0e154e0a453678",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.18",
+      "target_child_age_months": 40.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030418.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:31:23-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030501.cha",
+      "sha256": "edda7afa481ef70f1745bc1e8c17e0b65f513ff208e44a7e52d81cd45d2e80fe",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.01",
+      "target_child_age_months": 41.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030501.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:54:54-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030515.cha",
+      "sha256": "a9447a0e8c9deff918b80284d1a6478cb68788c9ad44b3a52febb95dc8cb3cf8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.15",
+      "target_child_age_months": 41.5,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030515.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:57:56-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030529.cha",
+      "sha256": "6ff601dd90fbbedc9025145164859592283028739cc0d587af4a9c470c01ecce",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.29",
+      "target_child_age_months": 41.96666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030529.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:57:45-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030609.cha",
+      "sha256": "9afe1dff0c2b29542a5ba66e4987227e6c476beef5c01234e9bb6a9c4c9c9d61",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;06.09",
+      "target_child_age_months": 42.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030609.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:15:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030707.cha",
+      "sha256": "5cfaedaeb6b0b1704d54705311f657f9c020c4eb00b911bf951eeaacc5c67320",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;07.07",
+      "target_child_age_months": 43.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030707.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-08T00:21:52-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030801.cha",
+      "sha256": "cd2fd7687cbbb39f30cdb065c967dfa7b1078489d976f6000b4ba88c5eb74a75",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.01",
+      "target_child_age_months": 44.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030801.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:40:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030814.cha",
+      "sha256": "284f88040aa2dd6ad619b155ebe97051562066f20dfb465722ef580395ad0fba",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.14",
+      "target_child_age_months": 44.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030814.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:30:13-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030826.cha",
+      "sha256": "898bdbf9113715fe22c43271b99ebee43cba0857727d0ebc20e55155e29deb19",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.26",
+      "target_child_age_months": 44.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030826.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/030916.cha",
+      "sha256": "d5114b2f1361861b7b0c930ac34d295ca861bac388dc7f9b54e41b81e730d29a",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;09.16",
+      "target_child_age_months": 45.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/030916.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:53:07-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/031015.cha",
+      "sha256": "d1f7402e7bd78ccdaaf01dd35f21c5d28dcda91c4af73dce36f053689eccf469",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;10.15",
+      "target_child_age_months": 46.5,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/031015.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:59:28-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/031101.cha",
+      "sha256": "2b4c029ca241a2142ce6f2ea7f224cc6a243ae379af3e04a94cf03162bf12774",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;11.01",
+      "target_child_age_months": 47.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/031101.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:17:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/031114.cha",
+      "sha256": "1f7de6447e3b06b7752f0d05e189c4e920fc72b4ccc10a772fe3d6be8d8b7336",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;11.14",
+      "target_child_age_months": 47.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/031114.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:45:02-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040014.cha",
+      "sha256": "2dc89ee6ddd5c547e194e19a5c52f54c451b9d1bbdc215659477de7e38f06a5d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;00.14",
+      "target_child_age_months": 48.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040014.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T23:33:42-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040115.cha",
+      "sha256": "145d9bc0dc9aa8ef3fe4d4d6771d19b35610aff2ddb17898b239aa0b26a17066",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;01.15",
+      "target_child_age_months": 49.5,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040115.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:01:31-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040217.cha",
+      "sha256": "45b8b0f38f4dd05d45aec64c914992f8f07fda6d6e4edaec0a7bb82d20221237",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.17",
+      "target_child_age_months": 50.56666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040217.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:31:29-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040309.cha",
+      "sha256": "25324145f5155decb2070a4e1689a4f03b3a00382b847b38f9617b26b3e47b1f",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;03.09",
+      "target_child_age_months": 51.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040309.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:24:16-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040401.cha",
+      "sha256": "9104b5db9e6e1e9d4bec1365b6c40a727f68f20e50bdeb1aee7ba314bd5e695d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.01",
+      "target_child_age_months": 52.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040401.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:56:05-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040413.cha",
+      "sha256": "291a7923a4031215602bdd6822172a8b2e3787985f4a7a963c75e437ad585a0f",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.13",
+      "target_child_age_months": 52.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040413.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:47:36-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040511.cha",
+      "sha256": "557472c95cdd034d509f3f7444fb88aecfa1490aca8de7c5376fcb1c6f2f4b9d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.11",
+      "target_child_age_months": 53.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040511.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:58:55-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040624.cha",
+      "sha256": "c7406c926a106af23399aaa1d8ca3fc176685cb59907b7e64cb180e0b35405cf",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;06.24",
+      "target_child_age_months": 54.8,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040624.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:19:36-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040701.cha",
+      "sha256": "c60d4de529425ed11f4135be576d68e3265144ef88a83e79af0207657c0963c1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.01",
+      "target_child_age_months": 55.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040701.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:48:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040729.cha",
+      "sha256": "cd9eae22934acb6dd2137137501ad0f43d0360b199b94acc3e227482c6fb1de5",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.29",
+      "target_child_age_months": 55.96666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040729.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:16:20-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/040902.cha",
+      "sha256": "0ab5cb7cfcfb68a1921f13e1e0590cdb7b726663b36875e2d34b0b353917de09",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;09.02",
+      "target_child_age_months": 57.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/040902.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:24:00-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/041002.cha",
+      "sha256": "c5d4b5f1b6be71999bbc9cda85164e5dbf6ae075cd003996f500e106eca67374",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;10.02",
+      "target_child_age_months": 58.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/041002.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T23:58:09-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/041023.cha",
+      "sha256": "ac41365f27c98e032c1722027afd632ad6c294d6924ce0cfa30b8a700cf1e812",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;10.23",
+      "target_child_age_months": 58.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/041023.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T23:34:30-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Adam/050212.cha",
+      "sha256": "f05ba8bfd6a67dbdd325a84c24b0dc7d1b93fd1cef39db5c06cfe4aab5906aa2",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;02.12",
+      "target_child_age_months": 62.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Adam/050212.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:26:06-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010600a.cha",
+      "sha256": "845d57759017c4f9c401b1b3b5cce7eacc6725f8328dfb3ac389e01deeffdabc",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010600a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:59:26-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010600b.cha",
+      "sha256": "858d59e4893462188078729d7e730b8150fd36ca52487953a468404cdc526422",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;06.00",
+      "target_child_age_months": 18.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010600b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010700a.cha",
+      "sha256": "8f09e48ad7f607735e23a88539d12144a3dc5422c84a373709aba8cb8b0919c0",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010700a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:37:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010700b.cha",
+      "sha256": "dd6b896ff20d5ff29bfe46a4cff14247765046c6aaa0b79e6a84ee4122c01d8b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;07.00",
+      "target_child_age_months": 19.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010700b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:33:29-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010800.cha",
+      "sha256": "7a4d5377a5ab5a11d950d4609dee427e25574f700d03a84f54a9e72b107c718a",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;08.00",
+      "target_child_age_months": 20.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010800.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:15:04-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010900a.cha",
+      "sha256": "fba36b00e64f5e7fb2ea203854a6966a62c011c4285ffb8710b9770ca6af0941",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010900a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:53:07-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010900b.cha",
+      "sha256": "c1ff4a949df55d582040d4425eac497d64149375dfa34b787c07416cd49d08cf",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010900b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T23:33:10-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/010900c.cha",
+      "sha256": "7e28eb7a44d36905dfd2a6118b140d61aa8f98a49dc0bd3e1241dc383fc70e56",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;09.00",
+      "target_child_age_months": 21.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/010900c.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:56:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/011000a.cha",
+      "sha256": "8ef8692315a009df2fc3c0836a6a074bd27eef5b6466734a10187def0a822fdd",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/011000a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:51:10-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/011000b.cha",
+      "sha256": "4582e1f3061b268174340a900fbb7fc85a2e60276eca8e9a43c4cee90201930d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;10.00",
+      "target_child_age_months": 22.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/011000b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:20:18-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/011100a.cha",
+      "sha256": "80500a71c83b75e3668c6e8c9419782eff1d278608bc7466530e813fbf3c8da4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/011100a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:48:56-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/011100b.cha",
+      "sha256": "ea1454a07bef9d593821f1136455bd4245b076d0d7c722fcc8319fa8be05e097",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "1;11.00",
+      "target_child_age_months": 23.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/011100b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:00:38-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020000a.cha",
+      "sha256": "b5b613c9b8ae167ed06c242b21b755b89b701769167a4e22e10aec98c1ac181c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020000a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:12:09-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020000b.cha",
+      "sha256": "06d4eac498d6ed79692f8a3084972a720492fbb338eef69b18ce5f05362b5162",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;00.00",
+      "target_child_age_months": 24.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020000b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:13:15-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020100a.cha",
+      "sha256": "fb2e39fdd7b2d5cb652a3d073046dcf82ac44e9f5420638aa8e890a79caaa9e9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;01.00",
+      "target_child_age_months": 25.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020100a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:48:50-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020100b.cha",
+      "parser_warnings": [],
+      "sha256": "65f7325850821b810cf026b5970dc1afe23af901bbf7373138006d15be929da5",
+      "status": "parsed",
+      "strict_validation_error": "Eve/020100b.cha: pause marker embedded in word: (.)\u201d",
+      "target_child": "CHI",
+      "target_child_age": "2;01.00",
+      "target_child_age_months": 25.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020100b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-06T22:33:42-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020200a.cha",
+      "sha256": "120ed102268d51cce33acd4b34bee2860cd9821356f71f1598f74a7d390cc010",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;02.00",
+      "target_child_age_months": 26.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020200a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T00:01:26-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020200b.cha",
+      "sha256": "3208b592460d7f07c7ea5a092a5e989ac010280ea56d1d340720f12d23443e22",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;02.00",
+      "target_child_age_months": 26.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020200b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:23:04-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020300a.cha",
+      "sha256": "d7ac79a6786e81d3cbf9c77ec0ae9d67122e567a84c2b1ca876f6f8556ae366b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.00",
+      "target_child_age_months": 27.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020300a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T02:47:59-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Eve/020300b.cha",
+      "sha256": "0528de3bb8901965b91f31ab42055e953c70b533a08ddbece8a147aef90e86d2",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.00",
+      "target_child_age_months": 27.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Eve/020300b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:16:56-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020305.cha",
+      "sha256": "880ef0b88aa11f1d8b63502870822358fd62b6058a610fdf4cce501c08549be4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.05",
+      "target_child_age_months": 27.166666666666668,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020305.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:49:00-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020307.cha",
+      "sha256": "0849933606df598bc070b351e689a4f6d86d588fb35f4ad4c921d695dbfe16de",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.07",
+      "target_child_age_months": 27.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020307.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:47:21-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020319.cha",
+      "sha256": "92438ca1d0ad7a2106a088a80d85db6fdef29bfecde0ab9e9c566ec28ec9a6e1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.19",
+      "target_child_age_months": 27.633333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020319.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:01:08-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020322.cha",
+      "sha256": "59af633a18713ae635d737774ff192f151bbb283021cf2ac104421093e7f7864",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.22",
+      "target_child_age_months": 27.733333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020322.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:52:30-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020326.cha",
+      "sha256": "0a7fdae940b601f8997bb26103631518c4c2d790b35cb80cbba2432ad12a74c2",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.26",
+      "target_child_age_months": 27.866666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020326.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:41:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020328.cha",
+      "sha256": "7085dc4dbc0f4741432bc8f2842aace1ce0a68f0c6da7e620aaaeb57d1c8da61",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;03.28",
+      "target_child_age_months": 27.933333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020328.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:51:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020410.cha",
+      "sha256": "36b862d714d7c2e3a3e91aa0ca5fcb33edba9390f58a378ca288dfe1ea31a4de",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.10",
+      "target_child_age_months": 28.333333333333332,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020410.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:23:10-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020412.cha",
+      "sha256": "13a7c9bed0e0073523a3621b383289bc5f6b38dacc266033bd13d597c56266af",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.12",
+      "target_child_age_months": 28.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020412.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:30:56-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020417.cha",
+      "sha256": "adf08542b9b953021b165e4b6eb7d5d8913bafefe11476722c5403a38dc39f5b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.17",
+      "target_child_age_months": 28.566666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020417.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:48:16-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020419.cha",
+      "sha256": "fed963963b9229ee4f4e0e078c3b6ee61fc3ba03ed1d405e9ef6b045a7759cb1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.19",
+      "target_child_age_months": 28.633333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020419.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:58:00-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020426.cha",
+      "sha256": "d085c6cd0292f7f08c3143e62c94a2978a8f27e44dc827d188076a09a87ee2d8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;04.26",
+      "target_child_age_months": 28.866666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020426.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:51:18-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020507.cha",
+      "sha256": "4a3b9a54f9eed462fb4cb7d83172f5406dc80c939345942438acb2dde5d048f1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;05.07",
+      "target_child_age_months": 29.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020507.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:42:20-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020515.cha",
+      "sha256": "8f637fb5a6e1abcd139186edcab548584492694ccec0c40d3db73799894e7808",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;05.15",
+      "target_child_age_months": 29.5,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020515.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T08:42:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020525.cha",
+      "sha256": "4b40b76323f20d5f651100224bb3bd92cad0b6c917198cc4ace170a79784a366",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;05.25",
+      "target_child_age_months": 29.833333333333332,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020525.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T08:15:23-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020530.cha",
+      "sha256": "6407726eabeead62a3bf293795b6b91f7e1054215ed9cde9687d3dc0655f4712",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;05.30",
+      "target_child_age_months": 30.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020530.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T08:36:19-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020604.cha",
+      "sha256": "6d10bc3ffd7681ae7274c6f6c784e8272ef3d71226b09ecf0d138ee50933430b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.04",
+      "target_child_age_months": 30.133333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020604.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:48:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020613.cha",
+      "sha256": "14ce2b63222c70aa380cffbc2ca74a351043a20dd68943a252c6b37b256e8c2d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.13",
+      "target_child_age_months": 30.433333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020613.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:59:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020620.cha",
+      "sha256": "4ec85597f453993ff69f6bb428a7063542e3a544b9a70639222e1fd5fe834922",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.20",
+      "target_child_age_months": 30.666666666666668,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020620.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:18:13-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020630.cha",
+      "sha256": "b1c4d6c2bf7d5f16a3d48ac442f5b13c0e9c245131ee38c26d13ebd032f5f4fd",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;06.30",
+      "target_child_age_months": 31.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020630.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:10:31-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020705.cha",
+      "sha256": "e486db09a33e7c44a305ade06f376d4fda0a6f15ccea2536c7f43a5be091b78e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.05",
+      "target_child_age_months": 31.166666666666668,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020705.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:27:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020712.cha",
+      "sha256": "89caa4905ec7665feb4b8da1ce5529e41f93c94354c9052d37931b169a9d36cd",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.12",
+      "target_child_age_months": 31.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020712.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T08:36:21-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020718.cha",
+      "sha256": "0b779cab6ea3b40ed557667853729942f260ac92bd3ba1f17964af12eea1f36d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.18",
+      "target_child_age_months": 31.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020718.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:16:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020728.cha",
+      "sha256": "dc49be1071e3eed4080aab599b258c625bc847e95c95c96b5093cd4d386fb2d7",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;07.28",
+      "target_child_age_months": 31.933333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020728.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:36:24-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020802.cha",
+      "sha256": "deab131d9b40067cac5549ca041a11652f1718275df3d446bf880cbec03a652c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;08.02",
+      "target_child_age_months": 32.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020802.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:44:02-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020825a.cha",
+      "sha256": "6fbef024b720d659f369a10b0972aed323322342cb18587912c17412180fdf24",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;08.25",
+      "target_child_age_months": 32.833333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020825a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:15:23-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020825b.cha",
+      "sha256": "4a9f9c06fd7e45ae04e244b693f45fe129f5ff64ee1954e975ed42a8164c1018",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;08.25",
+      "target_child_age_months": 32.833333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020825b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T01:21:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020900.cha",
+      "sha256": "432be5e54241dc50dca7d03b7afbf8060cc7a3cab360b862b3838b1be9b84920",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.00",
+      "target_child_age_months": 33.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020900.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:58:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020906.cha",
+      "sha256": "959b62549140cf2ff0396e72075c217f3a047c37a9e2e0ee7f8f07d2f46d35ec",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.06",
+      "target_child_age_months": 33.2,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020906.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:00:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020914.cha",
+      "sha256": "4f0ef4040c0db69ec4af377af3ab9055194d73b3471353504f5b95f430202980",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.14",
+      "target_child_age_months": 33.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020914.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T01:29:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020920.cha",
+      "sha256": "5819ac481ac7a8499a7363b65910cc2b8e34d249c4b5bc8c470a53094de9040e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.20",
+      "target_child_age_months": 33.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020920.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:59:35-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/020929.cha",
+      "sha256": "4cbaa7789cbcfbf7a330438ac999c0fc6dcf7c261e5681d1165ccd9e159f15c6",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;09.29",
+      "target_child_age_months": 33.96666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/020929.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:25:12-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021005.cha",
+      "sha256": "4c6afdeff7869d5ba02e920185b2208a52e95c40b3f7acdfadd6b6b2b5b6212c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.05",
+      "target_child_age_months": 34.166666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021005.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T08:24:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021011.cha",
+      "sha256": "455296084d15a59955d7cb8445f4d650f4d2899844b6b4bc242530b48ebf3109",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.11",
+      "target_child_age_months": 34.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021011.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:36:11-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021020.cha",
+      "sha256": "3ef2bb732a80afb1d9ea9b6534729972755ca013ef046aebc2b5662dd02bd465",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.20",
+      "target_child_age_months": 34.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021020.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:43:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021024.cha",
+      "sha256": "71d05b258a41ada9d34cd6353fcf8ebb5d31fba4e7cbc17d8ebbb1b329c9cf31",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;10.24",
+      "target_child_age_months": 34.8,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021024.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:14:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021102.cha",
+      "sha256": "407506a551c0d35a7d2403859436e3555824d1e7dc228c3ee6f9db60a5069385",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.02",
+      "target_child_age_months": 35.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021102.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:39:20-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021117.cha",
+      "sha256": "d4b260fd6ce35a07ea44d6c575eb987118eac45929dcfa5ac5032edebefe2afe",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.17",
+      "target_child_age_months": 35.56666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021117.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:48:45-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021123.cha",
+      "sha256": "a061c8cab152641914d66423dac29fe3c905b83af85e5f54ae3ae56bfede6137",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.23",
+      "target_child_age_months": 35.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021123.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/021130.cha",
+      "sha256": "23fd9695fdda6996c8b7a3c3dcbedfe5ce3963d58c00eb866d9c6e07fd65974e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "2;11.30",
+      "target_child_age_months": 36.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/021130.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:17:54-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030018a.cha",
+      "sha256": "78d540c2663ccbe0e289ea1edcdd82f70de98f7495f2cef458381b5416573a76",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;00.18",
+      "target_child_age_months": 36.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030018a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:28:38-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030018b.cha",
+      "sha256": "7febcff4a30bd9e10023b6e1e71d3b8f8c872f780fbf7fb2bcdb912e8ac1d9a8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;00.18",
+      "target_child_age_months": 36.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030018b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:22:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030027.cha",
+      "sha256": "413185395558c90c47f7389beda51368e93a6d8a609d1a3a8ed35716c59da82e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;00.27",
+      "target_child_age_months": 36.9,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030027.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:15:39-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030103.cha",
+      "sha256": "7ebb34fe19d6639b504da958ed7624920c1269bb5f00f796b0da0069019f6929",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.03",
+      "target_child_age_months": 37.1,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030103.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:34:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030110.cha",
+      "sha256": "30a860af6281320cad22785faffb634e04bdbdf5b2324a8bd1d9651963144aea",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.10",
+      "target_child_age_months": 37.333333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030110.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:41:58-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030117.cha",
+      "sha256": "5a9ab62e055012c8e3e4593fbd2e8671a0ff85422b0ea38a01426728ac411d4e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.17",
+      "target_child_age_months": 37.56666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030117.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:49:34-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030124.cha",
+      "sha256": "bd68e9d223d2d403cbf4dd1db84e67e02457bb2049c79eb3277268f51711e492",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;01.24",
+      "target_child_age_months": 37.8,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030124.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:12:02-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030202.cha",
+      "sha256": "14ccc72bbe5616d66a4268299ddf95a845dc41a0c7613c04d81fc625a5ce2b48",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.02",
+      "target_child_age_months": 38.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030202.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T00:06:17-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030210.cha",
+      "sha256": "581cedef4d9125ec47c96b863a9a42400f4723e3baab8ae67891d6d707c43873",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.10",
+      "target_child_age_months": 38.333333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030210.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:25:19-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030216.cha",
+      "sha256": "bbab07c47c26f4d4c4601f1cccea45a160d8e07c138755948b404aaf93e5bd20",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.16",
+      "target_child_age_months": 38.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030216.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:30:47-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030223.cha",
+      "sha256": "4593865e1001d3b024bf0c820cdfea033ced5cdef5b4b368de07373015559d60",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;02.23",
+      "target_child_age_months": 38.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030223.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030307a.cha",
+      "sha256": "e0161e8657926c7b88673a316627ed764ab42409a86ba629e57ac19e565ddbe7",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.07",
+      "target_child_age_months": 39.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030307a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:39:41-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030307b.cha",
+      "sha256": "a9b92932d1e76a2d2ed5cac19d36264ea5d13a18fda3ca2acd459b00e9720da9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.07",
+      "target_child_age_months": 39.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030307b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:09:34-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030313.cha",
+      "sha256": "1260e00c14ba4fdd0f487850c84189b99fa0158a25d382cbb5807311b08270e3",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.13",
+      "target_child_age_months": 39.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030313.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:18:29-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030320.cha",
+      "sha256": "85c7a3f853260c1b8a6ca48236fec31e9d400f1dc51f57875d950817ced42193",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.20",
+      "target_child_age_months": 39.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030320.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:44:38-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030328.cha",
+      "sha256": "e39a1ae689422eb1bcdea5ca067036f9185a00af18f1745129edddcc42120433",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;03.28",
+      "target_child_age_months": 39.93333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030328.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:06:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030401.cha",
+      "sha256": "0140f35b169f9e496ff9634be55e24c05a1840c702a560761496d1a764149b88",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.01",
+      "target_child_age_months": 40.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030401.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:44:59-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030409.cha",
+      "sha256": "ba8266df4288b626c679a64829b34a15e26ef26418074b62a111ac0766b61ce3",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.09",
+      "target_child_age_months": 40.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030409.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:43:14-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030416.cha",
+      "sha256": "07d0c9a75c7623fecd8bd17832bddb9c240fa44680ed10ce7f81a5833f9f51f6",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.16",
+      "target_child_age_months": 40.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030416.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:17:02-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030426.cha",
+      "sha256": "e2b3a03b4937db2cac9fc668bb67622d230d7a282f28d71935c40ec3b6088b0e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;04.26",
+      "target_child_age_months": 40.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030426.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:07:28-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030501.cha",
+      "sha256": "e29cf1748f19ed192fc415e1345c23ab42bc486ca927a8d42ea6667cff2a6f0b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.01",
+      "target_child_age_months": 41.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030501.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:06:39-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030507.cha",
+      "sha256": "590975b1d06d927ff7b4d42b915da1a2c47d5e8bf2e9d8787ccceb7d8e4aef20",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.07",
+      "target_child_age_months": 41.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030507.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:07:42-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030513.cha",
+      "sha256": "f63ae9785eaab9f0474aee52bf8fb41d4333ae092773a0bdabe90c9ed92a8449",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.13",
+      "target_child_age_months": 41.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030513.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T03:57:44-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030520.cha",
+      "sha256": "1768fcfa795519d9d3410c0797db746184c0ca9a22108ed3211108e50c84f9de",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;05.20",
+      "target_child_age_months": 41.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030520.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:09:48-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030606.cha",
+      "sha256": "145379989687ff7d89d5a50608e3fa0bd9ce333dfd1703727fbe411e9ec7b6b9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;06.06",
+      "target_child_age_months": 42.2,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030606.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:35:59-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030616.cha",
+      "sha256": "3948441c94f6c5ee2e6f4471688e1689cd094701b7cf706f2ebe7ea2bc0741f8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;06.16",
+      "target_child_age_months": 42.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030616.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:27:23-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030623.cha",
+      "sha256": "af67d7e327a06b9d31f99efc17751f12d47b8462caf3f0bada31736f1b8080ee",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;06.23",
+      "target_child_age_months": 42.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030623.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:06:43-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030630.cha",
+      "sha256": "d40ac7464eb631c923bd835c2fb5a2bd093a792d4b650d249efb1915e82d1c0b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;06.30",
+      "target_child_age_months": 43.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030630.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T01:01:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030709.cha",
+      "sha256": "28577fbca4d1803b764e09bb29f3e2594151179eee53d66e4d64a79c76f02ec9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;07.09",
+      "target_child_age_months": 43.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030709.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030716.cha",
+      "sha256": "87f0f32f89bd82704f247e6519084fd53964837485702f91c44e0ed9ebeadf9b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;07.16",
+      "target_child_age_months": 43.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030716.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:09:02-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030723.cha",
+      "sha256": "9cf223062e78f1931be888eef9d8a6080bf69c670ad37233370affb00f2e161f",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;07.23",
+      "target_child_age_months": 43.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030723.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:24:11-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030730.cha",
+      "sha256": "0014e376a78d691049b00695a99ca2fccedc630cbffd505a48b279c8e0a1b601",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;07.30",
+      "target_child_age_months": 44.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030730.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:40:13-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030806.cha",
+      "sha256": "fc4afd1fe0c059515173444f72ac6df13ffc14cc71b5cbc3d85af05971724a16",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.06",
+      "target_child_age_months": 44.2,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030806.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:34:52-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030812.cha",
+      "sha256": "82a38eb21f63402d970cdc57b9c0644672f4c224bdb49a35df9082c01518786f",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.12",
+      "target_child_age_months": 44.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030812.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:17:24-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030820.cha",
+      "sha256": "c16f876463e900758dbf979b0f51984a226653262ae71e96f5f807f394e9168e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.20",
+      "target_child_age_months": 44.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030820.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:13:34-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030827.cha",
+      "sha256": "831b464094af40f2feae24d01a42669e08645e782ed04231e2bc435616359113",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;08.27",
+      "target_child_age_months": 44.9,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030827.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:22:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030903.cha",
+      "sha256": "c3e0bee0f8f830fed622d6885a2a1ff5219c9c3053a1d82a691ec1a5f790ad62",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;09.03",
+      "target_child_age_months": 45.1,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030903.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:02:00-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030918.cha",
+      "sha256": "edf44a4b47e7315d77395c25663734b0610080f1fb06cab1491ea06ca9c2f17b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;09.18",
+      "target_child_age_months": 45.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030918.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:39:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030926a.cha",
+      "sha256": "9654f5e113b469d570c18ac7d11bf2bd16076b66c58389bdfcf4a6eb85d4e3d4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;09.26",
+      "target_child_age_months": 45.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030926a.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T01:21:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/030926b.cha",
+      "sha256": "e7630669dd096fa917ebf304358ff3059c3cbdca5099164ccdcef6be3c051215",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;09.26",
+      "target_child_age_months": 45.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/030926b.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:49:52-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031001.cha",
+      "sha256": "7dc56dcd9c4df70c58b626fddfa9dcfd41429a56651461260f413bd1d6d2096e",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;10.01",
+      "target_child_age_months": 46.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031001.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:21:29-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031009.cha",
+      "sha256": "3198fbd3e905564805e7e55df8c7dfead2ea043643274c492dbabadff09f8575",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;10.09",
+      "target_child_age_months": 46.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031009.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:10:43-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031016.cha",
+      "sha256": "d04978fe339b070150149b1f790852e7fc93d7643a28768572d998c978062646",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;10.16",
+      "target_child_age_months": 46.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031016.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:41:23-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031030.cha",
+      "sha256": "ee6aa1a06a1a80a85f234b09ea3d20c47352adb11e1878d5fa21ec62cf576b4d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;10.30",
+      "target_child_age_months": 47.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031030.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T09:32:38-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031109.cha",
+      "sha256": "175a9c3ef576fd488c358a967acaf67e1c2d9c2681d3ef1146c4f4df1989f743",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;11.09",
+      "target_child_age_months": 47.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031109.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:39:42-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031116.cha",
+      "sha256": "88715c21f0a692d3fb6444c2d5274010cae3bc5c77b8e68160882f3d42f7636b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;11.16",
+      "target_child_age_months": 47.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031116.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-04T00:05:26-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/031129.cha",
+      "sha256": "b06bbfbceaef97d0f4d67e7592ce01c0db8e5612bb01201c81c3bbffb5092dfd",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "3;11.29",
+      "target_child_age_months": 47.96666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/031129.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:24:53-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040005.cha",
+      "sha256": "dca8b82bfc31815f869aada3b48298692f54e91f6da54e0708a49f15046396c0",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;00.05",
+      "target_child_age_months": 48.166666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040005.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:50:13-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040014.cha",
+      "sha256": "4c05ed3533fb60c57e60e0ba8e24f236aeea00fdeba060e42e8153056c676793",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;00.14",
+      "target_child_age_months": 48.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040014.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:32:47-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040028.cha",
+      "sha256": "34d6850e0cee876235eb0c7e49a142c5ce24f0beba92e7888bf41c9a5624e063",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;00.28",
+      "target_child_age_months": 48.93333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040028.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:04:51-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040104.cha",
+      "sha256": "cf8acde1e5ce2e5d6a599e36bfafb5aeeaaa203ec0b31850b62320d561ecc104",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;01.04",
+      "target_child_age_months": 49.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040104.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:48:08-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040111.cha",
+      "sha256": "adac84bb94a0627f5577eab2c1641bd61695eae3ae29e71ac2814a07271ffcb9",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;01.11",
+      "target_child_age_months": 49.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040111.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:28:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040118.cha",
+      "sha256": "6cb1f7d64e63c1df83530e4ad0ab510b7545f6c750f650c443d0842b3f3132cc",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;01.18",
+      "target_child_age_months": 49.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040118.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:41:38-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040128.cha",
+      "sha256": "c790cb6cf0d6e698580432b46b6981bab68d8429cf85dab2a71d1b30fce55f28",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;01.28",
+      "target_child_age_months": 49.93333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040128.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:03:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040201.cha",
+      "sha256": "cf63fa04880b39c802b2de5849f822feb6d4a2ccbafbd385020f8636e30452b3",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.01",
+      "target_child_age_months": 50.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040201.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:08:50-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040209.cha",
+      "sha256": "d2cc3f02904f49872265d6dce6f8d305b03101d72f795c5b5855c968ca68d55b",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.09",
+      "target_child_age_months": 50.3,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040209.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:06:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040216.cha",
+      "sha256": "83d3d54b3ca835910364251301fd0b2ce5dcb9f5713d6c099b12e5342d4a2a2a",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.16",
+      "target_child_age_months": 50.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040216.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:25:15-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040223.cha",
+      "sha256": "6fb904b5fe51459312e6eb262bc77c568250c60f2dbbc64161887d2114b7d968",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.23",
+      "target_child_age_months": 50.766666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040223.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:28:29-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040228.cha",
+      "sha256": "c5debacbe18a80f2c104aac27adb7a13c84c06767a0ccc5bbc0e13261fde3f77",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;02.28",
+      "target_child_age_months": 50.93333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040228.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:58:28-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040307.cha",
+      "sha256": "d140975756b9f538f09cfca3aa15843ef27f8977fa52fa10812611ec91137e9d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;03.07",
+      "target_child_age_months": 51.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040307.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:49:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040313.cha",
+      "sha256": "095aeca30b6f0f6a32a12000a0b263ca9c2376a39a42cc0d08e79873b67e1cd3",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;03.13",
+      "target_child_age_months": 51.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040313.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040319.cha",
+      "sha256": "4e820327c2b550e6e7e967250c24ef01bdc250aee03212c1f1e3df0132d8b011",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;03.19",
+      "target_child_age_months": 51.63333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040319.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:28:15-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040326.cha",
+      "sha256": "bbeed3093325aa84af859e5a6ce1bef17265ff7ab99beb0c3f820637ef6b80d4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;03.26",
+      "target_child_age_months": 51.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040326.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:37:39-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040401.cha",
+      "sha256": "21ea38bb4dcf29548d77a25fe7874a23504a9aaf9bb7118ca18bf1944fac16d4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.01",
+      "target_child_age_months": 52.03333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040401.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:35:25-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040411.cha",
+      "sha256": "430975741be65ea325f3e2140ab3aef7d72ec5a579f485f9e0a32e8af52b51f0",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.11",
+      "target_child_age_months": 52.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040411.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:10:15-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040418.cha",
+      "sha256": "6d144f34ad273e0d2ab9f0c5209d59674ebc8301312f7d44552628ffedaed6a4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.18",
+      "target_child_age_months": 52.6,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040418.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:35:57-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040425.cha",
+      "sha256": "4d8f7c53f8e0add017b3d50efeb7d977aa5368f2150add49af7fbc5fe8023418",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;04.25",
+      "target_child_age_months": 52.833333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040425.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:56:30-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040504.cha",
+      "sha256": "804353486e52eed9daafa50d10d56fe5eb8f377e9cd0d9cc6a1c8cef74a564cf",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.04",
+      "target_child_age_months": 53.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040504.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:47:10-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040508.cha",
+      "sha256": "f34382fd1d14056cef5af8b72827ce5a07d92e55569e1ff4a27a622406b541ea",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.08",
+      "target_child_age_months": 53.266666666666666,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040508.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:27:43-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040514.cha",
+      "sha256": "f5735c23b35f0c2f0c2a76a90fc78173da741aea3d87240dfe88ce0bbf433620",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.14",
+      "target_child_age_months": 53.46666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040514.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:13:04-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040522.cha",
+      "sha256": "f84699f2b52cd844a50e6dd4fa30765ed087137ba17de74f2388ad2f03807136",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.22",
+      "target_child_age_months": 53.733333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040522.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:07:33-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040529.cha",
+      "sha256": "b05895ec27beaca5df2240e5253522dcb284cfcb1277d3693983d0e91361c247",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;05.29",
+      "target_child_age_months": 53.96666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040529.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:08:37-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040605.cha",
+      "sha256": "7124a01e949b9fef8c76cbf32ea56158c77e57e88fb3aa6c5cacea5796d2d5bb",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;06.05",
+      "target_child_age_months": 54.166666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040605.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:40:43-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040610.cha",
+      "sha256": "59ec4c4657e66f279f28b7808a8f9a6e304cfa114682b1e8fca5e2a16712eb39",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;06.10",
+      "target_child_age_months": 54.333333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040610.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:03:46-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040617.cha",
+      "sha256": "ad9ac154d7e9f96004d4d0ed9689deda9d6248861f01583e6c49d5e5f644bf07",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;06.17",
+      "target_child_age_months": 54.56666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040617.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:45:03-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040624.cha",
+      "sha256": "f51c6998644b0a909a32ac0704cfd68164cd43f57a3ded7696670bade61e39eb",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;06.24",
+      "target_child_age_months": 54.8,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040624.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040700.cha",
+      "sha256": "96de3192f19b677e20853e35e52e3a0dade95c78da1514229ca54c60f04216f5",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.00",
+      "target_child_age_months": 55.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040700.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:03:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040711.cha",
+      "sha256": "eb160faade946223519886722bbf8d26d2e05ced9919c602ef0459aee0f21ef5",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.11",
+      "target_child_age_months": 55.36666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040711.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:48:32-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040717.cha",
+      "sha256": "9addd9676eec3fd27d7f2de48e4bf03022504a938e5a9dc6e7f61984405a1a6c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.17",
+      "target_child_age_months": 55.56666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040717.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:31:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040724.cha",
+      "sha256": "543c8bcd6ac75e801cac7582857ddc419a03100b1d66616241406c458efc2666",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;07.24",
+      "target_child_age_months": 55.8,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040724.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:00:39-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040807.cha",
+      "sha256": "8b6f79413bb912dfad36f650cd88ea835d89f69207295f3919007016409bf6e8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;08.07",
+      "target_child_age_months": 56.233333333333334,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040807.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:25:40-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040813.cha",
+      "sha256": "dce4bb122b56eace16c335df2517de44c15687cbd953d19bbc60bdce21e6ee9d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;08.13",
+      "target_child_age_months": 56.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040813.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:47:43-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040820.cha",
+      "sha256": "b6ef8bc3bfa64b397d8ee8c9cbb6a4d3a13cf778fb9ff36c95a840e7caf430c1",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;08.20",
+      "target_child_age_months": 56.666666666666664,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040820.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:47:45-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040904.cha",
+      "sha256": "28c040398519b8d5cc45c863d6b15524c92bf66d0e808efeee0781c7258aeaf6",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;09.04",
+      "target_child_age_months": 57.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040904.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:14:00-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040912.cha",
+      "sha256": "fb837d9c086f2a567ddc2e9e63455fdc16af4b0b5d00d6c7e5c1c1138a6318de",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;09.12",
+      "target_child_age_months": 57.4,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040912.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:24:18-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040919.cha",
+      "sha256": "05966399b3de453a16d6ac8d3f098be302d52995a12e6bc528df78d8fcb60b94",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;09.19",
+      "target_child_age_months": 57.63333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040919.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:20:27-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/040926.cha",
+      "sha256": "77ec3adc27ec13a3217e739d977db1af2942678d3138de78349b94c5f4247853",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;09.26",
+      "target_child_age_months": 57.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/040926.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:24:08-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041006.cha",
+      "sha256": "69533e5ce28372670468a84dc4057a97f87aa36af7dc9c7421e68f938b01118a",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;10.06",
+      "target_child_age_months": 58.2,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041006.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:44:18-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041021.cha",
+      "sha256": "c478ebddbfbc48449e31c3e438777784e8e732bf69a225076b2c30039cfde191",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;10.21",
+      "target_child_age_months": 58.7,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041021.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:48:42-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041027.cha",
+      "sha256": "8dd100dc0f8427657f243c5fe9b748127d803d5569ed1de5531c6f301f8115cb",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;10.27",
+      "target_child_age_months": 58.9,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041027.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:31:34-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041104.cha",
+      "sha256": "5e2e5f30917b2bca2aa2b9a711e7f9d19cef484a6ab76561377173645084c407",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;11.04",
+      "target_child_age_months": 59.13333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041104.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:02:49-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041113.cha",
+      "sha256": "2f76bd9308218b1e23c4595c550545083fd749539dffbdc95deda0cd7b983328",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;11.13",
+      "target_child_age_months": 59.43333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041113.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T05:54:11-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041119.cha",
+      "sha256": "01b027be20ba12d14a1964eb9a84eb2737ca403027bc60d2a4ce66400a5196a8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;11.19",
+      "target_child_age_months": 59.63333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041119.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-08T01:40:35-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/041126.cha",
+      "sha256": "c5a4476a00ff1151f2fa8f4a39dee5a6c8d2ecacd574c656b4dfce7a2d9b23aa",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "4;11.26",
+      "target_child_age_months": 59.86666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/041126.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:37:30-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050002.cha",
+      "sha256": "53cad9fdbf2972da17bdd0d9149461e94fc14f02181667da2ac0ff436221966c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;00.02",
+      "target_child_age_months": 60.06666666666667,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050002.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:20:01-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050010.cha",
+      "sha256": "77632a498e56d41ae38d5519ee4e453bda65ddc9b42380a09f87c7dfd6e21d4d",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;00.10",
+      "target_child_age_months": 60.333333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050010.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-03T23:56:48-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050016.cha",
+      "sha256": "98c15ff2950a40177e6a1a735c5aefa1873a9c1d90011911e112838e9f575aca",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;00.16",
+      "target_child_age_months": 60.53333333333333,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050016.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T06:59:24-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050025.cha",
+      "sha256": "ad9175f86e766bc91817ae35684e5a3b71d7d6acdefd54334f320d5ce3b47ee4",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;00.25",
+      "target_child_age_months": 60.833333333333336,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050025.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T07:14:51-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050030.cha",
+      "sha256": "f5c4531d4ece4508e190008fef4b270f79b85a2730883f5800b9fb8fea762af8",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;00.30",
+      "target_child_age_months": 61.0,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050030.cha"
+    },
+    {
+      "age_status": "valid",
+      "annotation_comments": [
+        "[ba3 morphotag | engine=stanza-1.11.1 ; lang=eng | 2026-05-07T04:58:24-04:00]"
+      ],
+      "archive_id": "Eng-NA/Brown.zip",
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "excluded_biling_corpus": false,
+      "member": "Sarah/050106.cha",
+      "sha256": "891c34c07640d9a4a3c97fde32ed53acd3dff1a5384b05dcae77e85cc7f6a24c",
+      "status": "parsed",
+      "target_child": "CHI",
+      "target_child_age": "5;01.06",
+      "target_child_age_months": 61.2,
+      "target_child_code": "CHI",
+      "transcript": "Brown/Sarah/050106.cha"
+    }
+  ],
+  "fitting_settings": {
+    "age_bins": "[a,b) for 0 through 96 months",
+    "age_filter_overall": "finite age <= 96",
+    "ascii_verb_pattern": "^[a-zA-Z'-]+$",
+    "minimum_pairs_per_age_bin": 100,
+    "minimum_ranks_per_age_bin": 5,
+    "minimum_top_verbs_per_age_bin": 10,
+    "rank_average": "mean over verbs present at each rank",
+    "rank_curve_renormalized_before_mse": true,
+    "tie_order": "stable first-seen order",
+    "top_verbs": 100,
+    "z_max": 3.0,
+    "z_min": 0.1,
+    "z_step": 0.01
+  },
+  "grammar_tier": "%gra",
+  "inputs": {
+    "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/brown_pilot_extraction/metadata.json",
+    "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/brown_pilot_extraction/english_ud_subject_verb_pairs.csv",
+    "utterances": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/brown_pilot_extraction/english_ud_utterances.csv"
+  },
+  "lemma_rule": "lowercase MOR stem before uppercase feature suffix; raw morphology retained",
+  "morphology_tier": "%mor",
+  "parse_errors": [],
+  "pos_counts": {
+    "": 178023,
+    "adj": 25105,
+    "adp": 40413,
+    "adv": 41594,
+    "aux": 66937,
+    "bab": 442,
+    "cconj": 9061,
+    "chi": 887,
+    "cm": 2159,
+    "co": 162,
+    "det": 51348,
+    "fam": 19,
+    "intj": 36263,
+    "meta": 63,
+    "n:let": 3186,
+    "neo": 15,
+    "noun": 95200,
+    "num": 8571,
+    "on": 660,
+    "part": 25350,
+    "phon": 7,
+    "pron": 149815,
+    "propn": 26744,
+    "punct": 18,
+    "sconj": 5096,
+    "test": 79,
+    "uni": 5,
+    "unk": 13,
+    "verb": 109520,
+    "wplay": 137,
+    "x": 264
+  },
+  "pylangacq_version": "0.23.0",
+  "scope": "pilot_eng_na",
+  "sources": [
+    {
+      "archive_id": "Eng-NA/Brown.zip",
+      "bytes": 5094456,
+      "collection": "Eng-NA",
+      "corpus": "Brown",
+      "download_date": "2026-09-07",
+      "path": "/home/jason/talkbank-data/2026-09-07/Eng-NA/Brown.zip",
+      "sha256": "28254d0a866fe67b3e381ba5e45a4e71cd8f6c156fcc04e0e6e698df8e1ac89a",
+      "source_url": "https://talkbank.org/data/childes/Eng-NA/Brown?f=zip"
+    }
+  ],
+  "speaker_language_filter": "eng (exact participant language)",
+  "speaker_roles": [
+    "Adult",
+    "Brother",
+    "Caretaker",
+    "Doctor",
+    "Environment",
+    "Father",
+    "Friend",
+    "Girl",
+    "Grandfather",
+    "Grandmother",
+    "Investigator",
+    "Male",
+    "Mother",
+    "Narrator",
+    "Participant",
+    "Playmate",
+    "Relative",
+    "Sibling",
+    "Sister",
+    "Student",
+    "Target_Adult",
+    "Teacher",
+    "Teenager",
+    "Unidentified",
+    "Visitor"
+  ]
+}

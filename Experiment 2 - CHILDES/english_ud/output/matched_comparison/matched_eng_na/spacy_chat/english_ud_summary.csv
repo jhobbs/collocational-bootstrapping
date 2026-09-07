@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4499999999999995,3.821510177832887e-07,969399,669790,5633,2334,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+0-12mo,1.4899999999999993,8.051133096395301e-08,68282,35380,816,620,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+12-24mo,1.4299999999999995,2.7490858198949537e-07,204262,117712,1799,1009,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+24-36mo,1.4099999999999995,5.111559001021449e-07,266001,198972,2624,1205,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+36-48mo,1.4099999999999995,6.148057532204926e-07,162502,123119,2247,1082,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+48-60mo,1.4199999999999995,1.6649043346431925e-06,199456,146479,2673,1395,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+60-72mo,1.4399999999999995,1.4063580614804278e-06,42416,31000,913,654,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+72-84mo,1.3199999999999994,6.4804460479428625e-06,7639,5645,246,289,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text
+84-96mo,1.3799999999999994,6.132855978462943e-06,18841,11483,495,461,ok,matched_eng_na,Eng-NA,spaCy dependency parsing of selected CHAT surface text

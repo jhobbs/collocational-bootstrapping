@@ -1,0 +1,31 @@
+{
+  "augmented": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_ud",
+  "checks": [
+    "unique population and within-arm pair keys",
+    "strict rows preserved field-for-field and in original order",
+    "copula additions agree with augmented explicit_copula rows",
+    "all pair age/base/original metadata agree with population utterances",
+    "metadata counts and input hashes reconcile",
+    "augmenter raw-source verification evidence present"
+  ],
+  "counts": {
+    "augmented_pairs": 1758073,
+    "copula_additions": 454436,
+    "population_utterances": 2728212,
+    "spacy_pairs": 1886034,
+    "strict_pairs": 1303637
+  },
+  "population": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data",
+  "sha256": {
+    "additions": "b11368748132373a2cb091f11fc036521e7c0fa3752e59e4a4c181f84bdfa6d0",
+    "augmented": "406b0fc9cdece4247a60d01b588557ef26f6227359aba6a746ab77051eb8478f",
+    "augmented_metadata": "599b5b76b3c5423714c266903ffd0a0fdd920c652d2bf609a710cd357534fe90",
+    "population_metadata": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8",
+    "spacy": "121e27164670414a42ab3ec33d2f3543118363cf5327f798c15d64102202ec58",
+    "spacy_metadata": "5c32407f7e2c7c12ef79912bec55511da93b2397f73a2bedda0738215614950b",
+    "strict": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f",
+    "utterances": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71"
+  },
+  "spacy": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_chat",
+  "status": "passed"
+}

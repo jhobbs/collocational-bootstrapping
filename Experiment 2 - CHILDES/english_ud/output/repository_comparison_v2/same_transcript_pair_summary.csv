@@ -1,0 +1,6 @@
+classification,multiplicity
+both,1444
+same_dependency_different_lemma,49
+same_dependency_different_verb_aux_treatment,52
+spacy_only,1190
+ud_only,428

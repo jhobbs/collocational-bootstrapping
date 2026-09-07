@@ -1,0 +1,135 @@
+{
+  "scope": "earlier_talkbank_population",
+  "collection": "Clinical-Eng;Eng-AAE;Eng-NA;Eng-UK",
+  "annotation_scheme": "spaCy",
+  "created_at": "2026-09-07T19:19:31.414125+00:00",
+  "counts": {
+    "n_input_rows": 3792185,
+    "n_included_utterances": 3792185,
+    "n_pairs": 2560533
+  },
+  "input": {
+    "utterances_path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_population/english_ud_utterances.csv",
+    "utterances_sha256": "49cfbe2dd41fcc1e53dde6ccc55de02621fd88ca7abd6487022815734cacaf40",
+    "metadata_path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_population/metadata.json",
+    "metadata_sha256": "65f41e0132b507783b2717f5992d6b28827b51587b02f83ec09d0f7788195be2",
+    "text_column": "text",
+    "renamed_columns": {
+      "n_pairs": "source_ud_n_pairs (pair count from the source UD annotation)"
+    }
+  },
+  "parser": {
+    "model": "en_core_web_sm",
+    "model_version": "3.8.0",
+    "spacy_version": "3.8.13",
+    "n_process": 1,
+    "batch_size": 128,
+    "disabled_pipes": [
+      "ner"
+    ],
+    "extraction_rule": "token.dep_ == 'nsubj' and token.head.pos_ in {'VERB', 'AUX'}; lowercase spaCy lemmas",
+    "index_space": "spacy_token"
+  },
+  "denominator": {
+    "utterance_csv": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_population/english_ud_utterances.csv",
+    "included_column": "included_in_cds",
+    "note": "All supplied included utterances are counted, including utterances with zero extracted pairs."
+  },
+  "sharding": {
+    "requested_shards": 12,
+    "completed_shards": 12,
+    "worker_n_process": 1,
+    "merge_order": "ascending contiguous shard_id"
+  },
+  "shards": [
+    {
+      "shard_id": 0,
+      "n_utterances": 316016,
+      "n_pairs": 184153,
+      "utterances_sha256": "5eeeba1bf58d6804b22804fd30edc4d5912564867f837368eb3e2b1fc205d99a",
+      "worker_metadata_sha256": "d507d7969fe2f1b930166afd1e0b30833c291024b72c4f754f9b3749fa70efc1"
+    },
+    {
+      "shard_id": 1,
+      "n_utterances": 316016,
+      "n_pairs": 198215,
+      "utterances_sha256": "e1054a4afdc2addfb92439811810609ca836fc93251e0e5d5b9e8f21c09e5f43",
+      "worker_metadata_sha256": "8c39d7d4c26cdd74af83de2f78e7743e8f0e05910b62288ae9aeb01fa2303673"
+    },
+    {
+      "shard_id": 2,
+      "n_utterances": 316016,
+      "n_pairs": 217303,
+      "utterances_sha256": "25d7764b0c8bf1d00941bafcdcc50a0c4131e8011d0ed870119d9ea0feb4307b",
+      "worker_metadata_sha256": "d7e454e31b42eca974b377d2011aecd0409910c72a41b3ce6083d44f61071a3b"
+    },
+    {
+      "shard_id": 3,
+      "n_utterances": 316016,
+      "n_pairs": 233410,
+      "utterances_sha256": "f4adff8b80077bf32b536629811bc0c422efdfc3fb71a26caecbbdf9ac993703",
+      "worker_metadata_sha256": "cf2fa3ca40413404f5f86a4c1beaa565ac55d3d6a7c5285d31169418b7591f2a"
+    },
+    {
+      "shard_id": 4,
+      "n_utterances": 316016,
+      "n_pairs": 220275,
+      "utterances_sha256": "aa44518311895818dae870b0e3be7abb18b6ab7e9d53be1428b41b604a1b5077",
+      "worker_metadata_sha256": "60d45491a6e72bb70463f1eef309a0429daf2eeed394fc9545b2ca7cac7822e3"
+    },
+    {
+      "shard_id": 5,
+      "n_utterances": 316016,
+      "n_pairs": 231622,
+      "utterances_sha256": "a09ebf1b1dc31c96f9d56f499123d6e58fdb564955e689211723c27b3fad5b6b",
+      "worker_metadata_sha256": "1a4a41a147f57eabd7e1607eb926b05628a2a57ecf4cb56ce0a09490e24f938c"
+    },
+    {
+      "shard_id": 6,
+      "n_utterances": 316016,
+      "n_pairs": 184072,
+      "utterances_sha256": "cf12ba9e8d30565ec2cc0efd52bd51e9ee373cb36e25e60a5560b2b1ec445165",
+      "worker_metadata_sha256": "b1b67df8059a191a82a0fcf5146e49bc9674da7456ba0b21baf45c09adbcccdd"
+    },
+    {
+      "shard_id": 7,
+      "n_utterances": 316016,
+      "n_pairs": 208753,
+      "utterances_sha256": "cdff25083abe364949d40bbf2bd116132d07031bd68469074650887501554bf7",
+      "worker_metadata_sha256": "644bb5b9760bd17c07e7282469e3360d1f983cad30c693ad4abec36c99cf17d9"
+    },
+    {
+      "shard_id": 8,
+      "n_utterances": 316016,
+      "n_pairs": 244801,
+      "utterances_sha256": "5b8a42fd6f29b063ad7d0a23c31915b30e0dd07537b5aa1cacc52992a7a84e2d",
+      "worker_metadata_sha256": "3bcfd75ca099caafef04855a22086f6fc364cd54d01ade02dc84e1dbebd8da66"
+    },
+    {
+      "shard_id": 9,
+      "n_utterances": 316016,
+      "n_pairs": 232946,
+      "utterances_sha256": "9ef63145101cba7b20183833ae78f0d9331ed5f11f1bc992a9a90634bf25f778",
+      "worker_metadata_sha256": "207fece90090e67844487577327c5e3c64446dd81225cdf8e2f6ee4803d297c0"
+    },
+    {
+      "shard_id": 10,
+      "n_utterances": 316016,
+      "n_pairs": 210538,
+      "utterances_sha256": "7274bc13043d6a2c4b08143b216c3353d5afbfd8f5b18a1018c245b2b9488656",
+      "worker_metadata_sha256": "9245c8656d87258824091b88491b6d5c627c563854bb1bbe044b04186b290aed"
+    },
+    {
+      "shard_id": 11,
+      "n_utterances": 316009,
+      "n_pairs": 194445,
+      "utterances_sha256": "e86c9f065f509d24db89d788e9d150de1c84c02fc9b45e0f8f1140dba9b9c22a",
+      "worker_metadata_sha256": "6804692935ac5fb9036260286f310132d3d087ff6e87bd236b6f53337e64f4a5"
+    }
+  ],
+  "annotation_availability": {
+    "path": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_full_spacy_chat/annotation_availability.json",
+    "sha256": "183fafd886d49ac9889c9e4b07a0e2fe60efd923ee430e8c126abb3b39ed90cd",
+    "non_annotated_pairs": 22588
+  }
+}

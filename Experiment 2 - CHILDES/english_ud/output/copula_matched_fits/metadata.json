@@ -1,0 +1,49 @@
+{
+  "arms": [
+    "ud_strict",
+    "ud_copula",
+    "spacy_chat",
+    "spacy_original"
+  ],
+  "conditions": [
+    "all",
+    "no_be"
+  ],
+  "dataset": "matched",
+  "denominator_policy": "Identical population and ages within each corpus scope, including zero-pair utterances.",
+  "input_provenance": {
+    "spacy_chat": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_chat/metadata.json",
+      "metadata_sha256": "5c32407f7e2c7c12ef79912bec55511da93b2397f73a2bedda0738215614950b",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_chat/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "121e27164670414a42ab3ec33d2f3543118363cf5327f798c15d64102202ec58"
+    },
+    "spacy_original": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_original/metadata.json",
+      "metadata_sha256": "67b82ae5745a4098e74a450ac4b1f2bc4df4c84ac86ced0a63537208a64ff8e3",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_spacy_original/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "5523b3d0521c083466a3e8fa5145638bc5dd144b60aecc3284c2ae85e88e39fe"
+    },
+    "ud_copula": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_ud/metadata.json",
+      "metadata_sha256": "599b5b76b3c5423714c266903ffd0a0fdd920c652d2bf609a710cd357534fe90",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/copula_matched_ud/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "406b0fc9cdece4247a60d01b588557ef26f6227359aba6a746ab77051eb8478f"
+    },
+    "ud_strict": {
+      "metadata": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/metadata.json",
+      "metadata_sha256": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8",
+      "pairs": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/english_ud/output/matched_historical_data/english_ud_subject_verb_pairs.csv",
+      "pairs_sha256": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f"
+    }
+  },
+  "n_fits": 16,
+  "population_validation": {
+    "n_utterances": 2728212,
+    "population_metadata_sha256": "82ce8a7693f2556bce7ecb68bf27cab91260ffc82e4669ac47bbf994b97252c8",
+    "strict_pairs_sha256": "495296dd0f3f818cd7e94b2f6942b9aeb2bcc81b9b8cdf5e242cda0aaed4182f",
+    "utterances_sha256": "d63764cf745ed673dd085f53acadf6d3200552c4a04e9a13ac20ecc0228acf71"
+  },
+  "top_verb_policy": "Original top 100 eligible verbs reselected separately for each arm, age and be filter.",
+  "workers": 4
+}
