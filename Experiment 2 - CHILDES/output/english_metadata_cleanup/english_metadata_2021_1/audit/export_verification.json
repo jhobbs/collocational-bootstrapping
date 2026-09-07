@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "n_utterances": 3320394,
+  "independent_server_count": 3320394,
+  "all_corpus_counts_match": true,
+  "collection_counts": {
+    "Eng-NA": 1902548,
+    "Eng-UK": 1417846
+  },
+  "metadata_violations": {},
+  "csv_sha256": "7c485836263d471f98129e7d473ec0ed2adc781478ba6f4684d07e24588c889a",
+  "note": "Validates metadata selection; does not classify the language of speech."
+}

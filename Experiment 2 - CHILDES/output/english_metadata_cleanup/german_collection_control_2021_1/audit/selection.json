@@ -1,0 +1,15 @@
+{
+  "original_utterances": 4739189,
+  "german_collection_utterances": 148632,
+  "without_german_utterances": 4590557,
+  "removed_by_age": {
+    "0-12mo": 0,
+    "12-24mo": 1638,
+    "24-36mo": 42334,
+    "36-48mo": 27951,
+    "48-60mo": 15840,
+    "60-72mo": 18172,
+    "72-84mo": 27234,
+    "84-96mo": 15463
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "original_csv": "/home/jason/collocational-bootstrapping/childes_full_utterances_20251211_120050.csv",
+  "original_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+  "historical_csv_unchanged": true,
+  "current_original_data_link": "/home/jason/collocational-bootstrapping/childes_full_utterances_20251211_120050.csv",
+  "run_code_notes": [
+    "code/ preserves the extraction and analysis sources used for this run.",
+    "The maintained repository code additionally enforces a passed audit before analysis and sorts variable-width transcript IDs numerically.",
+    "The completed run passed the audit before analysis and all its transcript IDs have 12 digits, so those review fixes do not alter this run.",
+    "The maintained parser-input metadata uses generic english_metadata scope plus explicit db_versions. This run snapshot correctly records its actual 2026.1 scope."
+  ],
+  "execution_status": {
+    "extraction": 0,
+    "independent_selection_audit": 0,
+    "export_verification": 0,
+    "analysis": 0,
+    "analysis_verification": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "english_metadata",
+  "db_versions": [
+    "2021.1"
+  ],
+  "collection": [
+    "Eng-NA",
+    "Eng-UK"
+  ],
+  "counts": {
+    "n_cds_utterances": 3003214
+  },
+  "selection_provenance": {
+    "source_csv": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/data/childes_utterances.csv",
+    "source_sha256": "7c485836263d471f98129e7d473ec0ed2adc781478ba6f4684d07e24588c889a",
+    "age_and_text_filter": "unchanged analyze_complete_dataset_96mos.load_data(max_age=96)",
+    "row_identity": "zero-based data row index in source CSV; preserved through filtering"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-09-07T22:49:44.780631+00:00",
+  "shards": 16,
+  "code_sha256": {
+    "run_childes_analysis.py": "116452f4f99fa8a7c4856dd1f8209bf190c8bbec9bb466d1f028705310a1ec25",
+    "analyze_complete_dataset_96mos.py": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+    "analyze_age_groups_96mos.py": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+    "english_ud/parse_matched_spacy.py": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+    "english_ud/parse_sharded_spacy.py": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23"
+  },
+  "completed_at": "2026-09-07T22:55:44.540270+00:00",
+  "status": "complete",
+  "source_sha256": "08792a10c62b223cb63f6ffe90fe572dc09d70240fce2724c7247e46eb8ff05c"
+}

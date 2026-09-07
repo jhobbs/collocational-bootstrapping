@@ -1,0 +1,21 @@
+{
+  "artifact_hashes_verified": 248,
+  "adapted_reports": [
+    "english_metadata_2021_1/RUN_RESULTS.md",
+    "english_metadata_2026_1/RUN_RESULTS.md",
+    "german_collection_control_2021_1/RUN_RESULTS.md"
+  ],
+  "comparison_fits_and_counts_verified": 45,
+  "saved_run_audits_passed": [
+    "english_metadata_2021_1/audit/export_verification.json",
+    "english_metadata_2021_1/audit/analysis_verification.json",
+    "english_metadata_2026_1/audit/export_verification.json",
+    "english_metadata_2026_1/audit/analysis_verification.json"
+  ],
+  "control_exact_historical_pairs_and_cohort_outputs_passed": true,
+  "relative_markdown_links_passed": true,
+  "normalized_environment_records": [
+    "english_metadata_2021_1/audit/sessionInfo.txt",
+    "english_metadata_2026_1/audit/sessionInfo.txt"
+  ]
+}

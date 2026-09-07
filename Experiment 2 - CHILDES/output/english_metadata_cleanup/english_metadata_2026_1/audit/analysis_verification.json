@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "n_utterances": 3013603,
+  "n_pairs": 2143372,
+  "age_counts": {
+    "0-12mo": 166385,
+    "12-24mo": 500683,
+    "24-36mo": 1399876,
+    "36-48mo": 512741,
+    "48-60mo": 211915,
+    "60-72mo": 118618,
+    "72-84mo": 44490,
+    "84-96mo": 58895
+  },
+  "all_age_pair_counts_match": true,
+  "spotcheck_utterances": 1212,
+  "spotcheck_pairs": 859,
+  "spotcheck_matches_original_parser_exactly": true,
+  "verified_fits": [
+    "overall",
+    "0-12mo",
+    "12-24mo",
+    "24-36mo",
+    "36-48mo",
+    "48-60mo",
+    "60-72mo",
+    "72-84mo",
+    "84-96mo"
+  ]
+}

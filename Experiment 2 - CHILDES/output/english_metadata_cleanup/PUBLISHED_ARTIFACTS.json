@@ -1,0 +1,1990 @@
+{
+  "source_root": "/home/jason/talkbank-data/2026-09-07",
+  "publication_policy": "Exact code snapshots, fit artifacts excluding per-utterance pair lists, aggregate metadata/audits, and reports. Full utterance exports, participant/transcript metadata, parser inputs/pairs, row maps, and execution logs remain at source_root. Report links are adapted for this published subset; source_sha256 always identifies the original local file. R sessionInfo records have trailing whitespace removed; source hashes preserve their original identity.",
+  "files": [
+    {
+      "path": "english_metadata_2021_1/RUN_RESULTS.md",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/RUN_RESULTS.md",
+      "source_sha256": "0a82f9a89e6bf530f45e93311d19a151fad6a83c84a9b88709cb4cfc11b9f490",
+      "bytes": 6867,
+      "published_sha256": "a9d53b87b37c41e7d6d90d48ca629f30d1e5b4877e5db864210621db935981ef",
+      "published_bytes": 6933
+    },
+    {
+      "path": "english_metadata_2021_1/alpha_comparison.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/alpha_comparison.csv",
+      "source_sha256": "5032769a7a5e90959119a6eacbffb89b9998f150eecf418e78810820c9c31cd4",
+      "bytes": 1034,
+      "published_sha256": "5032769a7a5e90959119a6eacbffb89b9998f150eecf418e78810820c9c31cd4",
+      "published_bytes": 1034
+    },
+    {
+      "path": "english_metadata_2021_1/audit/analysis_run.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/analysis_run.json",
+      "source_sha256": "eb5202e5f96c5a709193b8a7c8abeb5548f37b126d442cf8fb54d3695fbae23f",
+      "bytes": 788,
+      "published_sha256": "eb5202e5f96c5a709193b8a7c8abeb5548f37b126d442cf8fb54d3695fbae23f",
+      "published_bytes": 788
+    },
+    {
+      "path": "english_metadata_2021_1/audit/analysis_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/analysis_verification.json",
+      "source_sha256": "085fd8d31e95b2411924a3737402ace35f9d00c4aafe68c6f039257730281f37",
+      "bytes": 584,
+      "published_sha256": "085fd8d31e95b2411924a3737402ace35f9d00c4aafe68c6f039257730281f37",
+      "published_bytes": 584
+    },
+    {
+      "path": "english_metadata_2021_1/audit/code_inventory.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/code_inventory.json",
+      "source_sha256": "21a00c2602d1c4e619af507b1f34384b5bce2eba967aca298d4a45f34b475581",
+      "bytes": 1507,
+      "published_sha256": "21a00c2602d1c4e619af507b1f34384b5bce2eba967aca298d4a45f34b475581",
+      "published_bytes": 1507
+    },
+    {
+      "path": "english_metadata_2021_1/audit/export_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/export_counts.csv",
+      "source_sha256": "e1fb373b1c25396e671299a3cedf0a9d2670e812920ad1c049134edc1eefd9ec",
+      "bytes": 2806,
+      "published_sha256": "e1fb373b1c25396e671299a3cedf0a9d2670e812920ad1c049134edc1eefd9ec",
+      "published_bytes": 2806
+    },
+    {
+      "path": "english_metadata_2021_1/audit/export_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/export_verification.json",
+      "source_sha256": "c60b55ac72013f9addbe8e48ed67993454556d83dde30988e73f13557acb79e6",
+      "bytes": 399,
+      "published_sha256": "c60b55ac72013f9addbe8e48ed67993454556d83dde30988e73f13557acb79e6",
+      "published_bytes": 399
+    },
+    {
+      "path": "english_metadata_2021_1/audit/extraction_status.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/extraction_status.txt",
+      "source_sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "bytes": 9,
+      "published_sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "published_bytes": 9
+    },
+    {
+      "path": "english_metadata_2021_1/audit/german_be_subject_comparison.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/german_be_subject_comparison.csv",
+      "source_sha256": "4fc8d3460dc2ac929d5f830fe92a3de6eb3c3e53c2e27ac9a9302ba7d447202a",
+      "bytes": 7118,
+      "published_sha256": "4fc8d3460dc2ac929d5f830fe92a3de6eb3c3e53c2e27ac9a9302ba7d447202a",
+      "published_bytes": 7118
+    },
+    {
+      "path": "english_metadata_2021_1/audit/historical_subset_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/historical_subset_verification.json",
+      "source_sha256": "92e5374d7c63397bcd7a5bec04ed058518476462fbecc95dfe51bd6d65d4fa5d",
+      "bytes": 231,
+      "published_sha256": "92e5374d7c63397bcd7a5bec04ed058518476462fbecc95dfe51bd6d65d4fa5d",
+      "published_bytes": 231
+    },
+    {
+      "path": "english_metadata_2021_1/audit/independent_selection.sql",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/independent_selection.sql",
+      "source_sha256": "026446970a03c8ddb3951f161298f72f701cad69beb6d1564dac35948f560882",
+      "bytes": 997,
+      "published_sha256": "026446970a03c8ddb3951f161298f72f701cad69beb6d1564dac35948f560882",
+      "published_bytes": 997
+    },
+    {
+      "path": "english_metadata_2021_1/audit/independent_selection_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/independent_selection_counts.csv",
+      "source_sha256": "be619a805e8a71a54f83b4c29e4808241c1d5cc865ccf43242b0dad44858b094",
+      "bytes": 1834,
+      "published_sha256": "be619a805e8a71a54f83b4c29e4808241c1d5cc865ccf43242b0dad44858b094",
+      "published_bytes": 1834
+    },
+    {
+      "path": "english_metadata_2021_1/audit/retrieval_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/retrieval_counts.csv",
+      "source_sha256": "78eff7f16bae85342d0df9232258cb507ddb5bb45e2aa3f4d0da1d2ff4b99c51",
+      "bytes": 2616,
+      "published_sha256": "78eff7f16bae85342d0df9232258cb507ddb5bb45e2aa3f4d0da1d2ff4b99c51",
+      "published_bytes": 2616
+    },
+    {
+      "path": "english_metadata_2021_1/audit/selection_policy.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/selection_policy.csv",
+      "source_sha256": "d9467a22ddd52ef8b11c38697915e24f4a1db744c13e4c5a1f0e66942d348011",
+      "bytes": 136,
+      "published_sha256": "d9467a22ddd52ef8b11c38697915e24f4a1db744c13e4c5a1f0e66942d348011",
+      "published_bytes": 136
+    },
+    {
+      "path": "english_metadata_2021_1/audit/sessionInfo.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/audit/sessionInfo.txt",
+      "source_sha256": "fe8b6bbe4675794e5b7be92f7d9b9fb6f962a8d2c940993e977a3c4ef71cead9",
+      "bytes": 1166,
+      "published_sha256": "36a6707a8e02d40f1effc1b1fc08c918922285ad6d08cb86482ef175e7182509",
+      "published_bytes": 1122,
+      "publication_edit": "Remove trailing whitespace from R sessionInfo output."
+    },
+    {
+      "path": "english_metadata_2021_1/code/analyze_age_groups_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/analyze_age_groups_96mos.py",
+      "source_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "bytes": 14287,
+      "published_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "published_bytes": 14287
+    },
+    {
+      "path": "english_metadata_2021_1/code/analyze_complete_dataset_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/analyze_complete_dataset_96mos.py",
+      "source_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "bytes": 10893,
+      "published_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "published_bytes": 10893
+    },
+    {
+      "path": "english_metadata_2021_1/code/audit_childes_selection.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/audit_childes_selection.R",
+      "source_sha256": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+      "bytes": 2086,
+      "published_sha256": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+      "published_bytes": 2086
+    },
+    {
+      "path": "english_metadata_2021_1/code/childes_filter_speakers.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/childes_filter_speakers.R",
+      "source_sha256": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+      "bytes": 2354,
+      "published_sha256": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+      "published_bytes": 2354
+    },
+    {
+      "path": "english_metadata_2021_1/code/childes_get_adult_speakers.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/childes_get_adult_speakers.R",
+      "source_sha256": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+      "bytes": 1791,
+      "published_sha256": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+      "published_bytes": 1791
+    },
+    {
+      "path": "english_metadata_2021_1/code/childes_get_utterances.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/childes_get_utterances.R",
+      "source_sha256": "275f2eb9965b92ec6fee09f8f3530292c0cc06d6d5675d16d1d1af1567e55940",
+      "bytes": 4002,
+      "published_sha256": "275f2eb9965b92ec6fee09f8f3530292c0cc06d6d5675d16d1d1af1567e55940",
+      "published_bytes": 4002
+    },
+    {
+      "path": "english_metadata_2021_1/code/childes_selection.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/childes_selection.R",
+      "source_sha256": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+      "bytes": 2613,
+      "published_sha256": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+      "published_bytes": 2613
+    },
+    {
+      "path": "english_metadata_2021_1/code/compare_same_version.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/compare_same_version.py",
+      "source_sha256": "bee522c28550cae2ec492865a7681e90e90ce44f06df8532c39c4bb944884a66",
+      "bytes": 3969,
+      "published_sha256": "bee522c28550cae2ec492865a7681e90e90ce44f06df8532c39c4bb944884a66",
+      "published_bytes": 3969
+    },
+    {
+      "path": "english_metadata_2021_1/code/english_ud/parse_matched_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/english_ud/parse_matched_spacy.py",
+      "source_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "bytes": 8904,
+      "published_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "published_bytes": 8904
+    },
+    {
+      "path": "english_metadata_2021_1/code/english_ud/parse_sharded_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/english_ud/parse_sharded_spacy.py",
+      "source_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "bytes": 10486,
+      "published_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "published_bytes": 10486
+    },
+    {
+      "path": "english_metadata_2021_1/code/run_childes_analysis.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/run_childes_analysis.py",
+      "source_sha256": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+      "bytes": 6162,
+      "published_sha256": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+      "published_bytes": 6162
+    },
+    {
+      "path": "english_metadata_2021_1/code/run_childes_extraction.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/run_childes_extraction.R",
+      "source_sha256": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+      "bytes": 2203,
+      "published_sha256": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+      "published_bytes": 2203
+    },
+    {
+      "path": "english_metadata_2021_1/code/verify_childes_analysis.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/verify_childes_analysis.py",
+      "source_sha256": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+      "bytes": 4017,
+      "published_sha256": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+      "published_bytes": 4017
+    },
+    {
+      "path": "english_metadata_2021_1/code/verify_childes_export.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/verify_childes_export.py",
+      "source_sha256": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec",
+      "bytes": 3571,
+      "published_sha256": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec",
+      "published_bytes": 3571
+    },
+    {
+      "path": "english_metadata_2021_1/code/verify_historical_subset.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/code/verify_historical_subset.py",
+      "source_sha256": "ea4decc75c493befa18d33ce3dbb7a86b712eefa673332bf04b065de40594765",
+      "bytes": 2727,
+      "published_sha256": "ea4decc75c493befa18d33ce3dbb7a86b712eefa673332bf04b065de40594765",
+      "published_bytes": 2727
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source_sha256": "0c796d7cec538f1951bf6205a32de6864d78037176a75a723f5da6f4dd6bd68c",
+      "bytes": 63609,
+      "published_sha256": "0c796d7cec538f1951bf6205a32de6864d78037176a75a723f5da6f4dd6bd68c",
+      "published_bytes": 63609
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source_sha256": "bd652be8441a336207c47f9e768a11eb7959680a0edc198040ac0fd4e8ab8a55",
+      "bytes": 156735,
+      "published_sha256": "bd652be8441a336207c47f9e768a11eb7959680a0edc198040ac0fd4e8ab8a55",
+      "published_bytes": 156735
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source_sha256": "d4797c3c6e2dfa91bb14d23beb359b63b84b135a0a9d1a058fbdb7adc8d4730d",
+      "bytes": 329209,
+      "published_sha256": "d4797c3c6e2dfa91bb14d23beb359b63b84b135a0a9d1a058fbdb7adc8d4730d",
+      "published_bytes": 329209
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source_sha256": "bf19f23423465887899b2b8c5c5de0d38631b95ad91799b2e5d98f6fc6bb821d",
+      "bytes": 214013,
+      "published_sha256": "bf19f23423465887899b2b8c5c5de0d38631b95ad91799b2e5d98f6fc6bb821d",
+      "published_bytes": 214013
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source_sha256": "04d05311abb7770a97a46654ca209059c0139d2b1a2390f5368e0d7f71bbbf78",
+      "bytes": 180674,
+      "published_sha256": "04d05311abb7770a97a46654ca209059c0139d2b1a2390f5368e0d7f71bbbf78",
+      "published_bytes": 180674
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source_sha256": "5d659afbe3f6f26eeaa355c26f71eb8666d4707a7ac8441609b9c078bcf13726",
+      "bytes": 52750,
+      "published_sha256": "5d659afbe3f6f26eeaa355c26f71eb8666d4707a7ac8441609b9c078bcf13726",
+      "published_bytes": 52750
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source_sha256": "90933dbd0bac62c0d9c39240d3dce710d00061bc6916f9bffa9747eb053eda47",
+      "bytes": 16643,
+      "published_sha256": "90933dbd0bac62c0d9c39240d3dce710d00061bc6916f9bffa9747eb053eda47",
+      "published_bytes": 16643
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source_sha256": "0f47f0bd776fd5e15df3d5c5e0baad71fc430b4fdfc8d26f0ee91033dcc133bb",
+      "bytes": 30045,
+      "published_sha256": "0f47f0bd776fd5e15df3d5c5e0baad71fc430b4fdfc8d26f0ee91033dcc133bb",
+      "published_bytes": 30045
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source_sha256": "ac0f8353d74ea35db5596fb9a20bafdff2c7615e881433140dd37ac8ae6c836d",
+      "bytes": 198497,
+      "published_sha256": "ac0f8353d74ea35db5596fb9a20bafdff2c7615e881433140dd37ac8ae6c836d",
+      "published_bytes": 198497
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source_sha256": "4dd480715420ad71085c87892632ff65a2610e5b9705b9a536517e6e93aeb72f",
+      "bytes": 512922,
+      "published_sha256": "4dd480715420ad71085c87892632ff65a2610e5b9705b9a536517e6e93aeb72f",
+      "published_bytes": 512922
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source_sha256": "d82d850898e23b505ffc7021ec6fda94bfcc5e603a3d255fb3e8ab9596ce83b6",
+      "bytes": 1263681,
+      "published_sha256": "d82d850898e23b505ffc7021ec6fda94bfcc5e603a3d255fb3e8ab9596ce83b6",
+      "published_bytes": 1263681
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source_sha256": "a262cd0ae1ca5b6823a310ae2d1cdfcc496d860f6f09772a08666a4b5416be99",
+      "bytes": 708379,
+      "published_sha256": "a262cd0ae1ca5b6823a310ae2d1cdfcc496d860f6f09772a08666a4b5416be99",
+      "published_bytes": 708379
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source_sha256": "a0ec6ff63f69aae9bf0eecf9de5fc1fd0ef7dfa01f5173a708e6e0c20bd48853",
+      "bytes": 607853,
+      "published_sha256": "a0ec6ff63f69aae9bf0eecf9de5fc1fd0ef7dfa01f5173a708e6e0c20bd48853",
+      "published_bytes": 607853
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source_sha256": "d813263bea60d1c967007bb6fb53370d6d912c49ed1bdf59ca717ec027e37370",
+      "bytes": 164685,
+      "published_sha256": "d813263bea60d1c967007bb6fb53370d6d912c49ed1bdf59ca717ec027e37370",
+      "published_bytes": 164685
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source_sha256": "7d9f5d089b82422cf49dfb80b1bfe937a75f52b55b392f3705652d47d0139063",
+      "bytes": 57874,
+      "published_sha256": "7d9f5d089b82422cf49dfb80b1bfe937a75f52b55b392f3705652d47d0139063",
+      "published_bytes": 57874
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source_sha256": "f11a74aad47fda60018f74caa62fddbe6f8e421792b1af442427be975d69e404",
+      "bytes": 82615,
+      "published_sha256": "f11a74aad47fda60018f74caa62fddbe6f8e421792b1af442427be975d69e404",
+      "published_bytes": 82615
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source_sha256": "42ebe25b97e7cd98c50e4f517b929bd635fd8c21ba0b6c8bd1b8e1268326d493",
+      "bytes": 11998,
+      "published_sha256": "42ebe25b97e7cd98c50e4f517b929bd635fd8c21ba0b6c8bd1b8e1268326d493",
+      "published_bytes": 11998
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source_sha256": "167b5ff3e466320f501dd95b8d494f1b9acb53b5ffc873c8e7a028ea4024e8b4",
+      "bytes": 11904,
+      "published_sha256": "167b5ff3e466320f501dd95b8d494f1b9acb53b5ffc873c8e7a028ea4024e8b4",
+      "published_bytes": 11904
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source_sha256": "4da68b0be04c5b7a2be1f8954f4ab4b995d3d4a6f6030abc48390663c56a6576",
+      "bytes": 11927,
+      "published_sha256": "4da68b0be04c5b7a2be1f8954f4ab4b995d3d4a6f6030abc48390663c56a6576",
+      "published_bytes": 11927
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source_sha256": "aebb48e5d1f2c3212db199a535f7677ce4e8a70a0e0a6db609d6ced9d5f5d95e",
+      "bytes": 11903,
+      "published_sha256": "aebb48e5d1f2c3212db199a535f7677ce4e8a70a0e0a6db609d6ced9d5f5d95e",
+      "published_bytes": 11903
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source_sha256": "623f576cea07d33ec1a6cf967403c18e2cd87b6a5531f2fc2b938371e192f06d",
+      "bytes": 11922,
+      "published_sha256": "623f576cea07d33ec1a6cf967403c18e2cd87b6a5531f2fc2b938371e192f06d",
+      "published_bytes": 11922
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source_sha256": "da78e22332c2eea5f442a6ca083e7b6b9f2afb742a28652902094d244420d571",
+      "bytes": 11982,
+      "published_sha256": "da78e22332c2eea5f442a6ca083e7b6b9f2afb742a28652902094d244420d571",
+      "published_bytes": 11982
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source_sha256": "7ebe00a863df28d3c8c4a455fc1e6a4a933802e4a9651cb340653cdc2e52b3b0",
+      "bytes": 11883,
+      "published_sha256": "7ebe00a863df28d3c8c4a455fc1e6a4a933802e4a9651cb340653cdc2e52b3b0",
+      "published_bytes": 11883
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source_sha256": "2c4b4d2d7ef74cd03cf544108b58af7e5ea41e017a46769d985ece4f58738868",
+      "bytes": 11923,
+      "published_sha256": "2c4b4d2d7ef74cd03cf544108b58af7e5ea41e017a46769d985ece4f58738868",
+      "published_bytes": 11923
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source_sha256": "e5a3d99fee79c3538a700a676534a15952d5fdea9dd568225601e6ae82f215c7",
+      "bytes": 31681,
+      "published_sha256": "e5a3d99fee79c3538a700a676534a15952d5fdea9dd568225601e6ae82f215c7",
+      "published_bytes": 31681
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source_sha256": "a32600c9caae331369555ba616880a3c07ca5ea5df6e0c3cfa3f0fab38339849",
+      "bytes": 81102,
+      "published_sha256": "a32600c9caae331369555ba616880a3c07ca5ea5df6e0c3cfa3f0fab38339849",
+      "published_bytes": 81102
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source_sha256": "2bf9d39119028a5c293c5aab012eb2a3681755242f734323adbf09ecd171395a",
+      "bytes": 173249,
+      "published_sha256": "2bf9d39119028a5c293c5aab012eb2a3681755242f734323adbf09ecd171395a",
+      "published_bytes": 173249
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source_sha256": "d4d9f52d3890ef1e8ab3c4edb0702d4b9c78c501ca5e6fa24e04be3178ae59f1",
+      "bytes": 108446,
+      "published_sha256": "d4d9f52d3890ef1e8ab3c4edb0702d4b9c78c501ca5e6fa24e04be3178ae59f1",
+      "published_bytes": 108446
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source_sha256": "36af953226c065200dba4fef55c0c53fb1a6c4e96a048ef088600e6c207bc191",
+      "bytes": 92375,
+      "published_sha256": "36af953226c065200dba4fef55c0c53fb1a6c4e96a048ef088600e6c207bc191",
+      "published_bytes": 92375
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source_sha256": "c55d36298597423dab9892c0a72eff10662bb51847a5df4336cfe402a1d38806",
+      "bytes": 25820,
+      "published_sha256": "c55d36298597423dab9892c0a72eff10662bb51847a5df4336cfe402a1d38806",
+      "published_bytes": 25820
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source_sha256": "1ac8284f3a9cfebd5183f43b957206662fbadb0cc6ce4451c5f0c0ace625f633",
+      "bytes": 8103,
+      "published_sha256": "1ac8284f3a9cfebd5183f43b957206662fbadb0cc6ce4451c5f0c0ace625f633",
+      "published_bytes": 8103
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source_sha256": "583a43c45a4498a2e0989acf6f884477da0e49dd5019ed71dc3f9a60db35c0ca",
+      "bytes": 14314,
+      "published_sha256": "583a43c45a4498a2e0989acf6f884477da0e49dd5019ed71dc3f9a60db35c0ca",
+      "published_bytes": 14314
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source_sha256": "56fd969b2ed2840e0bc92938d02c50292226a474e805e16eb8e21a8b165ce9d7",
+      "bytes": 1377,
+      "published_sha256": "56fd969b2ed2840e0bc92938d02c50292226a474e805e16eb8e21a8b165ce9d7",
+      "published_bytes": 1377
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source_sha256": "e9e3a3b44126432c78eaf92c1d4041e2784e06f905a83fa9cf645264858e3f9d",
+      "bytes": 719,
+      "published_sha256": "e9e3a3b44126432c78eaf92c1d4041e2784e06f905a83fa9cf645264858e3f9d",
+      "published_bytes": 719
+    },
+    {
+      "path": "english_metadata_2021_1/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source_sha256": "66f9ba0193f37349082e172378a2de4404d18f82293e410062822a1eea431af9",
+      "bytes": 122056,
+      "published_sha256": "66f9ba0193f37349082e172378a2de4404d18f82293e410062822a1eea431af9",
+      "published_bytes": 122056
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source_sha256": "cea491b627dab5b681335d4912140410539b7987ffc92e88f2bc743869a6bc55",
+      "bytes": 533727,
+      "published_sha256": "cea491b627dab5b681335d4912140410539b7987ffc92e88f2bc743869a6bc55",
+      "published_bytes": 533727
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source_sha256": "8064e8875d8bd4272547d697ef1cc995c5990ae1def54da69dc2579e1ce1207c",
+      "bytes": 2231468,
+      "published_sha256": "8064e8875d8bd4272547d697ef1cc995c5990ae1def54da69dc2579e1ce1207c",
+      "published_bytes": 2231468
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source_sha256": "07e9ba62ec3d18504e823b198cdd31c667d69b868294acab8ec414bb03fe53c7",
+      "bytes": 11987,
+      "published_sha256": "07e9ba62ec3d18504e823b198cdd31c667d69b868294acab8ec414bb03fe53c7",
+      "published_bytes": 11987
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source_sha256": "83dc824462836b7a73e9f5133ffe57db08e9f829fbeb4eff0f70d74187b04999",
+      "bytes": 280183,
+      "published_sha256": "83dc824462836b7a73e9f5133ffe57db08e9f829fbeb4eff0f70d74187b04999",
+      "published_bytes": 280183
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source_sha256": "257f53eef0a1a9ec70ffa3380d14053244265079af6bf4513da57672e15d6b5d",
+      "bytes": 390,
+      "published_sha256": "257f53eef0a1a9ec70ffa3380d14053244265079af6bf4513da57672e15d6b5d",
+      "published_bytes": 390
+    },
+    {
+      "path": "english_metadata_2021_1/output/complete_dataset_96mos/summary_96mos.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/output/complete_dataset_96mos/summary_96mos.txt",
+      "source_sha256": "7a10c99c97f8c6034fe9c6c4a87738671074af335c016b27200f34126ecdc84e",
+      "bytes": 510,
+      "published_sha256": "7a10c99c97f8c6034fe9c6c4a87738671074af335c016b27200f34126ecdc84e",
+      "published_bytes": 510
+    },
+    {
+      "path": "english_metadata_2021_1/parsed/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/parsed/metadata.json",
+      "source_sha256": "70225ce69e817d569d90dc2efe83001846cd7ca3cfd3fda29549e26c8e0b402b",
+      "bytes": 6094,
+      "published_sha256": "70225ce69e817d569d90dc2efe83001846cd7ca3cfd3fda29549e26c8e0b402b",
+      "published_bytes": 6094
+    },
+    {
+      "path": "english_metadata_2021_1/parser_input/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/parser_input/metadata.json",
+      "source_sha256": "fd2beae441998f3bd69635438b804c08134c39640e970834a5ee682f371712f0",
+      "bytes": 588,
+      "published_sha256": "fd2beae441998f3bd69635438b804c08134c39640e970834a5ee682f371712f0",
+      "published_bytes": 588
+    },
+    {
+      "path": "english_metadata_2021_1/same_version_comparison.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/same_version_comparison.csv",
+      "source_sha256": "6fa495ce0bc2995f4252c3ccde512c0e5cf989f2fa9ea1a26fd0f264087adda3",
+      "bytes": 2760,
+      "published_sha256": "6fa495ce0bc2995f4252c3ccde512c0e5cf989f2fa9ea1a26fd0f264087adda3",
+      "published_bytes": 2760
+    },
+    {
+      "path": "english_metadata_2021_1/same_version_comparison.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2021_1/same_version_comparison.png",
+      "source_sha256": "5a7efed975c1a6f25188d2dc8e63c7f12d97304048d8dff8c33c5a7832f91755",
+      "bytes": 133702,
+      "published_sha256": "5a7efed975c1a6f25188d2dc8e63c7f12d97304048d8dff8c33c5a7832f91755",
+      "published_bytes": 133702
+    },
+    {
+      "path": "english_metadata_2026_1/RUN_RESULTS.md",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/RUN_RESULTS.md",
+      "source_sha256": "290da1c2459cfa04e74ffa6740b222c99323496ce7bc64e09c4a72a075c172f5",
+      "bytes": 6659,
+      "published_sha256": "a274cc3737f15e4b9729222126774c463ef2f06b8c04a6ee2b6b9ca237ff4c13",
+      "published_bytes": 6847
+    },
+    {
+      "path": "english_metadata_2026_1/audit/age_filter_by_corpus.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/age_filter_by_corpus.csv",
+      "source_sha256": "2dc81a40f473fe9dd0c5633e03cd15fff0710887d1c1e3fbf08322c4e1b54947",
+      "bytes": 6281,
+      "published_sha256": "2dc81a40f473fe9dd0c5633e03cd15fff0710887d1c1e3fbf08322c4e1b54947",
+      "published_bytes": 6281
+    },
+    {
+      "path": "english_metadata_2026_1/audit/age_filter_counts.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/age_filter_counts.json",
+      "source_sha256": "410b055adeadcd2eaed90ea2fb1c82ad9ba6376a3bd7dc5836fe94216a1a4523",
+      "bytes": 448,
+      "published_sha256": "410b055adeadcd2eaed90ea2fb1c82ad9ba6376a3bd7dc5836fe94216a1a4523",
+      "published_bytes": 448
+    },
+    {
+      "path": "english_metadata_2026_1/audit/analysis_run.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/analysis_run.json",
+      "source_sha256": "e244c4f251a8e20680fc99fb33bc8ba8917482c9bd0595e2a19d58cf7689f4ae",
+      "bytes": 788,
+      "published_sha256": "e244c4f251a8e20680fc99fb33bc8ba8917482c9bd0595e2a19d58cf7689f4ae",
+      "published_bytes": 788
+    },
+    {
+      "path": "english_metadata_2026_1/audit/analysis_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/analysis_verification.json",
+      "source_sha256": "c017f87358eae273dc5580183844563bc8e01988e3d6b7b0f80441f2e19a20c9",
+      "bytes": 585,
+      "published_sha256": "c017f87358eae273dc5580183844563bc8e01988e3d6b7b0f80441f2e19a20c9",
+      "published_bytes": 585
+    },
+    {
+      "path": "english_metadata_2026_1/audit/export_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/export_counts.csv",
+      "source_sha256": "9d512a2d07c865c65a2583adf76f79b72575f349d7fec91d140599843ba51120",
+      "bytes": 3235,
+      "published_sha256": "9d512a2d07c865c65a2583adf76f79b72575f349d7fec91d140599843ba51120",
+      "published_bytes": 3235
+    },
+    {
+      "path": "english_metadata_2026_1/audit/export_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/export_verification.json",
+      "source_sha256": "269206ab2d15556171a360693b45b4746dcf4b1d2b0149a28b7d47a6b71f26a4",
+      "bytes": 399,
+      "published_sha256": "269206ab2d15556171a360693b45b4746dcf4b1d2b0149a28b7d47a6b71f26a4",
+      "published_bytes": 399
+    },
+    {
+      "path": "english_metadata_2026_1/audit/extraction_status.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/extraction_status.txt",
+      "source_sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "bytes": 9,
+      "published_sha256": "37a40f08d8548dba289b9b0bb35bcf63b359f6d37ee86044ebc6b6da080b9ec1",
+      "published_bytes": 9
+    },
+    {
+      "path": "english_metadata_2026_1/audit/german_be_subject_comparison.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/german_be_subject_comparison.csv",
+      "source_sha256": "23440338799b84f9fe2e3d68380036056742b1e402c08e5fdcf4eda680763c35",
+      "bytes": 2144,
+      "published_sha256": "23440338799b84f9fe2e3d68380036056742b1e402c08e5fdcf4eda680763c35",
+      "published_bytes": 2144
+    },
+    {
+      "path": "english_metadata_2026_1/audit/independent_selection.sql",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/independent_selection.sql",
+      "source_sha256": "026446970a03c8ddb3951f161298f72f701cad69beb6d1564dac35948f560882",
+      "bytes": 997,
+      "published_sha256": "026446970a03c8ddb3951f161298f72f701cad69beb6d1564dac35948f560882",
+      "published_bytes": 997
+    },
+    {
+      "path": "english_metadata_2026_1/audit/independent_selection_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/independent_selection_counts.csv",
+      "source_sha256": "db61a3c5598c7c35ab35e5740860c1807bf37c690e0d5a3f8fecdbb8234c310f",
+      "bytes": 2169,
+      "published_sha256": "db61a3c5598c7c35ab35e5740860c1807bf37c690e0d5a3f8fecdbb8234c310f",
+      "published_bytes": 2169
+    },
+    {
+      "path": "english_metadata_2026_1/audit/retrieval_counts.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/retrieval_counts.csv",
+      "source_sha256": "9be858ca30cba50b82f4e1b1d08283831fc333a52340681d57b769f0efd26a91",
+      "bytes": 3073,
+      "published_sha256": "9be858ca30cba50b82f4e1b1d08283831fc333a52340681d57b769f0efd26a91",
+      "published_bytes": 3073
+    },
+    {
+      "path": "english_metadata_2026_1/audit/reviewed_code_integration.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/reviewed_code_integration.json",
+      "source_sha256": "0d971938af8872a4b54bccc6192110061f5a1525336abbdade591aecab812231",
+      "bytes": 1960,
+      "published_sha256": "0d971938af8872a4b54bccc6192110061f5a1525336abbdade591aecab812231",
+      "published_bytes": 1960
+    },
+    {
+      "path": "english_metadata_2026_1/audit/run_provenance.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/run_provenance.json",
+      "source_sha256": "61d1af4f23e17d9d4035981bc67a8a6180f8b58612074fd3881ac3ea4be3a188",
+      "bytes": 1082,
+      "published_sha256": "61d1af4f23e17d9d4035981bc67a8a6180f8b58612074fd3881ac3ea4be3a188",
+      "published_bytes": 1082
+    },
+    {
+      "path": "english_metadata_2026_1/audit/selection_policy.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/selection_policy.csv",
+      "source_sha256": "c271cad10eb9bc24824a49321dfab8670e8158a149c2fd16f380bbf514e17076",
+      "bytes": 136,
+      "published_sha256": "c271cad10eb9bc24824a49321dfab8670e8158a149c2fd16f380bbf514e17076",
+      "published_bytes": 136
+    },
+    {
+      "path": "english_metadata_2026_1/audit/sessionInfo.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/audit/sessionInfo.txt",
+      "source_sha256": "fe8b6bbe4675794e5b7be92f7d9b9fb6f962a8d2c940993e977a3c4ef71cead9",
+      "bytes": 1166,
+      "published_sha256": "36a6707a8e02d40f1effc1b1fc08c918922285ad6d08cb86482ef175e7182509",
+      "published_bytes": 1122,
+      "publication_edit": "Remove trailing whitespace from R sessionInfo output."
+    },
+    {
+      "path": "english_metadata_2026_1/code/analyze_age_groups_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/analyze_age_groups_96mos.py",
+      "source_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "bytes": 14287,
+      "published_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "published_bytes": 14287
+    },
+    {
+      "path": "english_metadata_2026_1/code/analyze_complete_dataset_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/analyze_complete_dataset_96mos.py",
+      "source_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "bytes": 10893,
+      "published_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "published_bytes": 10893
+    },
+    {
+      "path": "english_metadata_2026_1/code/audit_childes_selection.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/audit_childes_selection.R",
+      "source_sha256": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+      "bytes": 2086,
+      "published_sha256": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+      "published_bytes": 2086
+    },
+    {
+      "path": "english_metadata_2026_1/code/childes_filter_speakers.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/childes_filter_speakers.R",
+      "source_sha256": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+      "bytes": 2354,
+      "published_sha256": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+      "published_bytes": 2354
+    },
+    {
+      "path": "english_metadata_2026_1/code/childes_get_adult_speakers.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/childes_get_adult_speakers.R",
+      "source_sha256": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+      "bytes": 1791,
+      "published_sha256": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+      "published_bytes": 1791
+    },
+    {
+      "path": "english_metadata_2026_1/code/childes_get_utterances.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/childes_get_utterances.R",
+      "source_sha256": "b334246375e5e33e3129dda0ceada1f1cd5c165326627ccc0c653c98aa41b369",
+      "bytes": 3981,
+      "published_sha256": "b334246375e5e33e3129dda0ceada1f1cd5c165326627ccc0c653c98aa41b369",
+      "published_bytes": 3981
+    },
+    {
+      "path": "english_metadata_2026_1/code/childes_selection.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/childes_selection.R",
+      "source_sha256": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+      "bytes": 2613,
+      "published_sha256": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+      "published_bytes": 2613
+    },
+    {
+      "path": "english_metadata_2026_1/code/compare_results.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/compare_results.py",
+      "source_sha256": "fa38c38c1c563596e26aac83e59ccbbb6025311baf45d4db3dcaf73097198eb2",
+      "bytes": 2746,
+      "published_sha256": "fa38c38c1c563596e26aac83e59ccbbb6025311baf45d4db3dcaf73097198eb2",
+      "published_bytes": 2746
+    },
+    {
+      "path": "english_metadata_2026_1/code/english_ud/parse_matched_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/english_ud/parse_matched_spacy.py",
+      "source_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "bytes": 8904,
+      "published_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "published_bytes": 8904
+    },
+    {
+      "path": "english_metadata_2026_1/code/english_ud/parse_sharded_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/english_ud/parse_sharded_spacy.py",
+      "source_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "bytes": 10486,
+      "published_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "published_bytes": 10486
+    },
+    {
+      "path": "english_metadata_2026_1/code/run_childes_analysis.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/run_childes_analysis.py",
+      "source_sha256": "116452f4f99fa8a7c4856dd1f8209bf190c8bbec9bb466d1f028705310a1ec25",
+      "bytes": 5786,
+      "published_sha256": "116452f4f99fa8a7c4856dd1f8209bf190c8bbec9bb466d1f028705310a1ec25",
+      "published_bytes": 5786
+    },
+    {
+      "path": "english_metadata_2026_1/code/run_childes_extraction.R",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/run_childes_extraction.R",
+      "source_sha256": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+      "bytes": 2203,
+      "published_sha256": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+      "published_bytes": 2203
+    },
+    {
+      "path": "english_metadata_2026_1/code/verify_childes_analysis.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/verify_childes_analysis.py",
+      "source_sha256": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+      "bytes": 4017,
+      "published_sha256": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+      "published_bytes": 4017
+    },
+    {
+      "path": "english_metadata_2026_1/code/verify_childes_export.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/code/verify_childes_export.py",
+      "source_sha256": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec",
+      "bytes": 3571,
+      "published_sha256": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec",
+      "published_bytes": 3571
+    },
+    {
+      "path": "english_metadata_2026_1/comparison_with_historical.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/comparison_with_historical.csv",
+      "source_sha256": "30a97eefb3271effee3f3be6d925269208e7b7ae191dfbeb94f5d778b34ea59a",
+      "bytes": 705,
+      "published_sha256": "30a97eefb3271effee3f3be6d925269208e7b7ae191dfbeb94f5d778b34ea59a",
+      "published_bytes": 705
+    },
+    {
+      "path": "english_metadata_2026_1/comparison_with_historical.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/comparison_with_historical.png",
+      "source_sha256": "c15219dbda171db1c1061ac244bb8a710de76eda768f558c19b1dac720ef47da",
+      "bytes": 119529,
+      "published_sha256": "c15219dbda171db1c1061ac244bb8a710de76eda768f558c19b1dac720ef47da",
+      "published_bytes": 119529
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source_sha256": "07b29e434f58c68f6031469ffdfac502758e5604ceb036a635d40ddf0fc78a4c",
+      "bytes": 70415,
+      "published_sha256": "07b29e434f58c68f6031469ffdfac502758e5604ceb036a635d40ddf0fc78a4c",
+      "published_bytes": 70415
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source_sha256": "158d99650e06bfe3b25ffc934b0580bd68986789b58a8d6cebac4b674a5222a9",
+      "bytes": 161876,
+      "published_sha256": "158d99650e06bfe3b25ffc934b0580bd68986789b58a8d6cebac4b674a5222a9",
+      "published_bytes": 161876
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source_sha256": "3c362681f01edcfb656eba08b2133f041f8e5c86b37a43f032c296a33eef0cc1",
+      "bytes": 309881,
+      "published_sha256": "3c362681f01edcfb656eba08b2133f041f8e5c86b37a43f032c296a33eef0cc1",
+      "published_bytes": 309881
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source_sha256": "98f6dd125f18e5c0141cf1310e4f0f2720fa958c580dea9deef0370f9ebbb8ea",
+      "bytes": 207996,
+      "published_sha256": "98f6dd125f18e5c0141cf1310e4f0f2720fa958c580dea9deef0370f9ebbb8ea",
+      "published_bytes": 207996
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source_sha256": "a584678216acefd62c295eaf4bb13849b873beaa39faff30ea749757d6e659dc",
+      "bytes": 123542,
+      "published_sha256": "a584678216acefd62c295eaf4bb13849b873beaa39faff30ea749757d6e659dc",
+      "published_bytes": 123542
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source_sha256": "3bebe204345c4f0c732a9f3480ca645ec652314bcb280e298d1d88b3b77b2193",
+      "bytes": 61810,
+      "published_sha256": "3bebe204345c4f0c732a9f3480ca645ec652314bcb280e298d1d88b3b77b2193",
+      "published_bytes": 61810
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source_sha256": "71a99cc3892422204abfb8e73df89e7516dafbdddf521399bea3d7d02f48a4f8",
+      "bytes": 29027,
+      "published_sha256": "71a99cc3892422204abfb8e73df89e7516dafbdddf521399bea3d7d02f48a4f8",
+      "published_bytes": 29027
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source_sha256": "5e6ae9f1e1da90514458b75c711820678ab7038e18609ed0bdfd59e11a422776",
+      "bytes": 34962,
+      "published_sha256": "5e6ae9f1e1da90514458b75c711820678ab7038e18609ed0bdfd59e11a422776",
+      "published_bytes": 34962
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source_sha256": "a9631ff97846fb22a05181e06fc4ea4c027c84a24c541b5f23c51352ed8e9eb1",
+      "bytes": 206749,
+      "published_sha256": "a9631ff97846fb22a05181e06fc4ea4c027c84a24c541b5f23c51352ed8e9eb1",
+      "published_bytes": 206749
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source_sha256": "7a5f022e1c30d8f66354ed6ce91d31b22bf9fd3646da6c60cbe1c0bcefcc067b",
+      "bytes": 566752,
+      "published_sha256": "7a5f022e1c30d8f66354ed6ce91d31b22bf9fd3646da6c60cbe1c0bcefcc067b",
+      "published_bytes": 566752
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source_sha256": "ef80654bf002eb53049d51ba2291172a2406c1da25964670fdc6230c1e8fea0d",
+      "bytes": 1218856,
+      "published_sha256": "ef80654bf002eb53049d51ba2291172a2406c1da25964670fdc6230c1e8fea0d",
+      "published_bytes": 1218856
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source_sha256": "ddf1b595d331b74aa10bd267662e386f0b460cbf41ef6a86faf9fa30c0af440b",
+      "bytes": 708630,
+      "published_sha256": "ddf1b595d331b74aa10bd267662e386f0b460cbf41ef6a86faf9fa30c0af440b",
+      "published_bytes": 708630
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source_sha256": "a84c58744e4e8114254066fb096639cfb686cc064d536dbca1a78044a20c9750",
+      "bytes": 381579,
+      "published_sha256": "a84c58744e4e8114254066fb096639cfb686cc064d536dbca1a78044a20c9750",
+      "published_bytes": 381579
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source_sha256": "0c9a1c15e72e6a1757b1eca9e6640f75319969f6ebabecfbfb9271abdf55e056",
+      "bytes": 187922,
+      "published_sha256": "0c9a1c15e72e6a1757b1eca9e6640f75319969f6ebabecfbfb9271abdf55e056",
+      "published_bytes": 187922
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source_sha256": "611808a143edc36124e8d3517b3b5dd26ed20ad04cc9ffc4a0cf12b7af2003ac",
+      "bytes": 76810,
+      "published_sha256": "611808a143edc36124e8d3517b3b5dd26ed20ad04cc9ffc4a0cf12b7af2003ac",
+      "published_bytes": 76810
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source_sha256": "2f31c85f874ad0b987429f862a006cc2d07cce7adb59cfde47a55b4971a921eb",
+      "bytes": 93637,
+      "published_sha256": "2f31c85f874ad0b987429f862a006cc2d07cce7adb59cfde47a55b4971a921eb",
+      "published_bytes": 93637
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source_sha256": "9444e0f7c4320c1678add6ab9f044bb6be669504bff471669ee816658e78912a",
+      "bytes": 11984,
+      "published_sha256": "9444e0f7c4320c1678add6ab9f044bb6be669504bff471669ee816658e78912a",
+      "published_bytes": 11984
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source_sha256": "c670f4515afb335660e11b46459d1a68ed51a54e488aad1d634f41291f26c591",
+      "bytes": 11910,
+      "published_sha256": "c670f4515afb335660e11b46459d1a68ed51a54e488aad1d634f41291f26c591",
+      "published_bytes": 11910
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source_sha256": "7a9e8a0ca4bc31b680314f0707f1452e947bf3da2498124346326cce7773d71a",
+      "bytes": 11936,
+      "published_sha256": "7a9e8a0ca4bc31b680314f0707f1452e947bf3da2498124346326cce7773d71a",
+      "published_bytes": 11936
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source_sha256": "b605bde3555574a923dc321b7af4be2e2455c0e580d9cd8461a611f32c280896",
+      "bytes": 11898,
+      "published_sha256": "b605bde3555574a923dc321b7af4be2e2455c0e580d9cd8461a611f32c280896",
+      "published_bytes": 11898
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source_sha256": "f5c89cc77ef53d7058c94aea87693c2d49efaa9d8bec00652be5c68ba4652bae",
+      "bytes": 11912,
+      "published_sha256": "f5c89cc77ef53d7058c94aea87693c2d49efaa9d8bec00652be5c68ba4652bae",
+      "published_bytes": 11912
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source_sha256": "4c72217ec0489d03cd33ab130db5fef612f42b3ca87fc851f45fbaf7c01e613a",
+      "bytes": 11961,
+      "published_sha256": "4c72217ec0489d03cd33ab130db5fef612f42b3ca87fc851f45fbaf7c01e613a",
+      "published_bytes": 11961
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source_sha256": "567188390f0de63369c13b400b75796ae4ec00c26860d670bcbe7d134f8bc855",
+      "bytes": 11936,
+      "published_sha256": "567188390f0de63369c13b400b75796ae4ec00c26860d670bcbe7d134f8bc855",
+      "published_bytes": 11936
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source_sha256": "3f24215789cdd544a3a7688ed5d21beb3a51a06800831e2b0365e49d8a7bb2fa",
+      "bytes": 11962,
+      "published_sha256": "3f24215789cdd544a3a7688ed5d21beb3a51a06800831e2b0365e49d8a7bb2fa",
+      "published_bytes": 11962
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source_sha256": "f731f6e15bd4962b7df1ee533ea0e36de31e6c0f20c2a84fb074453fe82d1ec7",
+      "bytes": 35843,
+      "published_sha256": "f731f6e15bd4962b7df1ee533ea0e36de31e6c0f20c2a84fb074453fe82d1ec7",
+      "published_bytes": 35843
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source_sha256": "7b9d8b11f811c99eb8176428c230b19faa1064222e13b61f21b054a8cf8a323c",
+      "bytes": 83867,
+      "published_sha256": "7b9d8b11f811c99eb8176428c230b19faa1064222e13b61f21b054a8cf8a323c",
+      "published_bytes": 83867
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source_sha256": "19a6a97bc8925f01d29e1aac73928d6625c42747cfefcd68efcf392bbfc11c30",
+      "bytes": 160945,
+      "published_sha256": "19a6a97bc8925f01d29e1aac73928d6625c42747cfefcd68efcf392bbfc11c30",
+      "published_bytes": 160945
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source_sha256": "75327ce57602b156f764760608601a3b43a5c1ad46537bb9b6f092fe23fbd0cf",
+      "bytes": 105983,
+      "published_sha256": "75327ce57602b156f764760608601a3b43a5c1ad46537bb9b6f092fe23fbd0cf",
+      "published_bytes": 105983
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source_sha256": "24e5c91186872a31d801204a713a4be37f6fd537fd099a8b00c555d26c3ffe95",
+      "bytes": 60535,
+      "published_sha256": "24e5c91186872a31d801204a713a4be37f6fd537fd099a8b00c555d26c3ffe95",
+      "published_bytes": 60535
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source_sha256": "8848261aa66a3d4e202dca8a9c0b501b326fc41a783748181051cbcba71cf1d1",
+      "bytes": 30954,
+      "published_sha256": "8848261aa66a3d4e202dca8a9c0b501b326fc41a783748181051cbcba71cf1d1",
+      "published_bytes": 30954
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source_sha256": "035d161147b06bc144374bd9ae8e0483a48e25afe9551240b2a4b72b0363c511",
+      "bytes": 13660,
+      "published_sha256": "035d161147b06bc144374bd9ae8e0483a48e25afe9551240b2a4b72b0363c511",
+      "published_bytes": 13660
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source_sha256": "458216745832a84b49b278cf687098b6b781545fdf56cfb865fe1c7558bab514",
+      "bytes": 16649,
+      "published_sha256": "458216745832a84b49b278cf687098b6b781545fdf56cfb865fe1c7558bab514",
+      "published_bytes": 16649
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source_sha256": "2da2ace5c29fe667e952d03caf22f16749917b3cc6b1bd383b235c28bf0c2e43",
+      "bytes": 1357,
+      "published_sha256": "2da2ace5c29fe667e952d03caf22f16749917b3cc6b1bd383b235c28bf0c2e43",
+      "published_bytes": 1357
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source_sha256": "add4e6d4e473c6660d63134a10875deed681614684d3b420ccfd48525088286c",
+      "bytes": 714,
+      "published_sha256": "add4e6d4e473c6660d63134a10875deed681614684d3b420ccfd48525088286c",
+      "published_bytes": 714
+    },
+    {
+      "path": "english_metadata_2026_1/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source_sha256": "af8bdb876dc1660ad6d98be3e92e7958f9785a11860791a76deedb61f91e15aa",
+      "bytes": 122963,
+      "published_sha256": "af8bdb876dc1660ad6d98be3e92e7958f9785a11860791a76deedb61f91e15aa",
+      "published_bytes": 122963
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source_sha256": "d0eca4461d0be1f61a359415b4bdff00ab214a9f7d8adf1cf837af659b4c3e7f",
+      "bytes": 490958,
+      "published_sha256": "d0eca4461d0be1f61a359415b4bdff00ab214a9f7d8adf1cf837af659b4c3e7f",
+      "published_bytes": 490958
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source_sha256": "3b5a634344274f8f824ec038f0ec1c5080ded74c7321617591dcd239c23eaaf2",
+      "bytes": 2081940,
+      "published_sha256": "3b5a634344274f8f824ec038f0ec1c5080ded74c7321617591dcd239c23eaaf2",
+      "published_bytes": 2081940
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source_sha256": "d18c510f88e0b0cf0dee6567e380a3fc6c94a749fb58b7ba4c7dc299a5f09ef6",
+      "bytes": 11957,
+      "published_sha256": "d18c510f88e0b0cf0dee6567e380a3fc6c94a749fb58b7ba4c7dc299a5f09ef6",
+      "published_bytes": 11957
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source_sha256": "84611a11d8c3dd78a2902f4e916e9b403beb8aca50714696741f82826c0f3d89",
+      "bytes": 257758,
+      "published_sha256": "84611a11d8c3dd78a2902f4e916e9b403beb8aca50714696741f82826c0f3d89",
+      "published_bytes": 257758
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source_sha256": "c2e957430f28c1be82cf660026f2d0d75c6c31bc95016cb7cf466a6b1be7f9fc",
+      "bytes": 390,
+      "published_sha256": "c2e957430f28c1be82cf660026f2d0d75c6c31bc95016cb7cf466a6b1be7f9fc",
+      "published_bytes": 390
+    },
+    {
+      "path": "english_metadata_2026_1/output/complete_dataset_96mos/summary_96mos.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/output/complete_dataset_96mos/summary_96mos.txt",
+      "source_sha256": "d7caaec1805772bc1d369b169733ed8cd74a63bfacc8f3e363283400af21d06f",
+      "bytes": 510,
+      "published_sha256": "d7caaec1805772bc1d369b169733ed8cd74a63bfacc8f3e363283400af21d06f",
+      "published_bytes": 510
+    },
+    {
+      "path": "english_metadata_2026_1/parsed/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/parsed/metadata.json",
+      "source_sha256": "cffc74989eece73fa050c8b445e8bc49c4a80dce4eb20b19d57f4681b70bc566",
+      "bytes": 6101,
+      "published_sha256": "cffc74989eece73fa050c8b445e8bc49c4a80dce4eb20b19d57f4681b70bc566",
+      "published_bytes": 6101
+    },
+    {
+      "path": "english_metadata_2026_1/parser_input/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/parser_input/metadata.json",
+      "source_sha256": "367cec26aa9e8505d89718f81ddeae7e15d792a6b4ac9221cdeba08a9edfe32a",
+      "bytes": 558,
+      "published_sha256": "367cec26aa9e8505d89718f81ddeae7e15d792a6b4ac9221cdeba08a9edfe32a",
+      "published_bytes": 558
+    },
+    {
+      "path": "german_collection_control_2021_1/RUN_RESULTS.md",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/RUN_RESULTS.md",
+      "source_sha256": "34d295cdf2d19144c1d86eb80ea56875c61dfc58732dc517e03e1e6fb23ba831",
+      "bytes": 2719,
+      "published_sha256": "b256cc7b713322b41007a61e1b9da1577235a2da3161e93438a2de831f439bbb",
+      "published_bytes": 2788
+    },
+    {
+      "path": "german_collection_control_2021_1/audit/code_inventory.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/audit/code_inventory.json",
+      "source_sha256": "352d40dab658b7743b306077257f8cad430819bc4ffeefa24b90d21eb5178c79",
+      "bytes": 715,
+      "published_sha256": "352d40dab658b7743b306077257f8cad430819bc4ffeefa24b90d21eb5178c79",
+      "published_bytes": 715
+    },
+    {
+      "path": "german_collection_control_2021_1/audit/control_verification.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/audit/control_verification.json",
+      "source_sha256": "aa6a2015a6fedcaaa84dde09c99e85fa194ac0ae1cd66a6e2946a85969649505",
+      "bytes": 673,
+      "published_sha256": "aa6a2015a6fedcaaa84dde09c99e85fa194ac0ae1cd66a6e2946a85969649505",
+      "published_bytes": 673
+    },
+    {
+      "path": "german_collection_control_2021_1/audit/german_labels_outside_german_collection.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/audit/german_labels_outside_german_collection.json",
+      "source_sha256": "df187785ddd784291a127fa048d9dad348025d9dd1c95e4b8cd04a5661e1cc18",
+      "bytes": 125,
+      "published_sha256": "df187785ddd784291a127fa048d9dad348025d9dd1c95e4b8cd04a5661e1cc18",
+      "published_bytes": 125
+    },
+    {
+      "path": "german_collection_control_2021_1/audit/run.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/audit/run.json",
+      "source_sha256": "620d50fb11304e9b5f0ee487762447237b7465f670d5eed875abc1478b4b2028",
+      "bytes": 1667,
+      "published_sha256": "620d50fb11304e9b5f0ee487762447237b7465f670d5eed875abc1478b4b2028",
+      "published_bytes": 1667
+    },
+    {
+      "path": "german_collection_control_2021_1/audit/selection.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/audit/selection.json",
+      "source_sha256": "6f8ac0912a4d39c3b90204c1216c99750afdce4038b87cf6ff08f72c2b7eff3d",
+      "bytes": 315,
+      "published_sha256": "6f8ac0912a4d39c3b90204c1216c99750afdce4038b87cf6ff08f72c2b7eff3d",
+      "published_bytes": 315
+    },
+    {
+      "path": "german_collection_control_2021_1/code/analyze_age_groups_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/analyze_age_groups_96mos.py",
+      "source_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "bytes": 14287,
+      "published_sha256": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+      "published_bytes": 14287
+    },
+    {
+      "path": "german_collection_control_2021_1/code/analyze_complete_dataset_96mos.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/analyze_complete_dataset_96mos.py",
+      "source_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "bytes": 10893,
+      "published_sha256": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+      "published_bytes": 10893
+    },
+    {
+      "path": "german_collection_control_2021_1/code/english_ud/parse_matched_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/english_ud/parse_matched_spacy.py",
+      "source_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "bytes": 8904,
+      "published_sha256": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+      "published_bytes": 8904
+    },
+    {
+      "path": "german_collection_control_2021_1/code/english_ud/parse_sharded_spacy.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/english_ud/parse_sharded_spacy.py",
+      "source_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "bytes": 10486,
+      "published_sha256": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+      "published_bytes": 10486
+    },
+    {
+      "path": "german_collection_control_2021_1/code/run_childes_analysis.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/run_childes_analysis.py",
+      "source_sha256": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+      "bytes": 6162,
+      "published_sha256": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+      "published_bytes": 6162
+    },
+    {
+      "path": "german_collection_control_2021_1/code/run_german_control.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/run_german_control.py",
+      "source_sha256": "9f129eb763a25d7342c670f438f73b97ee33f896bba88589a4b9c447bfd088b5",
+      "bytes": 6316,
+      "published_sha256": "9f129eb763a25d7342c670f438f73b97ee33f896bba88589a4b9c447bfd088b5",
+      "published_bytes": 6316
+    },
+    {
+      "path": "german_collection_control_2021_1/code/verify_german_control.py",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/code/verify_german_control.py",
+      "source_sha256": "80bfecbdfe21aa02e209fceab4425f516c1fed06f8f33e64a5ce091b15165dfe",
+      "bytes": 5114,
+      "published_sha256": "80bfecbdfe21aa02e209fceab4425f516c1fed06f8f33e64a5ce091b15165dfe",
+      "published_bytes": 5114
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source_sha256": "f05c6ccd46d6dc0742b2e53722d09e91137fe065568c90e846ac6f88228c16e0",
+      "bytes": 63356,
+      "published_sha256": "f05c6ccd46d6dc0742b2e53722d09e91137fe065568c90e846ac6f88228c16e0",
+      "published_bytes": 63356
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source_sha256": "b25c7a42dd749f5c5b4e9f7e79d031d368477072923c7fc6c075bdfc9a0d8514",
+      "bytes": 202154,
+      "published_sha256": "b25c7a42dd749f5c5b4e9f7e79d031d368477072923c7fc6c075bdfc9a0d8514",
+      "published_bytes": 202154
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source_sha256": "9323a2f5fb42f485b088ebe30bd6eef1c6487e59e694cd5041fa054be2b573ce",
+      "bytes": 429108,
+      "published_sha256": "9323a2f5fb42f485b088ebe30bd6eef1c6487e59e694cd5041fa054be2b573ce",
+      "published_bytes": 429108
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source_sha256": "374142a9be7c3b72ac38455d870949db7c8dbcc5f14dabc9c87ca9cf4268925e",
+      "bytes": 294754,
+      "published_sha256": "374142a9be7c3b72ac38455d870949db7c8dbcc5f14dabc9c87ca9cf4268925e",
+      "published_bytes": 294754
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source_sha256": "0c08c14f6bbcf75ad5121775a43f88bc3b3032c54f48fd9760ccc6172e7a86b3",
+      "bytes": 236557,
+      "published_sha256": "0c08c14f6bbcf75ad5121775a43f88bc3b3032c54f48fd9760ccc6172e7a86b3",
+      "published_bytes": 236557
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source_sha256": "5b3d0f976ac3594278f46f2187e37531f8585a2d3021d9fc79d16d9c24e81b93",
+      "bytes": 115357,
+      "published_sha256": "5b3d0f976ac3594278f46f2187e37531f8585a2d3021d9fc79d16d9c24e81b93",
+      "published_bytes": 115357
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source_sha256": "c56e133a2a1208f512cb02d64d5f097b1577d2ba5f3f34fbeec74f77e4bb9a4c",
+      "bytes": 72936,
+      "published_sha256": "c56e133a2a1208f512cb02d64d5f097b1577d2ba5f3f34fbeec74f77e4bb9a4c",
+      "published_bytes": 72936
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source_sha256": "e66a8849ee7322dfa1610d4b00c4d8eb0a465921e487f4cb20e157008f5acedd",
+      "bytes": 71210,
+      "published_sha256": "e66a8849ee7322dfa1610d4b00c4d8eb0a465921e487f4cb20e157008f5acedd",
+      "published_bytes": 71210
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source_sha256": "1e8496d089bf99c56671ab10f5cf30de6d4fb4bf50a0e9666209ba0ef632a6c3",
+      "bytes": 199285,
+      "published_sha256": "1e8496d089bf99c56671ab10f5cf30de6d4fb4bf50a0e9666209ba0ef632a6c3",
+      "published_bytes": 199285
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source_sha256": "7b932af25b6d1648714d326246bbfa1a1b4e3d58fe117d32f4f58a892c645a49",
+      "bytes": 629891,
+      "published_sha256": "7b932af25b6d1648714d326246bbfa1a1b4e3d58fe117d32f4f58a892c645a49",
+      "published_bytes": 629891
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source_sha256": "eac95a45393175fdb4ac18fb68ed7716384e62b21bfd731e31057a08c12e6877",
+      "bytes": 1491919,
+      "published_sha256": "eac95a45393175fdb4ac18fb68ed7716384e62b21bfd731e31057a08c12e6877",
+      "published_bytes": 1491919
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source_sha256": "083cc7fba951868ede6de3f0d7f6564c3967bd5119fd006923e78271acbf90a7",
+      "bytes": 955838,
+      "published_sha256": "083cc7fba951868ede6de3f0d7f6564c3967bd5119fd006923e78271acbf90a7",
+      "published_bytes": 955838
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source_sha256": "874af024cfd4bde095d235736ba07fa7bf2cce3e0bf0ace8974f4343f3075528",
+      "bytes": 793170,
+      "published_sha256": "874af024cfd4bde095d235736ba07fa7bf2cce3e0bf0ace8974f4343f3075528",
+      "published_bytes": 793170
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source_sha256": "a470cd78d19bcf808899da06af52e2556c9528cb79812983d773d96ded63d745",
+      "bytes": 342463,
+      "published_sha256": "a470cd78d19bcf808899da06af52e2556c9528cb79812983d773d96ded63d745",
+      "published_bytes": 342463
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source_sha256": "9378bb2597421d3f8a1b286e72ea299b1ab7f9c2d295d715880a49984a3fe407",
+      "bytes": 217663,
+      "published_sha256": "9378bb2597421d3f8a1b286e72ea299b1ab7f9c2d295d715880a49984a3fe407",
+      "published_bytes": 217663
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source_sha256": "deb1e9dd5c6c43499e010f529179ddd760bca04a30217122c598cea3c6287688",
+      "bytes": 185215,
+      "published_sha256": "deb1e9dd5c6c43499e010f529179ddd760bca04a30217122c598cea3c6287688",
+      "published_bytes": 185215
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source_sha256": "8a6901d06169882eb7f8ad6bdc09eba9abe5699c02bf41f46a01186e7fd8d97f",
+      "bytes": 11986,
+      "published_sha256": "8a6901d06169882eb7f8ad6bdc09eba9abe5699c02bf41f46a01186e7fd8d97f",
+      "published_bytes": 11986
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source_sha256": "cd2f778e13709ff5ab92b5e5c2001412fc2b9ef2f4b5d9cb04931b672e8e9ed1",
+      "bytes": 11904,
+      "published_sha256": "cd2f778e13709ff5ab92b5e5c2001412fc2b9ef2f4b5d9cb04931b672e8e9ed1",
+      "published_bytes": 11904
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source_sha256": "58d75a8e7998fd83819fb2f2e2d895bb21443e22bb00c5d1c0929d044c1a2b94",
+      "bytes": 11959,
+      "published_sha256": "58d75a8e7998fd83819fb2f2e2d895bb21443e22bb00c5d1c0929d044c1a2b94",
+      "published_bytes": 11959
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source_sha256": "f82f588ef372dee9e98644bfe2d3e90dbba4f6f29291b948dc13d5690fe34aa8",
+      "bytes": 11945,
+      "published_sha256": "f82f588ef372dee9e98644bfe2d3e90dbba4f6f29291b948dc13d5690fe34aa8",
+      "published_bytes": 11945
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source_sha256": "110c46019c71e117de3f9986bfcaa55d881e48ec73b1a46843a375ed1e4d07ea",
+      "bytes": 11899,
+      "published_sha256": "110c46019c71e117de3f9986bfcaa55d881e48ec73b1a46843a375ed1e4d07ea",
+      "published_bytes": 11899
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source_sha256": "75fe5a73e3dc99aa92b5012e74d6315ebcae6171ce1126cb1347d6aa9c23f522",
+      "bytes": 11958,
+      "published_sha256": "75fe5a73e3dc99aa92b5012e74d6315ebcae6171ce1126cb1347d6aa9c23f522",
+      "published_bytes": 11958
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source_sha256": "f48a67776df1ef2d93a6cde294b2da1d2751d8a61c11ef309212b267f141224f",
+      "bytes": 11922,
+      "published_sha256": "f48a67776df1ef2d93a6cde294b2da1d2751d8a61c11ef309212b267f141224f",
+      "published_bytes": 11922
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source_sha256": "de7d5920fe96c12b931b10998b3f53ada0ff7452dac8b954fc747ca0d867a2a2",
+      "bytes": 11928,
+      "published_sha256": "de7d5920fe96c12b931b10998b3f53ada0ff7452dac8b954fc747ca0d867a2a2",
+      "published_bytes": 11928
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source_sha256": "32dc5dc16075ccdf3d6c2553bfdd3afea2171f18e41a3e4fb99e42c2a53234a9",
+      "bytes": 31826,
+      "published_sha256": "32dc5dc16075ccdf3d6c2553bfdd3afea2171f18e41a3e4fb99e42c2a53234a9",
+      "published_bytes": 31826
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source_sha256": "9cdd9a8f75ffe27a4b416585c8e9c76ed75d4e347ddeb3c7d0694251937f9016",
+      "bytes": 102735,
+      "published_sha256": "9cdd9a8f75ffe27a4b416585c8e9c76ed75d4e347ddeb3c7d0694251937f9016",
+      "published_bytes": 102735
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source_sha256": "28fe88cc011a9004be775fd448cc7e4447ab833b926fb51516b03df8d87ddb71",
+      "bytes": 217097,
+      "published_sha256": "28fe88cc011a9004be775fd448cc7e4447ab833b926fb51516b03df8d87ddb71",
+      "published_bytes": 217097
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source_sha256": "17c3101e288ba41cfbb2fd7c5517b6c4abcc234d822adbd3d8e38415b3c4b2e4",
+      "bytes": 147225,
+      "published_sha256": "17c3101e288ba41cfbb2fd7c5517b6c4abcc234d822adbd3d8e38415b3c4b2e4",
+      "published_bytes": 147225
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source_sha256": "f87ac50cffe8f0fb4ef7acacef4d9d908e07621005b765ffa9e2e89beb90fe44",
+      "bytes": 117438,
+      "published_sha256": "f87ac50cffe8f0fb4ef7acacef4d9d908e07621005b765ffa9e2e89beb90fe44",
+      "published_bytes": 117438
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source_sha256": "1d0e7cbb838f43bac715e1b4940781699d29f5173fb709f8fc397b3d181ece6a",
+      "bytes": 55301,
+      "published_sha256": "1d0e7cbb838f43bac715e1b4940781699d29f5173fb709f8fc397b3d181ece6a",
+      "published_bytes": 55301
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source_sha256": "d0310637b4b427fa12a3a8aeb721cec3ce1a7fd7fcbfa852fdeb1fcc50b35fd7",
+      "bytes": 37330,
+      "published_sha256": "d0310637b4b427fa12a3a8aeb721cec3ce1a7fd7fcbfa852fdeb1fcc50b35fd7",
+      "published_bytes": 37330
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source_sha256": "218f5aa5849edf052e5a76920978b9b372ef361c55fbe69e631f4cd92c7dd23d",
+      "bytes": 35115,
+      "published_sha256": "218f5aa5849edf052e5a76920978b9b372ef361c55fbe69e631f4cd92c7dd23d",
+      "published_bytes": 35115
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source_sha256": "0e2420e14854e493262645598d4252a13c23e0bee04c77123115ad19c61b6c73",
+      "bytes": 1383,
+      "published_sha256": "0e2420e14854e493262645598d4252a13c23e0bee04c77123115ad19c61b6c73",
+      "published_bytes": 1383
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source_sha256": "a81bd3e0e7b1de9a1256e4231e6d35718834edb53f4bd9251f02a364ee6909e2",
+      "bytes": 722,
+      "published_sha256": "a81bd3e0e7b1de9a1256e4231e6d35718834edb53f4bd9251f02a364ee6909e2",
+      "published_bytes": 722
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source_sha256": "0f7c0452edbb5828a364b63a9e995854a38435139343cd0eac3afcfa6d51c76d",
+      "bytes": 127130,
+      "published_sha256": "0f7c0452edbb5828a364b63a9e995854a38435139343cd0eac3afcfa6d51c76d",
+      "published_bytes": 127130
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source_sha256": "1e2a70d9407646d0889ba04e88df014db8dea435061c97f2a74290ddcb48eeb9",
+      "bytes": 750830,
+      "published_sha256": "1e2a70d9407646d0889ba04e88df014db8dea435061c97f2a74290ddcb48eeb9",
+      "published_bytes": 750830
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source_sha256": "e8a8bc9af003fdac3b891bb48500cadb1edb68719d8efbb1b2118806bd4247e4",
+      "bytes": 2838243,
+      "published_sha256": "e8a8bc9af003fdac3b891bb48500cadb1edb68719d8efbb1b2118806bd4247e4",
+      "published_bytes": 2838243
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source_sha256": "388c796bf9ae30c9e06395d91db7c0164e652b8b6c26a6efc19a92542dd8e045",
+      "bytes": 11966,
+      "published_sha256": "388c796bf9ae30c9e06395d91db7c0164e652b8b6c26a6efc19a92542dd8e045",
+      "published_bytes": 11966
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source_sha256": "50e556aabd3bcb1e552f3c3e9a36e12e7e86325200d807f51f862211369c7a22",
+      "bytes": 378944,
+      "published_sha256": "50e556aabd3bcb1e552f3c3e9a36e12e7e86325200d807f51f862211369c7a22",
+      "published_bytes": 378944
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source_sha256": "5cbb9602f5d48bff20fc729099f3f98c88cc17eb89fed9d4061dd0a1137220f9",
+      "bytes": 390,
+      "published_sha256": "5cbb9602f5d48bff20fc729099f3f98c88cc17eb89fed9d4061dd0a1137220f9",
+      "published_bytes": 390
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/summary_96mos.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/original/output/complete_dataset_96mos/summary_96mos.txt",
+      "source_sha256": "c843a013d9fe2eba81cea1ba6a979ada12c6adc3e042ea0013ac04074a9f498a",
+      "bytes": 511,
+      "published_sha256": "c843a013d9fe2eba81cea1ba6a979ada12c6adc3e042ea0013ac04074a9f498a",
+      "published_bytes": 511
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "source_sha256": "f05c6ccd46d6dc0742b2e53722d09e91137fe065568c90e846ac6f88228c16e0",
+      "bytes": 63356,
+      "published_sha256": "f05c6ccd46d6dc0742b2e53722d09e91137fe065568c90e846ac6f88228c16e0",
+      "published_bytes": 63356
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "source_sha256": "4ae90543a15fcc0de19683a980d72ee6ab63a7c9117f2c7ea6b92013fe0b67c2",
+      "bytes": 199253,
+      "published_sha256": "4ae90543a15fcc0de19683a980d72ee6ab63a7c9117f2c7ea6b92013fe0b67c2",
+      "published_bytes": 199253
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "source_sha256": "a5127500033dfbc4f662f9b6fc9fa0ba5b9fb69dbb787147c26a2fb3f7bc50b9",
+      "bytes": 390928,
+      "published_sha256": "a5127500033dfbc4f662f9b6fc9fa0ba5b9fb69dbb787147c26a2fb3f7bc50b9",
+      "published_bytes": 390928
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "source_sha256": "0b886c1824f79a5ed49bd396b03121938d959b52172795cb2442596d395a0689",
+      "bytes": 262289,
+      "published_sha256": "0b886c1824f79a5ed49bd396b03121938d959b52172795cb2442596d395a0689",
+      "published_bytes": 262289
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "source_sha256": "63335f0bf01c38fa6958c56b1932746e36bcce494ea6259a6cd7687214646aa2",
+      "bytes": 215581,
+      "published_sha256": "63335f0bf01c38fa6958c56b1932746e36bcce494ea6259a6cd7687214646aa2",
+      "published_bytes": 215581
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "source_sha256": "7e6a347acc0e2e29402df319d261a67e260275db9182ba6233e5af05c13a07ae",
+      "bytes": 90908,
+      "published_sha256": "7e6a347acc0e2e29402df319d261a67e260275db9182ba6233e5af05c13a07ae",
+      "published_bytes": 90908
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "source_sha256": "440b3067e6b2b2e9173ece180ba72f4f1aa7192e4a098cec8d4c7046ecd43dde",
+      "bytes": 46171,
+      "published_sha256": "440b3067e6b2b2e9173ece180ba72f4f1aa7192e4a098cec8d4c7046ecd43dde",
+      "published_bytes": 46171
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "source_sha256": "737063107365644c6809de808ce7630c0e81302f5863fd3cb52304999a7ef535",
+      "bytes": 52185,
+      "published_sha256": "737063107365644c6809de808ce7630c0e81302f5863fd3cb52304999a7ef535",
+      "published_bytes": 52185
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "source_sha256": "1e8496d089bf99c56671ab10f5cf30de6d4fb4bf50a0e9666209ba0ef632a6c3",
+      "bytes": 199285,
+      "published_sha256": "1e8496d089bf99c56671ab10f5cf30de6d4fb4bf50a0e9666209ba0ef632a6c3",
+      "published_bytes": 199285
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "source_sha256": "3855785a1bf816dd00f58eb331c06a5787785530cbd8f2cc7acc6bae2f7b94f9",
+      "bytes": 627941,
+      "published_sha256": "3855785a1bf816dd00f58eb331c06a5787785530cbd8f2cc7acc6bae2f7b94f9",
+      "published_bytes": 627941
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "source_sha256": "d3083eb715df413b7a912476be7bbf6afaab6f8c89c18258f2e5d84857113975",
+      "bytes": 1424931,
+      "published_sha256": "d3083eb715df413b7a912476be7bbf6afaab6f8c89c18258f2e5d84857113975",
+      "published_bytes": 1424931
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "source_sha256": "ed4cc8d0539d4e046bd9d7cfb3c5c80f9e83a007d73bdf71330f559df19ea9cb",
+      "bytes": 914990,
+      "published_sha256": "ed4cc8d0539d4e046bd9d7cfb3c5c80f9e83a007d73bdf71330f559df19ea9cb",
+      "published_bytes": 914990
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "source_sha256": "5aaf1a90a308eeed2180aaa52ddf65718228b81c73bd7044a7e5cfbe08beeb58",
+      "bytes": 763612,
+      "published_sha256": "5aaf1a90a308eeed2180aaa52ddf65718228b81c73bd7044a7e5cfbe08beeb58",
+      "published_bytes": 763612
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "source_sha256": "409388fc38998f7de2e4df78e3d18d1d39f54b98b78028901f3550102343a884",
+      "bytes": 284529,
+      "published_sha256": "409388fc38998f7de2e4df78e3d18d1d39f54b98b78028901f3550102343a884",
+      "published_bytes": 284529
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "source_sha256": "844b7c5f3c4b6f9a99398053afb0eee25d2a03e33f1144c2f18cb731355aaaf1",
+      "bytes": 137512,
+      "published_sha256": "844b7c5f3c4b6f9a99398053afb0eee25d2a03e33f1144c2f18cb731355aaaf1",
+      "published_bytes": 137512
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "source_sha256": "b75ce606de6dd81326e6050c5d32922ec048c5d96ee407b1d4d43485fa4520cf",
+      "bytes": 132023,
+      "published_sha256": "b75ce606de6dd81326e6050c5d32922ec048c5d96ee407b1d4d43485fa4520cf",
+      "published_bytes": 132023
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "source_sha256": "8a6901d06169882eb7f8ad6bdc09eba9abe5699c02bf41f46a01186e7fd8d97f",
+      "bytes": 11986,
+      "published_sha256": "8a6901d06169882eb7f8ad6bdc09eba9abe5699c02bf41f46a01186e7fd8d97f",
+      "published_bytes": 11986
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "source_sha256": "48b533e203ee8101d17a9cabece8dd4ac456686efd7ed403e1134f22fc0f9062",
+      "bytes": 11902,
+      "published_sha256": "48b533e203ee8101d17a9cabece8dd4ac456686efd7ed403e1134f22fc0f9062",
+      "published_bytes": 11902
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "source_sha256": "81a0988bde322e7eb920b96866d989a428c4e0aaacff07fa5bd3d52ee8b943a2",
+      "bytes": 11972,
+      "published_sha256": "81a0988bde322e7eb920b96866d989a428c4e0aaacff07fa5bd3d52ee8b943a2",
+      "published_bytes": 11972
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "source_sha256": "c3364b16624446b6e2ca5ebbff0bde86882afe2c56af6e55f3fb5f3768a5468d",
+      "bytes": 11914,
+      "published_sha256": "c3364b16624446b6e2ca5ebbff0bde86882afe2c56af6e55f3fb5f3768a5468d",
+      "published_bytes": 11914
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "source_sha256": "9d17cf56ffee78e58010780cc52b588273565604b80aaf5d065f048c7002d296",
+      "bytes": 11917,
+      "published_sha256": "9d17cf56ffee78e58010780cc52b588273565604b80aaf5d065f048c7002d296",
+      "published_bytes": 11917
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "source_sha256": "84d8354a7003b3affb585911e67dea1ffb39172193fb97bce26ceb3356e619a4",
+      "bytes": 11917,
+      "published_sha256": "84d8354a7003b3affb585911e67dea1ffb39172193fb97bce26ceb3356e619a4",
+      "published_bytes": 11917
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "source_sha256": "9c0f6277d91a82b4c2a551c9c1bb2f6c78e110b8aea96b29ebbe8dc3808d7871",
+      "bytes": 11971,
+      "published_sha256": "9c0f6277d91a82b4c2a551c9c1bb2f6c78e110b8aea96b29ebbe8dc3808d7871",
+      "published_bytes": 11971
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "source_sha256": "34b1ef89cc6627e54a3f04e22c66712493691f544bfd2eeef730df59206b5db9",
+      "bytes": 11980,
+      "published_sha256": "34b1ef89cc6627e54a3f04e22c66712493691f544bfd2eeef730df59206b5db9",
+      "published_bytes": 11980
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "source_sha256": "32dc5dc16075ccdf3d6c2553bfdd3afea2171f18e41a3e4fb99e42c2a53234a9",
+      "bytes": 31826,
+      "published_sha256": "32dc5dc16075ccdf3d6c2553bfdd3afea2171f18e41a3e4fb99e42c2a53234a9",
+      "published_bytes": 31826
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "source_sha256": "b5fb1712635574305dd8b5ffb1e9892b4c5a7aab0295aaa57df4ae470b83a924",
+      "bytes": 101172,
+      "published_sha256": "b5fb1712635574305dd8b5ffb1e9892b4c5a7aab0295aaa57df4ae470b83a924",
+      "published_bytes": 101172
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "source_sha256": "a0c8b241f46be3e9f710e41086f10c7ddfb117cd9512174f6513e5ba36cffdc2",
+      "bytes": 202025,
+      "published_sha256": "a0c8b241f46be3e9f710e41086f10c7ddfb117cd9512174f6513e5ba36cffdc2",
+      "published_bytes": 202025
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "source_sha256": "b8196f70165078908172ce3b3480a53900392799cc7b2401769fccdbaf068cc6",
+      "bytes": 134790,
+      "published_sha256": "b8196f70165078908172ce3b3480a53900392799cc7b2401769fccdbaf068cc6",
+      "published_bytes": 134790
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "source_sha256": "9d428dab525051217ba7adfae3461e9880ad78c398bc08bf07731e89aceaa1d0",
+      "bytes": 109053,
+      "published_sha256": "9d428dab525051217ba7adfae3461e9880ad78c398bc08bf07731e89aceaa1d0",
+      "published_bytes": 109053
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "source_sha256": "b6bd3befe479311cb9cf8520221b08a86cce1a366432cb5bd24ffda67a5ea773",
+      "bytes": 43548,
+      "published_sha256": "b6bd3befe479311cb9cf8520221b08a86cce1a366432cb5bd24ffda67a5ea773",
+      "published_bytes": 43548
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "source_sha256": "a8b6c8b7c7b67a8719bbf486b019bc846f108ec43e61fc538366774c5814998e",
+      "bytes": 22073,
+      "published_sha256": "a8b6c8b7c7b67a8719bbf486b019bc846f108ec43e61fc538366774c5814998e",
+      "published_bytes": 22073
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "source_sha256": "86d72998441fa32b64f3d3bf678e0b2887bdf0778410894a5be4fd8a4f9ee7a4",
+      "bytes": 24657,
+      "published_sha256": "86d72998441fa32b64f3d3bf678e0b2887bdf0778410894a5be4fd8a4f9ee7a4",
+      "published_bytes": 24657
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/results_96mos.pkl",
+      "source_sha256": "91c18710660860601aa62ccc6374cc0cc522ea7750d9be41af7313b538475814",
+      "bytes": 1386,
+      "published_sha256": "91c18710660860601aa62ccc6374cc0cc522ea7750d9be41af7313b538475814",
+      "published_bytes": 1386
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/summary_96mos.csv",
+      "source_sha256": "c144052ffb8d4ab1675b4e797ce06c547f0393bac599336b59fab8e6a2d9d5d3",
+      "bytes": 723,
+      "published_sha256": "c144052ffb8d4ab1675b4e797ce06c547f0393bac599336b59fab8e6a2d9d5d3",
+      "published_bytes": 723
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "source_sha256": "3fc33b9772fbf66bf77d3455592a3099ff5099fafa4fe4ff43c84bd63a2e30c2",
+      "bytes": 123008,
+      "published_sha256": "3fc33b9772fbf66bf77d3455592a3099ff5099fafa4fe4ff43c84bd63a2e30c2",
+      "published_bytes": 123008
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "source_sha256": "9f83075b74a15fae0ee22d073c84a83c99dc562da57c54b9bb34fcc8a82c4046",
+      "bytes": 659399,
+      "published_sha256": "9f83075b74a15fae0ee22d073c84a83c99dc562da57c54b9bb34fcc8a82c4046",
+      "published_bytes": 659399
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "source_sha256": "3087f815b30a7109277ec03c03e4a32844646b895610adda297e5f49b6269247",
+      "bytes": 2663029,
+      "published_sha256": "3087f815b30a7109277ec03c03e4a32844646b895610adda297e5f49b6269247",
+      "published_bytes": 2663029
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/mse_search_96mos.csv",
+      "source_sha256": "30ed018f6d87fec84374e4fe8928f55acd9e1e70de947ea43e8d77ee37952d0b",
+      "bytes": 11964,
+      "published_sha256": "30ed018f6d87fec84374e4fe8928f55acd9e1e70de947ea43e8d77ee37952d0b",
+      "published_bytes": 11964
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/rank_averages_96mos.csv",
+      "source_sha256": "7c033506a2dbc4e49d8cd4ef1c6e19321cd1228b9fa8e3ca6fe8aa82b1385b59",
+      "bytes": 341842,
+      "published_sha256": "7c033506a2dbc4e49d8cd4ef1c6e19321cd1228b9fa8e3ca6fe8aa82b1385b59",
+      "published_bytes": 341842
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/summary_96mos.pkl",
+      "source_sha256": "7a3b57787e491fea859cd745f9f02f3b33893515031c9c4b100575ff70dae9bc",
+      "bytes": 390,
+      "published_sha256": "7a3b57787e491fea859cd745f9f02f3b33893515031c9c4b100575ff70dae9bc",
+      "published_bytes": 390
+    },
+    {
+      "path": "german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/summary_96mos.txt",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/cohorts/without_german_collection/output/complete_dataset_96mos/summary_96mos.txt",
+      "source_sha256": "011c91a1c4d8a5ccd34182d551cd5a6f9a5c0fbc6baf9b6b3f8ee6988ff8c2e7",
+      "bytes": 511,
+      "published_sha256": "011c91a1c4d8a5ccd34182d551cd5a6f9a5c0fbc6baf9b6b3f8ee6988ff8c2e7",
+      "published_bytes": 511
+    },
+    {
+      "path": "german_collection_control_2021_1/parsed/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/parsed/metadata.json",
+      "source_sha256": "cc2c3a32e77ae3268262706510623cf6da6e12615a5a9e160ba036abe69f9619",
+      "bytes": 6346,
+      "published_sha256": "cc2c3a32e77ae3268262706510623cf6da6e12615a5a9e160ba036abe69f9619",
+      "published_bytes": 6346
+    },
+    {
+      "path": "german_collection_control_2021_1/parser_input/metadata.json",
+      "source": "/home/jason/talkbank-data/2026-09-07/german_collection_control_2021_1/parser_input/metadata.json",
+      "source_sha256": "b9859727169086752b599385f252ba84ddb2f736a9580f2db6a410ad6646bd3e",
+      "bytes": 553,
+      "published_sha256": "b9859727169086752b599385f252ba84ddb2f736a9580f2db6a410ad6646bd3e",
+      "published_bytes": 553
+    },
+    {
+      "path": "README.md",
+      "source": null,
+      "published_sha256": "dc0aa0f9d6c1f7a82989defe23b55a1043f0a192e16fb29d2ba1b1c2830ae1ad",
+      "published_bytes": 5601
+    }
+  ]
+}

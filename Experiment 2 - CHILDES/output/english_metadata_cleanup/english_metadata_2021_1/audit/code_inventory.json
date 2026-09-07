@@ -1,0 +1,17 @@
+{
+  "analyze_age_groups_96mos.py": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+  "analyze_complete_dataset_96mos.py": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+  "audit_childes_selection.R": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+  "childes_filter_speakers.R": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+  "childes_get_adult_speakers.R": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+  "childes_get_utterances.R": "275f2eb9965b92ec6fee09f8f3530292c0cc06d6d5675d16d1d1af1567e55940",
+  "childes_selection.R": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+  "compare_same_version.py": "bee522c28550cae2ec492865a7681e90e90ce44f06df8532c39c4bb944884a66",
+  "english_ud/parse_matched_spacy.py": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+  "english_ud/parse_sharded_spacy.py": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+  "run_childes_analysis.py": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+  "run_childes_extraction.R": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+  "verify_childes_analysis.py": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+  "verify_childes_export.py": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec",
+  "verify_historical_subset.py": "ea4decc75c493befa18d33ce3dbb7a86b712eefa673332bf04b065de40594765"
+}

@@ -1,0 +1,9 @@
+{
+  "analyze_age_groups_96mos.py": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+  "analyze_complete_dataset_96mos.py": "c7d2dc6f7db105468f4555ff8c8790b7c74a4d6e0ba9d7c7018fed44d4d685a7",
+  "english_ud/parse_matched_spacy.py": "5694570cc65025a46f4cea7b374e8c4ffcc3a73928be01e3de17b3d161f23d90",
+  "english_ud/parse_sharded_spacy.py": "df0cdcceea236dbdc1a0f56e23d1dcc074af8e5b6b01f5c4b080e19995a97e23",
+  "run_childes_analysis.py": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+  "run_german_control.py": "9f129eb763a25d7342c670f438f73b97ee33f896bba88589a4b9c447bfd088b5",
+  "verify_german_control.py": "80bfecbdfe21aa02e209fceab4425f516c1fed06f8f33e64a5ce091b15165dfe"
+}

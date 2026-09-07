@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "raw": 4427473,
+    "missing_text": 88458,
+    "missing_age_after_text": 1257219,
+    "older_than_96_after_text": 68193,
+    "analysis_eligible": 3013603,
+    "exactly_96_after_text": 0,
+    "negative_age_after_text": 0
+  },
+  "age_bins": {
+    "0-12mo": 166385,
+    "12-24mo": 500683,
+    "24-36mo": 1399876,
+    "36-48mo": 512741,
+    "48-60mo": 211915,
+    "60-72mo": 118618,
+    "72-84mo": 44490,
+    "84-96mo": 58895
+  }
+}

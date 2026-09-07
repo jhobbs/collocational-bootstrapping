@@ -1,0 +1,21 @@
+{
+  "source_worktree": "/home/jason/collocational-bootstrapping-english-metadata",
+  "destination_worktree": "/home/jason/collocational-bootstrapping",
+  "base_commit": "979eb989fa034c75c122de9fab8d321aa1dfecf1",
+  "files_sha256": {
+    "Experiment 2 - CHILDES/README.md": "adf50109114f9b305fc973e09cfb9458fca5e4039e03128a8f02d837d1a746a7",
+    "Experiment 2 - CHILDES/analyze_age_groups_96mos.py": "9462cb7860a54199586a76ffcd5c96ff8a4d1705fc9e18a63ec3afd163ba7e57",
+    "Experiment 2 - CHILDES/childes_filter_speakers.R": "7b7f5d1fdc47311775c52e4771c3fb6cc2f0cda57ce548257ccdc9b3b01f7144",
+    "Experiment 2 - CHILDES/childes_get_adult_speakers.R": "e1c599832f0a7596084bb6fba14723f099d2e7d876e558ae128b100d9588a986",
+    "Experiment 2 - CHILDES/childes_get_utterances.R": "275f2eb9965b92ec6fee09f8f3530292c0cc06d6d5675d16d1d1af1567e55940",
+    "Experiment 2 - CHILDES/audit_childes_selection.R": "75b29c9ca225f104799627a5a93003326d2757d02a47ddfcaf6f5e8081732174",
+    "Experiment 2 - CHILDES/childes_selection.R": "f6133a1a1b899ee5e37bbf6b3a3ca743a374a74edefa3237b6c5a4155aa5de71",
+    "Experiment 2 - CHILDES/run_childes_analysis.py": "57b9e3404891799e15bf06b0284076710a1cf09714195f059226ca3303457f1e",
+    "Experiment 2 - CHILDES/run_childes_extraction.R": "3ae6ceef6966b340773d2bfe259ca2eb04f08924e65601e20957b6367dbcdaee",
+    "Experiment 2 - CHILDES/tests/test_age_plot.py": "1011987b48eefc1b1f06655092eb850860739358a6cf9f3522022c88cfa75771",
+    "Experiment 2 - CHILDES/tests/test_childes_analysis.py": "6a0bb73fbbc720528ec080921b49303bf0148f970d68c318f6a1a76dcc39b0ed",
+    "Experiment 2 - CHILDES/tests/test_childes_selection.R": "112a79957ae343ecae87911356fa2c9569a8c8f81b9049a6b6b0205c5783b126",
+    "Experiment 2 - CHILDES/verify_childes_analysis.py": "f1025ddfe6a87d6aeff584e93495cbbc320f24e9a3c20248ad22d1b590cfd944",
+    "Experiment 2 - CHILDES/verify_childes_export.py": "3ba1e8da3e64dfadc39abfaa61efcdb07643f0858a978d2674fea88605454eec"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "cohorts": [
+    {
+      "cohort": "original",
+      "n_utterances": 4739189,
+      "n_pairs": 2802071,
+      "overall_alpha": 1.4299999999999995,
+      "verified_fits": 9
+    },
+    {
+      "cohort": "without_german_collection",
+      "n_utterances": 4590557,
+      "n_pairs": 2757541,
+      "overall_alpha": 1.4499999999999995,
+      "verified_fits": 9
+    }
+  ],
+  "only_exclusion": "collection_name == 'German'",
+  "n_german_collection_utterances": 148632,
+  "removed_counts_match_independent_database_query": true,
+  "all_cohort_and_age_pair_outputs_match_exactly": true,
+  "fresh_original_pairs_match_historical_saved_pairs_exactly": true
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "original_population_2021_1",
+  "collection": [
+    "Biling",
+    "Chinese",
+    "Clinical",
+    "Clinical-MOR",
+    "EastAsian",
+    "Eng-NA",
+    "Eng-UK",
+    "French",
+    "Frogs",
+    "German",
+    "Japanese",
+    "Other",
+    "Romance",
+    "Scandinavian",
+    "Slavic",
+    "Spanish"
+  ],
+  "counts": {
+    "n_cds_utterances": 4739189
+  },
+  "selection_provenance": {
+    "source_sha256": "e4a552d93ee63aa21e0c08e446d52589fd60ea9ef06f96fa1c1e7331d3e46ecb",
+    "utterance_id_definition": "zero-based source CSV data row index"
+  }
+}

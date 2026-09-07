@@ -1,0 +1,159 @@
+{
+  "scope": "english_metadata_2026_1",
+  "collection": [
+    "Eng-NA",
+    "Eng-UK"
+  ],
+  "annotation_scheme": "spaCy",
+  "created_at": "2026-09-07T22:54:36.223849+00:00",
+  "counts": {
+    "n_input_rows": 3013603,
+    "n_included_utterances": 3013603,
+    "n_pairs": 2143372
+  },
+  "input": {
+    "utterances_path": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/parser_input/utterances.csv",
+    "utterances_sha256": "36092398520e8942b66d748675dfa5451c7afa383019c341f3fdd647bd7bf0e5",
+    "metadata_path": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/parser_input/metadata.json",
+    "metadata_sha256": "367cec26aa9e8505d89718f81ddeae7e15d792a6b4ac9221cdeba08a9edfe32a",
+    "text_column": "text",
+    "renamed_columns": {}
+  },
+  "parser": {
+    "model": "en_core_web_sm",
+    "model_version": "3.8.0",
+    "spacy_version": "3.8.13",
+    "n_process": 1,
+    "batch_size": 128,
+    "disabled_pipes": [
+      "ner"
+    ],
+    "extraction_rule": "token.dep_ == 'nsubj' and token.head.pos_ in {'VERB', 'AUX'}; lowercase spaCy lemmas",
+    "index_space": "spacy_token"
+  },
+  "denominator": {
+    "utterance_csv": "/home/jason/talkbank-data/2026-09-07/english_metadata_2026_1/parser_input/utterances.csv",
+    "included_column": "included_in_cds",
+    "note": "All supplied included utterances are counted, including utterances with zero extracted pairs."
+  },
+  "sharding": {
+    "requested_shards": 16,
+    "completed_shards": 16,
+    "worker_n_process": 1,
+    "merge_order": "ascending contiguous shard_id"
+  },
+  "shards": [
+    {
+      "shard_id": 0,
+      "n_utterances": 188351,
+      "n_pairs": 111871,
+      "utterances_sha256": "134f80079c2707f6c355e5921fbd156b017b712fec2d47577a6ed1833c5c7e3e",
+      "worker_metadata_sha256": "003fb793d9a0a184267f48d703d1541869e7611ef1d15e2a65eccd7d1ea6c175"
+    },
+    {
+      "shard_id": 1,
+      "n_utterances": 188351,
+      "n_pairs": 121261,
+      "utterances_sha256": "c4d4f1d3ea5af53d834cf70f69bdc3b2812d7e145cbf15acb1905fc71a70772a",
+      "worker_metadata_sha256": "6b1c4d40b580d1fcf8a9399ae19e88aab560f53c19a44bf19a0a83d6b930a582"
+    },
+    {
+      "shard_id": 2,
+      "n_utterances": 188351,
+      "n_pairs": 131406,
+      "utterances_sha256": "b3cfc8087127af0f66a0b53796c56c2adae4d2f7db2fc75a7578208a28cfe19f",
+      "worker_metadata_sha256": "6fadde3e454ada4d63a569e677e76c3827644ae698a695d518a7ea0a9e41cf4c"
+    },
+    {
+      "shard_id": 3,
+      "n_utterances": 188351,
+      "n_pairs": 128834,
+      "utterances_sha256": "85b8002ba8ab2dad701906d41676128f270f772218bf38247052efa9ec53c208",
+      "worker_metadata_sha256": "9f87e52615fbf7d7b700f42effdf6d2420fef06a5439f4a618841c1b5d3cbdbc"
+    },
+    {
+      "shard_id": 4,
+      "n_utterances": 188351,
+      "n_pairs": 137839,
+      "utterances_sha256": "9db5f067550d3613ddfb39814df692f174719eb7198e413bcc5e99d4607ab664",
+      "worker_metadata_sha256": "3ff1dff58c52dd515dec6b3501babcfb5ffeca58e56f305bd896886d1ca41761"
+    },
+    {
+      "shard_id": 5,
+      "n_utterances": 188351,
+      "n_pairs": 148722,
+      "utterances_sha256": "cb2e2e931280b797440070504ea2c3673cb3c625f923da04d7a5b1e81a17852a",
+      "worker_metadata_sha256": "5decd93a547f9950e86b239cf6a8def37d1462d3e15c11bc054be82ce3534bad"
+    },
+    {
+      "shard_id": 6,
+      "n_utterances": 188351,
+      "n_pairs": 126464,
+      "utterances_sha256": "ada34525991d2ad1d2b211471e82a5a586e46f2f633760a0c0442e0b4dcceff8",
+      "worker_metadata_sha256": "13116c592d717312b68a42934bf5dfbf48f0741381eb48507a553578ff012534"
+    },
+    {
+      "shard_id": 7,
+      "n_utterances": 188351,
+      "n_pairs": 157678,
+      "utterances_sha256": "4352e8f0d40acc8a14827c3ff99569fef7ed50aee60e4a9a94d202520b7c52e5",
+      "worker_metadata_sha256": "39fe72d22afae7d1674fc66eb17bd15541dddd61024a0ddaeeb26f9fcf8f2278"
+    },
+    {
+      "shard_id": 8,
+      "n_utterances": 188351,
+      "n_pairs": 150068,
+      "utterances_sha256": "7703d226b7f9dca2c3a504e79549bdd09cd704bbfa1af01a2f5c52b9397c4e88",
+      "worker_metadata_sha256": "5a3a8263bec9d57ef6d44841cee39abd97947763103ee242a2c78a1a70bfb495"
+    },
+    {
+      "shard_id": 9,
+      "n_utterances": 188351,
+      "n_pairs": 104861,
+      "utterances_sha256": "300e804d47e89f7e62cc400372e8d95524f9895dd83788fd2e4d59c7cdfdc9b1",
+      "worker_metadata_sha256": "cdbe7189ba429cb16df393251338bb8aa62c9ebf0114acf300d6288ed1adc3b4"
+    },
+    {
+      "shard_id": 10,
+      "n_utterances": 188351,
+      "n_pairs": 133547,
+      "utterances_sha256": "650a0aac83f66f1afdc21795c9dbd3e9498adec8fd008857c96e652efa0fd252",
+      "worker_metadata_sha256": "057d44f24fb8f196f6759dff9a4c8b08e8f4cfe7cef8c754ba8b7b0046014d05"
+    },
+    {
+      "shard_id": 11,
+      "n_utterances": 188351,
+      "n_pairs": 122448,
+      "utterances_sha256": "c73493f5ffba7c27bb690ab922417c66f135ab8c55c2406004fd472546dad57c",
+      "worker_metadata_sha256": "6b9dba7a8a265682c414d58e2bcac854367ca67671bc6f10063db08d110e9d18"
+    },
+    {
+      "shard_id": 12,
+      "n_utterances": 188351,
+      "n_pairs": 132191,
+      "utterances_sha256": "1b6a84d31754f2c6a33c10f515f1f971ea0e14ded810e201720b0eaf4edbeb0d",
+      "worker_metadata_sha256": "ef377b535b3786b8e0f4b207dc23a6ad118f43a708c3ce20f5684b25fe2f22f3"
+    },
+    {
+      "shard_id": 13,
+      "n_utterances": 188351,
+      "n_pairs": 163520,
+      "utterances_sha256": "2d9b32e7d6761986bdcedc5f7d135ead37daf5f3d7d6667d938a474e82e696c5",
+      "worker_metadata_sha256": "e2efd685a93bf02f6a0d8806405d9d844ddb2a8c5aa00a2a385e25cfcb5621ae"
+    },
+    {
+      "shard_id": 14,
+      "n_utterances": 188351,
+      "n_pairs": 135340,
+      "utterances_sha256": "8f18202694fa75bbd8a74d90bb1428dc588d44cab427dc575bb73b35990ab429",
+      "worker_metadata_sha256": "e84c3013206dd49c084d4adec36a6e98ff9d945c38c3177e71c9eec6965ef165"
+    },
+    {
+      "shard_id": 15,
+      "n_utterances": 188338,
+      "n_pairs": 137322,
+      "utterances_sha256": "e9013be0e9a4346b2702881ca5c7e7205589f3f5bc5ec4da265bdd09fdaaea41",
+      "worker_metadata_sha256": "e4b574760f131da3962b93d1fb0c782f37a3ba1ac2e2baf3181d41b14e616fd1"
+    }
+  ]
+}
