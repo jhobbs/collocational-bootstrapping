@@ -1,0 +1,6 @@
+pandas==3.0.5
+numpy==2.5.1
+spacy==3.8.13
+matplotlib==3.11.1
+# spaCy 3.8.13 imports click in its CLI but does not declare it.
+click==8.4.2

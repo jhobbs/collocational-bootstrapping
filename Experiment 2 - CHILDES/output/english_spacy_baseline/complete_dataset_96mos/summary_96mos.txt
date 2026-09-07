@@ -1,0 +1,17 @@
+============================================================
+COMPLETE DATASET ANALYSIS (≤96 MONTHS)
+============================================================
+
+Max age filter: 96 months
+Total utterances: 4,739,189
+Total subject-verb pairs: 2,802,071
+Unique verbs: 12,823
+Unique subjects: 25,626
+
+Optimal Zipf parameter (z): 1.43
+Mean squared error: 0.000000
+
+Top 10 verbs: be, go, do, have, get, think, know, see, want, say
+
+Runtime: 48.2 minutes
+============================================================

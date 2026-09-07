@@ -1,5 +1,8 @@
 .DS_Store
 .Rhistory
+.venv/
+__pycache__/
+childes_full_utterances_*.csv
 Experiment 2 - CHILDES/analyze_age_outliers.py
 Experiment 2 - CHILDES/analyze_childes_utterances.py
 Experiment 2 - CHILDES/data/

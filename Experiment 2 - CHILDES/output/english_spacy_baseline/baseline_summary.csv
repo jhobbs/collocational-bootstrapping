@@ -1,0 +1,10 @@
+age_group,alpha,mse,n_utterances,n_pairs,n_unique_subjects,n_unique_verbs,status,scope,collection,annotation_scheme
+overall,1.4299999999999995,1.6046825643184154e-07,4739189,2802071,25626,12823,ok,repository_english,mixed_english_unknown_manifest,spaCy
+0-12mo,1.4599999999999995,9.780627788394913e-07,182023,113607,1516,1180,ok,repository_english,mixed_english_unknown_manifest,spaCy
+12-24mo,1.3999999999999997,2.556603164383585e-07,671559,350859,6135,3580,ok,repository_english,mixed_english_unknown_manifest,spaCy
+24-36mo,1.4399999999999995,2.149710026486358e-07,1900684,1163974,13577,6775,ok,repository_english,mixed_english_unknown_manifest,spaCy
+36-48mo,1.3799999999999994,3.903650776092803e-07,923858,553675,9817,4940,ok,repository_english,mixed_english_unknown_manifest,spaCy
+48-60mo,1.3699999999999994,5.261925514556713e-07,621805,399355,8022,4262,ok,repository_english,mixed_english_unknown_manifest,spaCy
+60-72mo,1.2799999999999996,2.335837879907102e-07,237449,121409,4805,2661,ok,repository_english,mixed_english_unknown_manifest,spaCy
+72-84mo,1.2299999999999995,7.795942130218523e-07,111117,52385,3092,1778,ok,repository_english,mixed_english_unknown_manifest,spaCy
+84-96mo,1.2499999999999996,4.872866139085153e-07,90694,46807,2491,1467,ok,repository_english,mixed_english_unknown_manifest,spaCy

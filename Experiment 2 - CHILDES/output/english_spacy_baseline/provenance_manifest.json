@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T16:57:14.488132+00:00",
+  "source_directory": "/home/jason/collocational-bootstrapping/Experiment 2 - CHILDES/output",
+  "copied_directories": [
+    "complete_dataset_96mos",
+    "age_groups_complete_96mos"
+  ],
+  "raw_utterance_source": {
+    "available": true,
+    "path": "/home/jason/imagining-syntax/childes_full_utterances_20251211_120050.csv",
+    "size_bytes": 611614936,
+    "parsed_for_preservation": false
+  },
+  "corpus_manifest": {
+    "available": false,
+    "reason": "The original baseline did not save a corpus-level source manifest."
+  },
+  "files": [
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv",
+      "size_bytes": 63356,
+      "sha256": "f05c6ccd46d6dc0742b2e53722d09e91137fe065568c90e846ac6f88228c16e0",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_0-12mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv",
+      "size_bytes": 202154,
+      "sha256": "b25c7a42dd749f5c5b4e9f7e79d031d368477072923c7fc6c075bdfc9a0d8514",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_12-24mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv",
+      "size_bytes": 429108,
+      "sha256": "9323a2f5fb42f485b088ebe30bd6eef1c6487e59e694cd5041fa054be2b573ce",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_24-36mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv",
+      "size_bytes": 294754,
+      "sha256": "374142a9be7c3b72ac38455d870949db7c8dbcc5f14dabc9c87ca9cf4268925e",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_36-48mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv",
+      "size_bytes": 236557,
+      "sha256": "0c08c14f6bbcf75ad5121775a43f88bc3b3032c54f48fd9760ccc6172e7a86b3",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_48-60mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv",
+      "size_bytes": 115357,
+      "sha256": "5b3d0f976ac3594278f46f2187e37531f8585a2d3021d9fc79d16d9c24e81b93",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_60-72mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv",
+      "size_bytes": 72936,
+      "sha256": "c56e133a2a1208f512cb02d64d5f097b1577d2ba5f3f34fbeec74f77e4bb9a4c",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_72-84mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv",
+      "size_bytes": 71210,
+      "sha256": "e66a8849ee7322dfa1610d4b00c4d8eb0a465921e487f4cb20e157008f5acedd",
+      "source_relative_path": "age_groups_complete_96mos/actual_vs_predicted_84-96mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv",
+      "size_bytes": 199285,
+      "sha256": "1e8496d089bf99c56671ab10f5cf30de6d4fb4bf50a0e9666209ba0ef632a6c3",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_0-12mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv",
+      "size_bytes": 629891,
+      "sha256": "7b932af25b6d1648714d326246bbfa1a1b4e3d58fe117d32f4f58a892c645a49",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_12-24mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv",
+      "size_bytes": 1491919,
+      "sha256": "eac95a45393175fdb4ac18fb68ed7716384e62b21bfd731e31057a08c12e6877",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_24-36mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv",
+      "size_bytes": 955838,
+      "sha256": "083cc7fba951868ede6de3f0d7f6564c3967bd5119fd006923e78271acbf90a7",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_36-48mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv",
+      "size_bytes": 793170,
+      "sha256": "874af024cfd4bde095d235736ba07fa7bf2cce3e0bf0ace8974f4343f3075528",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_48-60mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv",
+      "size_bytes": 342463,
+      "sha256": "a470cd78d19bcf808899da06af52e2556c9528cb79812983d773d96ded63d745",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_60-72mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv",
+      "size_bytes": 217663,
+      "sha256": "9378bb2597421d3f8a1b286e72ea299b1ab7f9c2d295d715880a49984a3fe407",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_72-84mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv",
+      "size_bytes": 185215,
+      "sha256": "deb1e9dd5c6c43499e010f529179ddd760bca04a30217122c598cea3c6287688",
+      "source_relative_path": "age_groups_complete_96mos/all_verbs_ranked_84-96mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_0-12mo.csv",
+      "size_bytes": 11986,
+      "sha256": "8a6901d06169882eb7f8ad6bdc09eba9abe5699c02bf41f46a01186e7fd8d97f",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_0-12mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_12-24mo.csv",
+      "size_bytes": 11904,
+      "sha256": "cd2f778e13709ff5ab92b5e5c2001412fc2b9ef2f4b5d9cb04931b672e8e9ed1",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_12-24mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_24-36mo.csv",
+      "size_bytes": 11959,
+      "sha256": "58d75a8e7998fd83819fb2f2e2d895bb21443e22bb00c5d1c0929d044c1a2b94",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_24-36mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_36-48mo.csv",
+      "size_bytes": 11945,
+      "sha256": "f82f588ef372dee9e98644bfe2d3e90dbba4f6f29291b948dc13d5690fe34aa8",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_36-48mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_48-60mo.csv",
+      "size_bytes": 11899,
+      "sha256": "110c46019c71e117de3f9986bfcaa55d881e48ec73b1a46843a375ed1e4d07ea",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_48-60mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_60-72mo.csv",
+      "size_bytes": 11958,
+      "sha256": "75fe5a73e3dc99aa92b5012e74d6315ebcae6171ce1126cb1347d6aa9c23f522",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_60-72mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_72-84mo.csv",
+      "size_bytes": 11922,
+      "sha256": "f48a67776df1ef2d93a6cde294b2da1d2751d8a61c11ef309212b267f141224f",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_72-84mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/mse_search_84-96mo.csv",
+      "size_bytes": 11928,
+      "sha256": "de7d5920fe96c12b931b10998b3f53ada0ff7452dac8b954fc747ca0d867a2a2",
+      "source_relative_path": "age_groups_complete_96mos/mse_search_84-96mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_0-12mo.csv",
+      "size_bytes": 930434,
+      "sha256": "d41e915e1b9b9688954d9acced220d921d80e358c7f5891f6b8336094cc2184c",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_0-12mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_12-24mo.csv",
+      "size_bytes": 2879728,
+      "sha256": "981cafb2eaf80cc79e52aefcd62c48400557579820c9a1a034527837464f83f5",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_12-24mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_24-36mo.csv",
+      "size_bytes": 9490440,
+      "sha256": "31cc0c50b840111de0678d277dd3cdfff807ccb63735373f14a9fb6f8f8ed1db",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_24-36mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_36-48mo.csv",
+      "size_bytes": 4523451,
+      "sha256": "865776dc167eb4a25535738a968c61cc9990bebc4805d72629f8b35b9f512a57",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_36-48mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_48-60mo.csv",
+      "size_bytes": 3278705,
+      "sha256": "7883e58eb4e252ab1eb3013a238cb2ee3200d2a969c54d4b2ba8aa8f4dd52a1b",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_48-60mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_60-72mo.csv",
+      "size_bytes": 1030320,
+      "sha256": "cb7e60590fc6136ee1894e747f1c90082882634d591a76ab2911fd600c330041",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_60-72mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_72-84mo.csv",
+      "size_bytes": 455240,
+      "sha256": "6d630bba6338037add28a186c7e635b36ce0a740d625d7c0020c6ea0c717902c",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_72-84mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/nsubj_verb_pairs_84-96mo.csv",
+      "size_bytes": 396058,
+      "sha256": "7a29ed8b31b3589ea4cb8e3d39702ef8dd6924429a79f437cc854341df1b00cc",
+      "source_relative_path": "age_groups_complete_96mos/nsubj_verb_pairs_84-96mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_0-12mo.csv",
+      "size_bytes": 31826,
+      "sha256": "32dc5dc16075ccdf3d6c2553bfdd3afea2171f18e41a3e4fb99e42c2a53234a9",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_0-12mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_12-24mo.csv",
+      "size_bytes": 102735,
+      "sha256": "9cdd9a8f75ffe27a4b416585c8e9c76ed75d4e347ddeb3c7d0694251937f9016",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_12-24mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_24-36mo.csv",
+      "size_bytes": 217097,
+      "sha256": "28fe88cc011a9004be775fd448cc7e4447ab833b926fb51516b03df8d87ddb71",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_24-36mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_36-48mo.csv",
+      "size_bytes": 147225,
+      "sha256": "17c3101e288ba41cfbb2fd7c5517b6c4abcc234d822adbd3d8e38415b3c4b2e4",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_36-48mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_48-60mo.csv",
+      "size_bytes": 117438,
+      "sha256": "f87ac50cffe8f0fb4ef7acacef4d9d908e07621005b765ffa9e2e89beb90fe44",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_48-60mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_60-72mo.csv",
+      "size_bytes": 55301,
+      "sha256": "1d0e7cbb838f43bac715e1b4940781699d29f5173fb709f8fc397b3d181ece6a",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_60-72mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_72-84mo.csv",
+      "size_bytes": 37330,
+      "sha256": "d0310637b4b427fa12a3a8aeb721cec3ce1a7fd7fcbfa852fdeb1fcc50b35fd7",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_72-84mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/rank_averages_84-96mo.csv",
+      "size_bytes": 35115,
+      "sha256": "218f5aa5849edf052e5a76920978b9b372ef361c55fbe69e631f4cd92c7dd23d",
+      "source_relative_path": "age_groups_complete_96mos/rank_averages_84-96mo.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/results_96mos.pkl",
+      "size_bytes": 1563,
+      "sha256": "cc786d293f1005a42fb0d352944e5038465da1bcfceee5f67429325be97e3580",
+      "source_relative_path": "age_groups_complete_96mos/results_96mos.pkl"
+    },
+    {
+      "path": "age_groups_complete_96mos/summary_96mos.csv",
+      "size_bytes": 722,
+      "sha256": "a81bd3e0e7b1de9a1256e4231e6d35718834edb53f4bd9251f02a364ee6909e2",
+      "source_relative_path": "age_groups_complete_96mos/summary_96mos.csv"
+    },
+    {
+      "path": "age_groups_complete_96mos/zipf_by_age_96mos_alpha.png",
+      "size_bytes": 127130,
+      "sha256": "0f7c0452edbb5828a364b63a9e995854a38435139343cd0eac3afcfa6d51c76d",
+      "source_relative_path": "age_groups_complete_96mos/zipf_by_age_96mos_alpha.png"
+    },
+    {
+      "path": "baseline_summary.csv",
+      "size_bytes": 1308,
+      "sha256": "f66c16e12a980418473a071ec7a2b3d80d25595e855f7dfc2ba28ec8a7a3eb70"
+    },
+    {
+      "path": "baseline_verification.json",
+      "size_bytes": 6073,
+      "sha256": "ad004460de729826ff80b579fa6a290b45f6e4b9d22e0db5cd4be3395173ee4d"
+    },
+    {
+      "path": "complete_dataset_96mos/actual_vs_predicted_96mos.csv",
+      "size_bytes": 750830,
+      "sha256": "1e2a70d9407646d0889ba04e88df014db8dea435061c97f2a74290ddcb48eeb9",
+      "source_relative_path": "complete_dataset_96mos/actual_vs_predicted_96mos.csv"
+    },
+    {
+      "path": "complete_dataset_96mos/all_verbs_ranked_96mos.csv",
+      "size_bytes": 2838243,
+      "sha256": "e8a8bc9af003fdac3b891bb48500cadb1edb68719d8efbb1b2118806bd4247e4",
+      "source_relative_path": "complete_dataset_96mos/all_verbs_ranked_96mos.csv"
+    },
+    {
+      "path": "complete_dataset_96mos/mse_search_96mos.csv",
+      "size_bytes": 11966,
+      "sha256": "388c796bf9ae30c9e06395d91db7c0164e652b8b6c26a6efc19a92542dd8e045",
+      "source_relative_path": "complete_dataset_96mos/mse_search_96mos.csv"
+    },
+    {
+      "path": "complete_dataset_96mos/nsubj_verb_pairs_96mos.csv",
+      "size_bytes": 22984201,
+      "sha256": "9fcb6724cfca4c28afa90fbd42b917025f590d1bb2391e4b5a5c17becacf1460",
+      "source_relative_path": "complete_dataset_96mos/nsubj_verb_pairs_96mos.csv"
+    },
+    {
+      "path": "complete_dataset_96mos/rank_averages_96mos.csv",
+      "size_bytes": 378944,
+      "sha256": "50e556aabd3bcb1e552f3c3e9a36e12e7e86325200d807f51f862211369c7a22",
+      "source_relative_path": "complete_dataset_96mos/rank_averages_96mos.csv"
+    },
+    {
+      "path": "complete_dataset_96mos/summary_96mos.pkl",
+      "size_bytes": 390,
+      "sha256": "6e129d3436879997654f43fa22d41598acba1a4a71372023fb02d4575d0fb1f1",
+      "source_relative_path": "complete_dataset_96mos/summary_96mos.pkl"
+    },
+    {
+      "path": "complete_dataset_96mos/summary_96mos.txt",
+      "size_bytes": 512,
+      "sha256": "40a7bbc8546b5113893e787fc5494ee16d22b8b78a84cbe200763c27bbc88227",
+      "source_relative_path": "complete_dataset_96mos/summary_96mos.txt"
+    }
+  ]
+}
